@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=TSE_mother_board_CPU.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=TSE_mother_board_CPU.SchDoc|FileName=TSE_mother_board_MCU.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=TSE_mother_board_CPU.SchDoc|FileName=TSE_mother_board_periph_commutation.SchDoc|SheetNumber=2
