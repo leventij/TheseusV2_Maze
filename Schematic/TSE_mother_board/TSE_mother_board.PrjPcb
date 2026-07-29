@@ -69,6 +69,23 @@ GenerateClassCluster=0
 DocumentUniqueId=KNDHWDOG
 
 [Document2]
+DocumentPath=TSE_mother_board_CPU_commutation.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LWEPJBQM
+
+[Document3]
 DocumentPath=TSE_mother_board_periph_commutation.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -85,22 +102,33 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EDVDRZJP
 
-[Document3]
-DocumentPath=TSE_mother_board_CPU.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HAFBKNFH
+[Parameter1]
+Name=reviewer
+Value=Мерзлякова
+
+[Parameter2]
+Name=document_type
+Value=Cхема электрическая принципиальная
+
+[Parameter3]
+Name=document_code
+Value=Э3
+
+[Parameter4]
+Name=device_title
+Value=Материнская плата TSE
+
+[Parameter5]
+Name=developer
+Value=Гарин
+
+[Parameter6]
+Name=company
+Value=239
+
+[Parameter7]
+Name=approver
+Value=Мерзлякова
 
 [Configuration1]
 Name=Sources
