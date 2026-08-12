@@ -58,7 +58,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -75,7 +75,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -92,7 +92,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -102,32 +102,49 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EDVDRZJP
 
+[Document4]
+DocumentPath=TSE_mother_board.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BOCVWEGL
+
 [Parameter1]
-Name=reviewer
+Name=approver
 Value=Мерзлякова
 
 [Parameter2]
-Name=document_type
-Value=Cхема электрическая принципиальная
+Name=company
+Value=239
 
 [Parameter3]
-Name=document_code
-Value=Э3
+Name=developer
+Value=Гарин
 
 [Parameter4]
 Name=device_title
 Value=Материнская плата TSE
 
 [Parameter5]
-Name=developer
-Value=Гарин
+Name=document_code
+Value=Э3
 
 [Parameter6]
-Name=company
-Value=239
+Name=document_type
+Value=Cхема электрическая принципиальная
 
 [Parameter7]
-Name=approver
+Name=reviewer
 Value=Мерзлякова
 
 [Configuration1]
