@@ -1,0 +1,35 @@
+Removed Member From Class: ClassName=TSE_power_control_board_main Member=R6
+Add Pin To Net: Unknown Pin: Pin L2-2
+Added Pin To Net: NetName=+4S Pin=X2-1
+Added Pin To Net: NetName=GND Pin=X2-2
+Added Pin To Net: NetName=+4S Pin=X3-1
+Added Pin To Net: NetName=GND Pin=X3-2
+Added Pin To Net: NetName=+4S Pin=X4-1
+Added Pin To Net: NetName=GND Pin=X4-2
+Added Pin To Net: NetName=+4S Pin=X5-1
+Added Pin To Net: NetName=GND Pin=X5-2
+Added Pin To Net: NetName=GND Pin=X6-7
+Added Pin To Net: NetName=NetC1_2 Pin=X6-7
+Added Pin To Net: NetName=NetR1_2 Pin=X6-7
+Added Pin To Net: NetName=NetVD1_1 Pin=X6-7
+Added Pin To Net: NetName=NetX2_2 Pin=X6-7
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C4 10לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C5 0,1לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C7 0,1לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C8 0,022לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C10 0,022לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C11 0,1לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C12 0,1לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C13 0,1לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C15 100לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C16 100לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C17 0,1לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C18 0,1לך
+Added Member To Class: ClassName=TSE_power_control_board_main Member=Component R3 510ך
+Added Member To Class: ClassName=TSE_power_control_board_main Member=Component R4 10ך
+Added Member To Class: ClassName=TSE_power_control_board_main Member=Component R5 2,4ך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component R7 23,7ך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component R8 23,7ך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component R9 100ך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component R11 100ך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component R12 17.8ך

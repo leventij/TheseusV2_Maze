@@ -1,0 +1,14 @@
+Add Pin To Net: Unknown Pin: Pin L2-2
+Added Pin To Net: NetName=NetVD1_2 Pin=X2-1
+Added Pin To Net: NetName=NetX2_2 Pin=X2-2
+Added Pin To Net: NetName=NetVD2_2 Pin=X3-1
+Added Pin To Net: NetName=NetX2_2 Pin=X3-2
+Added Pin To Net: NetName=NetVD3_2 Pin=X4-1
+Added Pin To Net: NetName=NetX2_2 Pin=X4-2
+Added Pin To Net: NetName=NetVD4_2 Pin=X5-1
+Added Pin To Net: NetName=NetX2_2 Pin=X5-2
+Added Pin To Net: NetName=GND Pin=X6-7
+Added Pin To Net: NetName=NetC1_2 Pin=X6-7
+Added Pin To Net: NetName=NetR1_2 Pin=X6-7
+Added Pin To Net: NetName=NetR4_1 Pin=X6-7
+Added Pin To Net: NetName=NetVD1_1 Pin=X6-7

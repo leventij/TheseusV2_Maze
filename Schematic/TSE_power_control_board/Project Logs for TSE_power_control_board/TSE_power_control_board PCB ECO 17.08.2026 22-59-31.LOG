@@ -1,0 +1,45 @@
+Change Component Footprint: Designator=X2 Old Footprint=MOLEX-0022057045 New Footprint=Molex-99990988
+Change Component Footprint: Designator=X3 Old Footprint=MOLEX-0022057045 New Footprint=Molex-99990988
+Change Component Footprint: Designator=X4 Old Footprint=MOLEX-0022057045 New Footprint=Molex-99990988
+Change Component Footprint: Designator=X5 Old Footprint=MOLEX-0022057045 New Footprint=Molex-99990988
+Change Component Comment : Designator=X2 Old Comment=Molex-0022057045 New Comment=Molex-99990988
+Change Component Comment : Designator=X3 Old Comment=Molex-0022057045 New Comment=Molex-99990988
+Change Component Comment : Designator=X4 Old Comment=Molex-0022057045 New Comment=Molex-99990988
+Change Component Comment : Designator=X5 Old Comment=Molex-0022057045 New Comment=Molex-99990988
+Change component parameters: Designator = "X2" ("X2"); Footprint = "MOLEX-0022057045"; UniqueID = "\TFCITFRP" ("\TFCITFRP")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "TX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "RX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "VCC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "Molex-99990988"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X3" ("X3"); Footprint = "MOLEX-0022057045"; UniqueID = "\PGWUEOFA" ("\PGWUEOFA")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "TX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "RX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "VCC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "Molex-99990988"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X4" ("X4"); Footprint = "MOLEX-0022057045"; UniqueID = "\GSHOYJZL" ("\GSHOYJZL")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "TX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "RX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "VCC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "Molex-99990988"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X5" ("X5"); Footprint = "MOLEX-0022057045"; UniqueID = "\YUHPPHED" ("\YUHPPHED")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "TX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "RX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "VCC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "Molex-99990988"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin L2-2
+Added Pin To Net: NetName=NetVD1_2 Pin=X2-1
+Added Pin To Net: NetName=NetX2_2 Pin=X2-2
+Added Pin To Net: NetName=NetVD2_2 Pin=X3-1
+Added Pin To Net: NetName=NetX2_2 Pin=X3-2
+Added Pin To Net: NetName=NetVD3_2 Pin=X4-1
+Added Pin To Net: NetName=NetX2_2 Pin=X4-2
+Added Pin To Net: NetName=NetVD4_2 Pin=X5-1
+Added Pin To Net: NetName=NetX2_2 Pin=X5-2
+Added Pin To Net: NetName=NetR1_2 Pin=X6-7
+Added Pin To Net: NetName=NetR3_1 Pin=X6-7
+Added Pin To Net: NetName=NetX2_2 Pin=X6-7
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component VD7 PMEG3050BEP

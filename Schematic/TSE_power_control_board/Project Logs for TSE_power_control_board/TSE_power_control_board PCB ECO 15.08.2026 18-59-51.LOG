@@ -1,0 +1,12 @@
+Add Pin To Net: Unknown Pin: Pin L2-2
+Added Pin To Net: NetName=+4S Pin=X2-1
+Added Pin To Net: NetName=GND Pin=X2-2
+Added Pin To Net: NetName=+4S Pin=X3-1
+Added Pin To Net: NetName=GND Pin=X3-2
+Added Pin To Net: NetName=+4S Pin=X4-1
+Added Pin To Net: NetName=GND Pin=X4-2
+Added Pin To Net: NetName=+4S Pin=X5-1
+Added Pin To Net: NetName=GND Pin=X5-2
+Added Pin To Net: NetName=NetR1_2 Pin=X6-7
+Added Pin To Net: NetName=NetR3_1 Pin=X6-7
+Added Pin To Net: NetName=NetVD1_1 Pin=X6-7

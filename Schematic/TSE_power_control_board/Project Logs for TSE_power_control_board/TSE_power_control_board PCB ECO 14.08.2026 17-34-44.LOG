@@ -1,0 +1,60 @@
+Change Component Footprint: Designator=C13 Old Footprint=CAPALUM_8X11.5_V New Footprint=CAPTANT_D
+Change Component Footprint: Designator=C14 Old Footprint=CAPALUM_8X11.5_V New Footprint=CAPTANT_D
+Change Component Footprint: Designator=C15 Old Footprint=CAPALUM_8X11.5_V New Footprint=CAPTANT_D
+Change component parameters: Designator = "C13" ("C13"); Footprint = "CAPALUM_8X11.5_V"; UniqueID = "\YUBROCXT" ("\YUBROCXT")
+Change component parameters (AddParameter): Name = "ESR"; Value = "0,7־ל"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Kemet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "T491D107K010AT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100לך"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "10ֲ"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C14" ("C14"); Footprint = "CAPALUM_8X11.5_V"; UniqueID = "\ZWITSNLT" ("\ZWITSNLT")
+Change component parameters (AddParameter): Name = "ESR"; Value = "0,7־ל"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Kemet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "T491D107K010AT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100לך"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "10ֲ"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C15" ("C15"); Footprint = "CAPALUM_8X11.5_V"; UniqueID = "\DVGKAQVY" ("\DVGKAQVY")
+Change component parameters (AddParameter): Name = "ESR"; Value = "0,7־ל"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Kemet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "T491D107K010AT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100לך"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "10ֲ"; VariantName = "[No Variations]"
+Added Component: Designator=C1(CAPTANT_A)
+Add component (AddParameter): Name = "ESR"; Value = "3,4 ־ל"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Kemet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "T491A106K010AT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10לך"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10ֲ"; VariantName = "[No Variations]"
+Added Component: Designator=C2(CAPTANT_A)
+Add component (AddParameter): Name = "ESR"; Value = "3,4 ־ל"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Kemet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "T491A106K010AT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10לך"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10ֲ"; VariantName = "[No Variations]"
+Added Component: Designator=C3(CAPTANT_A)
+Add component (AddParameter): Name = "ESR"; Value = "3,4 ־ל"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Kemet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "T491A106K010AT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10לך"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10ֲ"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5ֲ Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=+4S Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=+4S Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Add Pin To Net: Unknown Pin: Pin L2-2
+Added Pin To Net: NetName=+4S Pin=X2-1
+Added Pin To Net: NetName=GND Pin=X2-2
+Added Pin To Net: NetName=+4S Pin=X3-1
+Added Pin To Net: NetName=GND Pin=X3-2
+Added Pin To Net: NetName=+4S Pin=X4-1
+Added Pin To Net: NetName=GND Pin=X4-2
+Added Pin To Net: NetName=+4S Pin=X5-1
+Added Pin To Net: NetName=GND Pin=X5-2
+Added Pin To Net: NetName=NetR1_2 Pin=X6-7
+Added Pin To Net: NetName=NetR3_1 Pin=X6-7
+Added Pin To Net: NetName=NetVD1_1 Pin=X6-7
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C1 10לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C2 10לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C3 10לך

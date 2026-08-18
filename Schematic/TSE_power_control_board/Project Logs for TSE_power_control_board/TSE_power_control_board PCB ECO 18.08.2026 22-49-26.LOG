@@ -1,0 +1,59 @@
+Removed Pin From Net: NetName=NetVD1_1 Pin=X6-7
+Change component parameters: Designator = "X2" ("X2"); Footprint = "Molex-99990988"; UniqueID = "\TFCITFRP" ("\TFCITFRP")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "Contact_1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "Contact_2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "Contact_3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "Contact_4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "Molex-99990988"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X3" ("X3"); Footprint = "Molex-99990988"; UniqueID = "\PGWUEOFA" ("\PGWUEOFA")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "Contact_1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "Contact_2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "Contact_3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "Contact_4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "Molex-99990988"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X4" ("X4"); Footprint = "Molex-99990988"; UniqueID = "\GSHOYJZL" ("\GSHOYJZL")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "Contact_1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "Contact_2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "Contact_3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "Contact_4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "Molex-99990988"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X5" ("X5"); Footprint = "Molex-99990988"; UniqueID = "\YUHPPHED" ("\YUHPPHED")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "Contact_1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "Contact_2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "Contact_3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "Contact_4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "Molex-99990988"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X6" ("X6"); Footprint = "IDC1.27_14"; UniqueID = "\DCKJKVRE" ("\DCKJKVRE")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "Contact_1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "Contact_2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "Contact_3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "Contact_4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_5"; Value = "Contact_5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_6"; Value = "Contact_6"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_7"; Value = "Contact_7"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_8"; Value = "Contact_8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_9"; Value = "Contact_9"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_10"; Value = "Contact_10"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_11"; Value = "Contact_11"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_12"; Value = "Contact_12"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_13"; Value = "Contact_13"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_14"; Value = "Contact_14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "IDC_14"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin L2-2
+Added Pin To Net: NetName=GND Pin=X2-3
+Added Pin To Net: NetName=+4S Pin=X2-4
+Added Pin To Net: NetName=GND Pin=X3-3
+Added Pin To Net: NetName=+4S Pin=X3-4
+Added Pin To Net: NetName=GND Pin=X4-3
+Added Pin To Net: NetName=+4S Pin=X4-4
+Added Pin To Net: NetName=GND Pin=X5-3
+Added Pin To Net: NetName=+4S Pin=X5-4
+Added Pin To Net: NetName=GND Pin=X6-7
+Added Pin To Net: NetName=GND Pin=X6-8
+Added Pin To Net: NetName=GND Pin=X6-9
+Added Pin To Net: NetName=NetR1_2 Pin=X6-10
+Added Pin To Net: NetName=NetC1_2 Pin=X6-11
+Added Pin To Net: NetName=NetVD1_1 Pin=X6-12
+Added Pin To Net: NetName=NetX2_2 Pin=X6-13
+Added Pin To Net: NetName=NetR4_1 Pin=X6-14
+Added Member To Class: ClassName=TSE_power_control_board_main Member=Component R1 47к

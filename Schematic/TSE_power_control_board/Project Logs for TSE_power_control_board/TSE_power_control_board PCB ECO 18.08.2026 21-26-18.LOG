@@ -1,0 +1,165 @@
+Removed Pin From Net: NetName=+5ֲ Pin=C1-1
+Removed Pin From Net: NetName=GND Pin=C1-2
+Removed Pin From Net: NetName=+4S Pin=C2-1
+Removed Pin From Net: NetName=GND Pin=C2-2
+Removed Pin From Net: NetName=+4S Pin=C3-1
+Removed Pin From Net: NetName=GND Pin=C3-2
+Removed Pin From Net: NetName=+3,3ֲ Pin=C13-1
+Removed Pin From Net: NetName=GND Pin=C13-2
+Removed Pin From Net: NetName=+5ֲ Pin=C14-1
+Removed Pin From Net: NetName=GND Pin=C14-2
+Removed Pin From Net: NetName=+5ֲ_RPI Pin=C15-1
+Removed Pin From Net: NetName=GND Pin=C15-2
+Removed Pin From Net: NetName=NetFU1_2 Pin=VT1-2
+Removed Pin From Net: NetName=+4S Pin=VT1-3
+Removed Pin From Net: NetName=NetR2_1 Pin=VT2-2
+Removed Pin From Net: NetName=GND Pin=VT2-3
+Removed Pin From Net: NetName=GND Pin=X6-5
+Removed Member From Class: ClassName=TSE_power_control_board_converters Member=C1
+Change Component Footprint: Designator=C1 Old Footprint=CAPTANT_A New Footprint=C0603
+Change Component Footprint: Designator=C2 Old Footprint=CAPTANT_A New Footprint=C1210
+Change Component Footprint: Designator=C3 Old Footprint=CAPTANT_A New Footprint=C1210
+Change Component Footprint: Designator=C14 Old Footprint=CAPTANT_D New Footprint=C1210
+Change Component Footprint: Designator=C15 Old Footprint=CAPTANT_D New Footprint=C1210
+Change Component Footprint: Designator=X6 Old Footprint=IDC1.27_10 New Footprint=IDC1.27_14
+Change Component Comment : Designator=C1 Old Comment=10לך New Comment=0,1לך
+Change Component Comment : Designator=X6 Old Comment=IDC_10 New Comment=IDC_14
+Change Component Designator: OldDesignator=C4 NewDesignator=C5
+Change Component Designator: OldDesignator=C5 NewDesignator=C6
+Change Component Designator: OldDesignator=C6 NewDesignator=C7
+Change Component Designator: OldDesignator=C7 NewDesignator=C8
+Change Component Designator: OldDesignator=C8 NewDesignator=C9
+Change Component Designator: OldDesignator=C9 NewDesignator=C10
+Change Component Designator: OldDesignator=C10 NewDesignator=C11
+Change Component Designator: OldDesignator=C11 NewDesignator=C12
+Change Component Designator: OldDesignator=C12 NewDesignator=C13
+Change Component Designator: OldDesignator=C16 NewDesignator=C17
+Change Component Designator: OldDesignator=C17 NewDesignator=C18
+Change Component Designator: OldDesignator=C18 NewDesignator=C19
+Change Component Designator: OldDesignator=R3 NewDesignator=R4
+Change Component Designator: OldDesignator=R4 NewDesignator=R5
+Change Component Designator: OldDesignator=R5 NewDesignator=R6
+Change Component Designator: OldDesignator=R6 NewDesignator=R7
+Change Component Designator: OldDesignator=R7 NewDesignator=R8
+Change Component Designator: OldDesignator=R8 NewDesignator=R9
+Change Component Designator: OldDesignator=R9 NewDesignator=R10
+Change Component Designator: OldDesignator=R10 NewDesignator=R11
+Change Component Designator: OldDesignator=R11 NewDesignator=R12
+Change Component Designator: OldDesignator=R12 NewDesignator=R13
+Change Component Designator: OldDesignator=R13 NewDesignator=R14
+Change component parameters: Designator = "C14" ("C14"); Footprint = "CAPTANT_D"; UniqueID = "\PYKXUYSH" ("\PYKXUYSH")
+Change component parameters (AddParameter): Name = "ESR"; Value = "0,6־ל"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "EPCOS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "B41858C6107"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100לך"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "10ֲ"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C15" ("C15"); Footprint = "CAPTANT_D"; UniqueID = "\WOUIIUEG" ("\WOUIIUEG")
+Change component parameters (AddParameter): Name = "ESR"; Value = "0,6־ל"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "EPCOS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "B41858C6107"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100לך"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "10ֲ"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C2" ("C2"); Footprint = "CAPTANT_A"; UniqueID = "\NMCQCHUK" ("\NMCQCHUK")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "CC1206KKX7R8BB106"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10לך"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "35ֲ"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C3" ("C3"); Footprint = "CAPTANT_A"; UniqueID = "\ZMZZLKKD" ("\ZMZZLKKD")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "CC1206KKX7R8BB106"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10לך"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "35ֲ"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C1" ("C1"); Footprint = "CAPTANT_A"; UniqueID = "\DTMBZVPI" ("\DTMBZVPI")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "CC0603JPX7R9BB104"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0,1לך"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X6" ("X6"); Footprint = "IDC1.27_10"; UniqueID = "\DCKJKVRE" ("\DCKJKVRE")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "+3,3ֲ"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "+5ֲ"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "+5ֲ_RPI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "+5ֲ_RPI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_5"; Value = "+5ֲ_RPI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_6"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_7"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_8"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_9"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_10"; Value = "BTN_PWR+"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_11"; Value = "BTN_PWR-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_12"; Value = "MOTORS_TX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_13"; Value = "MOTORS_RX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_14"; Value = "BAT_MEAS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ֽאטלוםמגאםטו"; Value = "IDC_14"; VariantName = "[No Variations]"
+Added Component: Designator=C4(C1210)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "CC1206KKX7R8BB106"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10לך"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "35ֲ"; VariantName = "[No Variations]"
+Added Component: Designator=C16(C1210)
+Add component (AddParameter): Name = "ESR"; Value = "0,6־ל"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "EPCOS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "B41858C6107"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100לך"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10ֲ"; VariantName = "[No Variations]"
+Added Component: Designator=R3(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07510KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "510ך"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=+5ֲ Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=+4S Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=+4S Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=+3,3ֲ Pin=C14-2
+Added Pin To Net: NetName=GND Pin=C15-1
+Added Pin To Net: NetName=+5ֲ Pin=C15-2
+Added Pin To Net: NetName=GND Pin=C16-1
+Added Pin To Net: NetName=+5ֲ_RPI Pin=C16-2
+Added Pin To Net: NetName=GND Pin=DD1-7
+Added Pin To Net: NetName=GND Pin=DD2-7
+Added Pin To Net: NetName=GND Pin=DD3-7
+Add Pin To Net: Unknown Pin: Pin L2-2
+Added Pin To Net: NetName=+4S Pin=R3-2
+Added Pin To Net: NetName=+4S Pin=VT1-2
+Added Pin To Net: NetName=NetFU1_2 Pin=VT1-3
+Added Pin To Net: NetName=GND Pin=VT2-2
+Added Pin To Net: NetName=NetR2_1 Pin=VT2-3
+Added Pin To Net: NetName=NetVD1_2 Pin=X2-1
+Added Pin To Net: NetName=NetX2_2 Pin=X2-2
+Added Pin To Net: NetName=NetVD2_2 Pin=X3-1
+Added Pin To Net: NetName=NetX2_2 Pin=X3-2
+Added Pin To Net: NetName=NetVD3_2 Pin=X4-1
+Added Pin To Net: NetName=NetX2_2 Pin=X4-2
+Added Pin To Net: NetName=NetVD4_2 Pin=X5-1
+Added Pin To Net: NetName=NetX2_2 Pin=X5-2
+Added Pin To Net: NetName=+5ֲ_RPI Pin=X6-5
+Added Pin To Net: NetName=GND Pin=X6-7
+Added Pin To Net: NetName=NetR1_2 Pin=X6-7
+Added Pin To Net: NetName=NetX2_2 Pin=X6-7
+Change Net Name : Old Net Name=NetC7_2 New Net Name=NetC8_2
+Change Net Name : Old Net Name=NetC8_2 New Net Name=NetC9_2
+Change Net Name : Old Net Name=NetC9_2 New Net Name=NetC10_2
+Change Net Name : Old Net Name=NetC10_1 New Net Name=NetC11_1
+Change Net Name : Old Net Name=NetC10_2 New Net Name=NetC11_2
+Change Net Name : Old Net Name=NetC11_1 New Net Name=NetC12_1
+Change Net Name : Old Net Name=NetC11_2 New Net Name=NetC12_2
+Change Net Name : Old Net Name=NetC12_1 New Net Name=NetC13_1
+Change Net Name : Old Net Name=NetC12_2 New Net Name=NetC13_2
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_2 Pin=R3-1
+Added Pin To Net: NetName=NetC1_2 Pin=X6-7
+Added Net: Name=NetC1_2
+Added Pin To Net: NetName=NetR4_1 Pin=R4-1
+Added Pin To Net: NetName=NetR4_1 Pin=R5-2
+Added Pin To Net: NetName=NetR4_1 Pin=X6-7
+Added Net: Name=NetR4_1
+Added Member To Class: ClassName=TSE_power_control_board_main Member=Component C1 0,1לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C19 0,1לך
+Added Member To Class: ClassName=TSE_power_control_board_main Member=Component R5 2,4ך
