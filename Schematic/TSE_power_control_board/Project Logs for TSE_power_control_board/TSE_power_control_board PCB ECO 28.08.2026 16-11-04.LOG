@@ -1,0 +1,9 @@
+Added Component: Designator=L2(5050)
+Add component (AddParameter): Name = "I saturation"; Value = "3,2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "R"; Value = "0,050"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2,2לך"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC12_1 Pin=L2-1
+Added Pin To Net: NetName=NetC12_1 Pin=L2-1
+Add Pin To Net: Unknown Pin: Pin L2-2
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Default
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component L2 2,2לך
