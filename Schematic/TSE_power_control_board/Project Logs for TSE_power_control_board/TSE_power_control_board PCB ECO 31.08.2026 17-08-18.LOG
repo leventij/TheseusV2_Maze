@@ -1,0 +1,8 @@
+Change Component Designator: OldDesignator=TP1 NewDesignator=TP2
+Change Component Designator: OldDesignator=TP2 NewDesignator=TP3
+Change Component Designator: OldDesignator=TP3 NewDesignator=TP4
+Change Component Designator: OldDesignator=TP4 NewDesignator=TP5
+Added Component: Designator=TP1(TP_0,6X1)
+Add component (AddParameter): Name = "Name"; Value = "+4S"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+4S Pin=TP1-1
+Added Member To Class: ClassName=TSE_power_control_board_main Member=Component TP1 +4S

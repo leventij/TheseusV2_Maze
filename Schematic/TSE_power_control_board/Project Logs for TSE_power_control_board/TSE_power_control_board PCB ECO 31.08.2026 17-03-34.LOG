@@ -1,0 +1,19 @@
+Change Component Comment : Designator=TP3 Old Comment=+5ֲ New Comment=+5ֲ_RPI
+Change Component Comment : Designator=TP2 Old Comment=+5ֲ_RPI New Comment=+5ֲ
+Change component parameters: Designator = "TP2" ("TP2"); Footprint = "TP_0,6X1"; UniqueID = "\EMKRTANY" ("\EMKRTANY")
+Change component parameters (AddParameter): Name = "Name"; Value = "+5ֲ"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP3" ("TP3"); Footprint = "TP_0,6X1"; UniqueID = "\TSUONZCQ" ("\TSUONZCQ")
+Change component parameters (AddParameter): Name = "Name"; Value = "+5ֲ_RPI"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C3 10לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C7 0,1לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C10 0,022לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C13 0,1לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C16 100לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C19 0,1לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component DD3 LMR14050
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component L2 4,7לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component R7 23,7ך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component R11 100ך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component R14 17.8ך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component VD6 SS10PH10-M3
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component VD7 SS10PH10-M3

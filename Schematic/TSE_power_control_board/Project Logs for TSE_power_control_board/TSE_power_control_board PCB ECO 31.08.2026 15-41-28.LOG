@@ -1,0 +1,41 @@
+Removed Pin From Net: NetName=+5Â Pin=C2-2
+Removed Pin From Net: NetName=+5Â Pin=C5-2
+Removed Pin From Net: NetName=+5Â Pin=DD1-2
+Removed Pin From Net: NetName=NetC11_1 Pin=VD5-1
+Removed Pin From Net: NetName=NetC12_1 Pin=VD6-1
+Removed Pin From Net: NetName=+5Â Pin=X6-2
+Removed Pin From Net: NetName=+5Â_RPI Pin=X6-3
+Removed Pin From Net: NetName=+5Â_RPI Pin=X6-4
+Removed Pin From Net: NetName=+5Â_RPI Pin=X6-5
+Change Component Designator: OldDesignator=VD5 NewDesignator=VD6
+Change Component Designator: OldDesignator=VD6 NewDesignator=VD7
+Change Component Designator: OldDesignator=VD7 NewDesignator=VD5
+Added Component: Designator=TP1(TP_0,6X1)
+Add component (AddParameter): Name = "Name"; Value = "+3,3Â"; VariantName = "[No Variations]"
+Added Component: Designator=TP2(TP_0,6X1)
+Add component (AddParameter): Name = "Name"; Value = "+5Â"; VariantName = "[No Variations]"
+Added Component: Designator=TP3(TP_0,6X1)
+Add component (AddParameter): Name = "Name"; Value = "+5Â_RPI"; VariantName = "[No Variations]"
+Added Component: Designator=TP4(TP_0,6X1)
+Add component (AddParameter): Name = "Name"; Value = "GND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5Â_RPI Pin=C2-2
+Added Pin To Net: NetName=+5Â_RPI Pin=C5-2
+Added Pin To Net: NetName=+5Â_RPI Pin=DD1-2
+Added Pin To Net: NetName=+3,3Â Pin=TP1-1
+Added Pin To Net: NetName=+5Â Pin=TP2-1
+Added Pin To Net: NetName=+5Â_RPI Pin=TP3-1
+Added Pin To Net: NetName=GND Pin=TP4-1
+Added Pin To Net: NetName=GND Pin=VD6-1
+Added Pin To Net: NetName=NetC11_1 Pin=VD6-3
+Added Pin To Net: NetName=GND Pin=VD7-1
+Added Pin To Net: NetName=NetC12_1 Pin=VD7-3
+Added Pin To Net: NetName=+5Â_RPI Pin=X6-2
+Added Pin To Net: NetName=+5Â Pin=X6-3
+Added Pin To Net: NetName=+5Â Pin=X6-4
+Added Pin To Net: NetName=+5Â Pin=X6-5
+Change Net Name : Old Net Name=+5Â New Net Name=+5Â_RPI
+Change Net Name : Old Net Name=+5Â_RPI New Net Name=+5Â
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component TP1 +3,3Â
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component TP2 +5Â
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component TP3 +5Â_RPI
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component TP4 GND

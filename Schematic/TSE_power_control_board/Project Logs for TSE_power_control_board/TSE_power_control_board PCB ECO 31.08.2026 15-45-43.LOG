@@ -1,0 +1,36 @@
+Change Component Designator: OldDesignator=C3 NewDesignator=C4
+Change Component Designator: OldDesignator=C4 NewDesignator=C3
+Change Component Designator: OldDesignator=C6 NewDesignator=C7
+Change Component Designator: OldDesignator=C7 NewDesignator=C6
+Change Component Designator: OldDesignator=C9 NewDesignator=C10
+Change Component Designator: OldDesignator=C10 NewDesignator=C9
+Change Component Designator: OldDesignator=C12 NewDesignator=C13
+Change Component Designator: OldDesignator=C13 NewDesignator=C12
+Change Component Designator: OldDesignator=C15 NewDesignator=C16
+Change Component Designator: OldDesignator=C16 NewDesignator=C15
+Change Component Designator: OldDesignator=C18 NewDesignator=C19
+Change Component Designator: OldDesignator=C19 NewDesignator=C18
+Change Component Designator: OldDesignator=DD2 NewDesignator=DD3
+Change Component Designator: OldDesignator=DD3 NewDesignator=DD2
+Change Component Designator: OldDesignator=L2 NewDesignator=L3
+Change Component Designator: OldDesignator=L3 NewDesignator=L2
+Change Component Designator: OldDesignator=R7 NewDesignator=R8
+Change Component Designator: OldDesignator=R8 NewDesignator=R7
+Change Component Designator: OldDesignator=R11 NewDesignator=R13
+Change Component Designator: OldDesignator=R12 NewDesignator=R14
+Change Component Designator: OldDesignator=R13 NewDesignator=R11
+Change Component Designator: OldDesignator=R14 NewDesignator=R12
+Change Component Designator: OldDesignator=TP2 NewDesignator=TP3
+Change Component Designator: OldDesignator=TP3 NewDesignator=TP2
+Change Net Name : Old Net Name=NetC9_2 New Net Name=NetC10_2
+Change Net Name : Old Net Name=NetC10_2 New Net Name=NetC9_2
+Change Net Name : Old Net Name=NetC12_1 New Net Name=NetC13_1
+Change Net Name : Old Net Name=NetC12_2 New Net Name=NetC13_2
+Change Net Name : Old Net Name=NetC13_1 New Net Name=NetC12_1
+Change Net Name : Old Net Name=NetC13_2 New Net Name=NetC12_2
+Change Net Name : Old Net Name=NetDD2_4 New Net Name=NetDD3_4
+Change Net Name : Old Net Name=NetDD2_5 New Net Name=NetDD3_5
+Change Net Name : Old Net Name=NetDD3_4 New Net Name=NetDD2_4
+Change Net Name : Old Net Name=NetDD3_5 New Net Name=NetDD2_5
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component VD5 PMEG3050BEP
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component VD7 SS10PH10-M3

@@ -1,0 +1,16 @@
+Removed Member From Class: ClassName=TSE_power_control_board_main Member=TP4
+Change Component Designator: OldDesignator=TP2 NewDesignator=TP1
+Change Component Designator: OldDesignator=TP3 NewDesignator=TP2
+Change Component Designator: OldDesignator=TP4 NewDesignator=TP3
+Change Component Designator: OldDesignator=TP5 NewDesignator=TP4
+Added Pin To Net: NetName=GND Pin=DD1-9
+Added Pin To Net: NetName=GND Pin=DD2-9
+Added Pin To Net: NetName=GND Pin=DD3-9
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component TP1 +3,3Â
+Added Member To Class: ClassName=TSE_power_control_board_main Member=Component TP1 +4S
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component TP2 +5Â
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_2
+Added Rule: Name=Schematic Supply Nets_3
+Added Rule: Name=Schematic Supply Nets_4
