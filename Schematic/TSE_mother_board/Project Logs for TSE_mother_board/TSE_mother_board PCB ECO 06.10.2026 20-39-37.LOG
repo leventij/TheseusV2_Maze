@@ -1,0 +1,2 @@
+Added Pin To Net: NetName=RPI_MCU_UART1_RX Pin=A1-18
+Added Pin To Net: NetName=RPI_MCU_UART1_TX Pin=A1-22
