@@ -1,0 +1,69 @@
+Add component: Footprint Not Found RASPBERRY_PI_5
+Added Component: Designator=X3(JST-S02B-PASK-2)
+Add component (AddParameter): Name = "Contact_1"; Value = "C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_2"; Value = "NO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Наименование"; Value = "JST-S02B-PASK-2"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin A1-2
+Add Pin To Net: Unknown Pin: Pin A1-6
+Add Pin To Net: Unknown Pin: Pin A1-8
+Add Pin To Net: Unknown Pin: Pin A1-10
+Add Pin To Net: Unknown Pin: Pin A1-11
+Add Pin To Net: Unknown Pin: Pin A1-12
+Add Pin To Net: Unknown Pin: Pin A1-15
+Add Pin To Net: Unknown Pin: Pin A1-16
+Add Pin To Net: Unknown Pin: Pin A1-18
+Add Pin To Net: Unknown Pin: Pin A1-19
+Add Pin To Net: Unknown Pin: Pin A1-21
+Add Pin To Net: Unknown Pin: Pin A1-22
+Add Pin To Net: Unknown Pin: Pin A1-23
+Add Pin To Net: Unknown Pin: Pin A1-32
+Add Pin To Net: Unknown Pin: Pin A1-33
+Add Pin To Net: Unknown Pin: Pin A1-35
+Add Pin To Net: Unknown Pin: Pin A1-36
+Add Pin To Net: Unknown Pin: Pin DD1-1
+Add Pin To Net: Unknown Pin: Pin DD1-2
+Add Pin To Net: Unknown Pin: Pin DD1-3
+Add Pin To Net: Unknown Pin: Pin DD1-4
+Add Pin To Net: Unknown Pin: Pin DD1-6
+Add Pin To Net: Unknown Pin: Pin DD1-7
+Add Pin To Net: Unknown Pin: Pin DD1-9
+Add Pin To Net: Unknown Pin: Pin DD1-10
+Add Pin To Net: Unknown Pin: Pin DD1-11
+Add Pin To Net: Unknown Pin: Pin DD1-12
+Add Pin To Net: Unknown Pin: Pin DD1-13
+Add Pin To Net: Unknown Pin: Pin DD1-14
+Add Pin To Net: Unknown Pin: Pin DD1-15
+Add Pin To Net: Unknown Pin: Pin DD1-16
+Add Pin To Net: Unknown Pin: Pin DD1-17
+Add Pin To Net: Unknown Pin: Pin DD1-18
+Add Pin To Net: Unknown Pin: Pin DD1-19
+Add Pin To Net: Unknown Pin: Pin DD1-21
+Add Pin To Net: Unknown Pin: Pin DD1-23
+Add Pin To Net: Unknown Pin: Pin DD1-24
+Add Pin To Net: Unknown Pin: Pin DD1-25
+Add Pin To Net: Unknown Pin: Pin DD1-26
+Add Pin To Net: Unknown Pin: Pin DD1-27
+Add Pin To Net: Unknown Pin: Pin DD1-28
+Add Pin To Net: Unknown Pin: Pin DD1-29
+Add Pin To Net: Unknown Pin: Pin DD1-30
+Add Pin To Net: Unknown Pin: Pin DD1-31
+Add Pin To Net: Unknown Pin: Pin DD1-32
+Add Pin To Net: Unknown Pin: Pin DD1-33
+Add Pin To Net: Unknown Pin: Pin DD1-34
+Add Pin To Net: Unknown Pin: Pin DD1-35
+Add Pin To Net: Unknown Pin: Pin DD1-36
+Add Pin To Net: Unknown Pin: Pin DD1-37
+Add Pin To Net: Unknown Pin: Pin DD1-39
+Add Pin To Net: Unknown Pin: Pin DD1-41
+Added Pin To Net: NetName=RPI_LATCH_SIGNAL Pin=X3-1
+Added Pin To Net: NetName=GND Pin=X3-2
+Add Class Member: Failed to add class member : Component A1 Raspberry Pi 5
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component C4 0,1мк
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component C5 10мк
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R1 5,1к
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component S2 IT-1187
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component X2 IDC_14
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component X3 JST-S02B-PASK-2
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component X4 IDC_16
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component X5 JST-S03B-PASK-2
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component X8 JST-S04B-PASK-2

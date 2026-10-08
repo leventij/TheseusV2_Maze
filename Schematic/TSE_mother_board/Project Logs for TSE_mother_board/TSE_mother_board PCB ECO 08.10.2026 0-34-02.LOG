@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=RPI_MCU_UART0_TX Pin=A1-21
+Removed Pin From Net: NetName=RPI_MCU_UART0_RX Pin=A1-22
+Added Pin To Net: NetName=RPI_MCU_UART0_RX Pin=A1-21
+Added Pin To Net: NetName=RPI_MCU_UART0_TX Pin=A1-22

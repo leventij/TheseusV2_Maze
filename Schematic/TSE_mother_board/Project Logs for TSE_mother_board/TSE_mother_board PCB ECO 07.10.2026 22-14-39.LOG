@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=MCU_LED_STRIP_SIGNAL Pin=X8-4
+Added Pin To Net: NetName=GND Pin=DD1-26
+Added Pin To Net: NetName=GND Pin=X7-13
+Added Pin To Net: NetName=MCU_I2C_PERIPH_SCL Pin=X8-3
+Change Net Name : Old Net Name=GND New Net Name=MCU_I2C_PERIPH_SDA
+Added Rule: Name=Schematic Supply Nets_4

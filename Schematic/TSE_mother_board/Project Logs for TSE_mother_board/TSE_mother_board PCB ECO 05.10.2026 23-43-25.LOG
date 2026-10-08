@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=MCU_IMU_UART0_TX Pin=1-1
+Removed Pin From Net: NetName=MCU_IMU_UART0_RX Pin=2-1
+Removed Member From Class: ClassName=TSE_mother_board_MCU Member=1
+Removed Member From Class: ClassName=TSE_mother_board_MCU Member=2
+Change Component Designator: OldDesignator=X2 NewDesignator=X3
+Change Component Designator: OldDesignator=X3 NewDesignator=X2
+Added Component: Designator=TP1(TP_0,6X1)
+Add component (AddParameter): Name = "Name"; Value = "TESTPOINT"; VariantName = "[No Variations]"
+Added Component: Designator=TP2(TP_0,6X1)
+Add component (AddParameter): Name = "Name"; Value = "TESTPOINT"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MCU_IMU_UART0_TX Pin=TP1-1
+Added Pin To Net: NetName=MCU_IMU_UART0_RX Pin=TP2-1
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP1 TESTPOINT
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP2 TESTPOINT

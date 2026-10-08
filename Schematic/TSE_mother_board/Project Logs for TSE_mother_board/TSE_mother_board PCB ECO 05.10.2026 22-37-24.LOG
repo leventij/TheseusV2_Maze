@@ -1,0 +1,111 @@
+Removed Pin From Net: NetName=RPI_LATCH_SIGNAL Pin=X?-1
+Removed Pin From Net: NetName=GND Pin=X?-2
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=C?
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R?
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=X?
+Removed Member From Class: ClassName=TSE_mother_board_MCU Member=X?
+Change Component Designator: OldDesignator=? NewDesignator=1
+Change Component Designator: OldDesignator=? NewDesignator=2
+Change Component Designator: OldDesignator=C? NewDesignator=C1
+Change Component Designator: OldDesignator=C? NewDesignator=C2
+Change Component Designator: OldDesignator=C? NewDesignator=C3
+Change Component Designator: OldDesignator=C? NewDesignator=C4
+Change Component Designator: OldDesignator=C? NewDesignator=C5
+Change Component Designator: OldDesignator=C? NewDesignator=C6
+Change Component Designator: OldDesignator=DD? NewDesignator=DD1
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Change Component Designator: OldDesignator=R? NewDesignator=R4
+Change Component Designator: OldDesignator=R? NewDesignator=R5
+Change Component Designator: OldDesignator=S? NewDesignator=S1
+Change Component Designator: OldDesignator=S? NewDesignator=S2
+Change Component Designator: OldDesignator=VD? NewDesignator=VD1
+Change Component Designator: OldDesignator=X? NewDesignator=X1
+Change Component Designator: OldDesignator=X? NewDesignator=X2
+Change Component Designator: OldDesignator=X? NewDesignator=X4
+Change Component Designator: OldDesignator=X? NewDesignator=X5
+Change Component Designator: OldDesignator=X? NewDesignator=X6
+Change Component Designator: OldDesignator=X? NewDesignator=X7
+Change Component Designator: OldDesignator=X? NewDesignator=X8
+Add component: Footprint Not Found RASPBERRY_PI_5
+Add Pin To Net: Unknown Pin: Pin A1-2
+Add Pin To Net: Unknown Pin: Pin A1-6
+Add Pin To Net: Unknown Pin: Pin A1-8
+Add Pin To Net: Unknown Pin: Pin A1-10
+Add Pin To Net: Unknown Pin: Pin A1-11
+Add Pin To Net: Unknown Pin: Pin A1-12
+Add Pin To Net: Unknown Pin: Pin A1-15
+Add Pin To Net: Unknown Pin: Pin A1-16
+Add Pin To Net: Unknown Pin: Pin A1-18
+Add Pin To Net: Unknown Pin: Pin A1-19
+Add Pin To Net: Unknown Pin: Pin A1-21
+Add Pin To Net: Unknown Pin: Pin A1-22
+Add Pin To Net: Unknown Pin: Pin A1-23
+Add Pin To Net: Unknown Pin: Pin A1-32
+Add Pin To Net: Unknown Pin: Pin A1-33
+Add Pin To Net: Unknown Pin: Pin A1-35
+Add Pin To Net: Unknown Pin: Pin A1-36
+Add Pin To Net: Unknown Pin: Pin DD1-1
+Add Pin To Net: Unknown Pin: Pin DD1-2
+Add Pin To Net: Unknown Pin: Pin DD1-3
+Add Pin To Net: Unknown Pin: Pin DD1-4
+Add Pin To Net: Unknown Pin: Pin DD1-6
+Add Pin To Net: Unknown Pin: Pin DD1-7
+Add Pin To Net: Unknown Pin: Pin DD1-9
+Add Pin To Net: Unknown Pin: Pin DD1-10
+Add Pin To Net: Unknown Pin: Pin DD1-11
+Add Pin To Net: Unknown Pin: Pin DD1-12
+Add Pin To Net: Unknown Pin: Pin DD1-13
+Add Pin To Net: Unknown Pin: Pin DD1-14
+Add Pin To Net: Unknown Pin: Pin DD1-15
+Add Pin To Net: Unknown Pin: Pin DD1-16
+Add Pin To Net: Unknown Pin: Pin DD1-17
+Add Pin To Net: Unknown Pin: Pin DD1-18
+Add Pin To Net: Unknown Pin: Pin DD1-19
+Add Pin To Net: Unknown Pin: Pin DD1-21
+Add Pin To Net: Unknown Pin: Pin DD1-23
+Add Pin To Net: Unknown Pin: Pin DD1-24
+Add Pin To Net: Unknown Pin: Pin DD1-25
+Add Pin To Net: Unknown Pin: Pin DD1-26
+Add Pin To Net: Unknown Pin: Pin DD1-27
+Add Pin To Net: Unknown Pin: Pin DD1-28
+Add Pin To Net: Unknown Pin: Pin DD1-29
+Add Pin To Net: Unknown Pin: Pin DD1-30
+Add Pin To Net: Unknown Pin: Pin DD1-31
+Add Pin To Net: Unknown Pin: Pin DD1-32
+Add Pin To Net: Unknown Pin: Pin DD1-33
+Add Pin To Net: Unknown Pin: Pin DD1-34
+Add Pin To Net: Unknown Pin: Pin DD1-35
+Add Pin To Net: Unknown Pin: Pin DD1-36
+Add Pin To Net: Unknown Pin: Pin DD1-37
+Add Pin To Net: Unknown Pin: Pin DD1-39
+Add Pin To Net: Unknown Pin: Pin DD1-41
+Add Pin To Net: Unknown Pin: Pin X3-1
+Add Pin To Net: Unknown Pin: Pin X3-2
+Added Pin To Net: NetName=MCU_SERVO_SIGNAL Pin=X6-1
+Added Pin To Net: NetName=+5ֲ Pin=X6-2
+Added Pin To Net: NetName=MCU_LED_STRIP_SIGNAL Pin=X7-8
+Change Net Name : Old Net Name=NetC?_2 New Net Name=NetC1_2
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR1_2
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR2_2
+Change Net Name : Old Net Name=NetVD?_2 New Net Name=NetVD1_2
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component 2 SOLDER_PAD
+Add Class Member: Failed to add class member : Component A1 Raspberry Pi 5
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component C1 0,1לך
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component C3 0,1לך
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component C4 0,1לך
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component C5 10לך
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component C6 10לך
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R2 5,1ך
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R3 10ך
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R4 10ך
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R5 10ך
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component S1 IT-1187
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component X1 USB Type-C
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component X2 IDC_14
+Add Class Member: Failed to add class member : Component X3 JST-S02B-PASK-2
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component X4 IDC_16
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component X5 JST-S03B-PASK-2
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component X6 PLS 3
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component X7 IDC_26

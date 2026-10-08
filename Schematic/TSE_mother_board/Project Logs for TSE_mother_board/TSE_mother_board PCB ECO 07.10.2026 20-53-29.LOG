@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=MCU_IMU_UART1_TX Pin=DD1-23
+Removed Pin From Net: NetName=MCU_IMU_UART1_RX Pin=DD1-24
+Removed Pin From Net: NetName=MCU_IMU_INT Pin=DD1-25
+Added Pin To Net: NetName=MCU_IMU_INT Pin=DD1-23
+Added Pin To Net: NetName=MCU_IMU_UART1_TX Pin=DD1-24
+Added Pin To Net: NetName=MCU_IMU_UART1_RX Pin=DD1-25

@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=MCU_LIGHT_SENSOR_SIGNAL Pin=X5-1
+Removed Pin From Net: NetName=GND Pin=X5-3
+Removed Pin From Net: NetName=MCU_SERVO_SIGNAL Pin=X6-1
+Removed Pin From Net: NetName=GND Pin=X6-3
+Change component parameters: Designator = "X5" ("X5"); Footprint = "JST-S03B-PASK-2"; UniqueID = "\JGYGRMNZ" ("\JGYGRMNZ")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "+5В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "SIGNAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "JST-S03B-PASK-2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X6" ("X6"); Footprint = "pls-2,54-3-tht-v"; UniqueID = "\UFAWZWFB" ("\UFAWZWFB")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "+5В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "SIGNAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "PLS 3"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=X5-1
+Added Pin To Net: NetName=MCU_LIGHT_SENSOR_SIGNAL Pin=X5-3
+Added Pin To Net: NetName=GND Pin=X6-1
+Added Pin To Net: NetName=MCU_SERVO_SIGNAL Pin=X6-3

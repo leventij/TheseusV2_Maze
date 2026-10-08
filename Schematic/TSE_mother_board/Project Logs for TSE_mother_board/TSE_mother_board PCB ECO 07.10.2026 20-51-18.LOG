@@ -1,0 +1,9 @@
+Added Pin To Net: NetName=MCU_IMU_INT Pin=DD1-25
+Change Net Name : Old Net Name=RPI_MCU_UART1_RX New Net Name=RPI_MCU_UART0_RX
+Change Net Name : Old Net Name=RPI_MCU_UART1_TX New Net Name=RPI_MCU_UART0_TX
+Added Pin To Net: NetName=MCU_IMU_UART1_RX Pin=A2-3
+Added Pin To Net: NetName=MCU_IMU_UART1_RX Pin=DD1-24
+Added Net: Name=MCU_IMU_UART1_RX
+Added Pin To Net: NetName=MCU_IMU_UART1_TX Pin=A2-4
+Added Pin To Net: NetName=MCU_IMU_UART1_TX Pin=DD1-23
+Added Net: Name=MCU_IMU_UART1_TX

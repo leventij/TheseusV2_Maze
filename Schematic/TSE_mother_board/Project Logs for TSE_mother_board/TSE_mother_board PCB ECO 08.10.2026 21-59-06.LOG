@@ -1,0 +1,10 @@
+Added Component: Designator=S1(SMD button 6x3mm)
+Add component (AddParameter): Name = "Name"; Value = "IT-1187"; VariantName = "[No Variations]"
+Added Component: Designator=S2(SMD button 6x3mm)
+Add component (AddParameter): Name = "Name"; Value = "IT-1187"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=S1-1
+Added Pin To Net: NetName=NetC4_2 Pin=S1-2
+Added Pin To Net: NetName=GND Pin=S2-1
+Added Pin To Net: NetName=GND Pin=S2-2
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component S1 IT-1187
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component S2 IT-1187

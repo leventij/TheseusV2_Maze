@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=MCU_I2C_PERIPH_SDA Pin=X8-4
+Added Pin To Net: NetName=MCU_SWITCH_BR Pin=X8-4

@@ -1,0 +1,6 @@
+Change component parameters: Designator = "X8" ("X8"); Footprint = "JST-S04B-PASK-2"; UniqueID = "\QPCBYZRC" ("\QPCBYZRC")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "+3,3В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "SDA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "SCL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "JST-S04B-PASK-2"; VariantName = "[No Variations]"

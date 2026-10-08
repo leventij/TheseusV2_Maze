@@ -1,0 +1,306 @@
+Removed Pin From Net: NetName=MCU_IMU_UART0_RX Pin=1-1
+Removed Pin From Net: NetName=RPI_MCU_UART1_TX Pin=2-1
+Removed Pin From Net: NetName=+5В_RPI Pin=C4-1
+Removed Pin From Net: NetName=GND Pin=C4-2
+Removed Pin From Net: NetName=+5В_RPI Pin=C5-1
+Removed Pin From Net: NetName=GND Pin=C5-2
+Removed Pin From Net: NetName=+3,3В Pin=X2-1
+Removed Pin From Net: NetName=+5В Pin=X2-2
+Removed Pin From Net: NetName=+5В_RPI Pin=X2-3
+Removed Pin From Net: NetName=+5В_RPI Pin=X2-4
+Removed Pin From Net: NetName=GND Pin=X2-5
+Removed Pin From Net: NetName=GND Pin=X2-6
+Removed Pin From Net: NetName=MCU_MOTORS_UART2_TX Pin=X2-7
+Removed Pin From Net: NetName=+5В Pin=X3-1
+Removed Pin From Net: NetName=GND Pin=X3-2
+Removed Pin From Net: NetName=RPI_ENC_A Pin=X3-3
+Removed Pin From Net: NetName=RPI_ENC_B Pin=X3-4
+Removed Pin From Net: NetName=RPI_ENC_BTN Pin=X3-5
+Removed Pin From Net: NetName=RPI_LD_TX Pin=X3-7
+Removed Pin From Net: NetName=+3,3В Pin=X4-1
+Removed Pin From Net: NetName=+5В Pin=X4-2
+Removed Pin From Net: NetName=GND Pin=X4-3
+Removed Pin From Net: NetName=GND Pin=X4-4
+Removed Pin From Net: NetName=GND Pin=X4-5
+Removed Pin From Net: NetName=MCU_LED_STRIP_DIN Pin=X4-6
+Removed Pin From Net: NetName=MCU_VL6_LPn Pin=X4-7
+Removed Pin From Net: NetName=MCU_SERVO_SIGNAL Pin=X5-1
+Removed Pin From Net: NetName=+5В Pin=X5-2
+Removed Pin From Net: NetName=GND Pin=X5-3
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=C4
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=C5
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=X2
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=X3
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=X4
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=X5
+Change Component Designator: OldDesignator=1 NewDesignator=?
+Change Component Designator: OldDesignator=2 NewDesignator=?
+Change Component Designator: OldDesignator=C1 NewDesignator=C?
+Change Component Designator: OldDesignator=C2 NewDesignator=C?
+Change Component Designator: OldDesignator=C3 NewDesignator=C?
+Change Component Designator: OldDesignator=DD1 NewDesignator=DD?
+Change Component Designator: OldDesignator=R1 NewDesignator=R?
+Change Component Designator: OldDesignator=R2 NewDesignator=R?
+Change Component Designator: OldDesignator=R3 NewDesignator=R?
+Change Component Designator: OldDesignator=R4 NewDesignator=R?
+Change Component Designator: OldDesignator=S1 NewDesignator=S?
+Change Component Designator: OldDesignator=S2 NewDesignator=S?
+Change Component Designator: OldDesignator=VD1 NewDesignator=VD?
+Change Component Designator: OldDesignator=X1 NewDesignator=X?
+Added Component: Designator=A2(BNO055)
+Add component (AddParameter): Name = "Наименование"; Value = "BNO055"; VariantName = "[No Variations]"
+Add component: Footprint Not Found RASPBERRY_PI_5
+Added Component: Designator=C?(C0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "CC0603JPX7R9BB104"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0,1мк"; VariantName = "[No Variations]"
+Added Component: Designator=C?(C1210)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "CC1206KKX7R8BB106"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10мк"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "35В"; VariantName = "[No Variations]"
+Added Component: Designator=C?(C1210)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "CC1206KKX7R8BB106"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10мк"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "35В"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10к"; VariantName = "[No Variations]"
+Added Component: Designator=X?(IDC1.27_14)
+Add component (AddParameter): Name = "Contact_1"; Value = "+3,3В"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_2"; Value = "+5В"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_3"; Value = "+5В_RPI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_4"; Value = "+5В_RPI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_5"; Value = "+5В_RPI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_6"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_7"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_8"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_9"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_10"; Value = "BTN_PWR+"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_11"; Value = "BTN_PWR-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_12"; Value = "MOTORS_TX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_13"; Value = "MOTORS_RX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_14"; Value = "BAT_MEAS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Наименование"; Value = "IDC_14"; VariantName = "[No Variations]"
+Added Component: Designator=X?(IDC1.27_16)
+Add component (AddParameter): Name = "Contact_1"; Value = "+5В"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_2"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_3"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_4"; Value = "ENC_A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_5"; Value = "ENC_B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_6"; Value = "ENC_BTN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_7"; Value = "BTN_PWR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_8"; Value = "BTN_RPI+"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_9"; Value = "BTN_RPI-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_10"; Value = "DISP_DIN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_11"; Value = "DISP_CLK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_12"; Value = "DISP_CS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_13"; Value = "DISP_DS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_14"; Value = "DISP_RST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_15"; Value = "LD_TX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_16"; Value = "LD_PWR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Наименование"; Value = "IDC_16"; VariantName = "[No Variations]"
+Added Component: Designator=X?(IDC1.27_26)
+Add component (AddParameter): Name = "Contact_1"; Value = "+3,3В"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_2"; Value = "+5В"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_3"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_4"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_5"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_6"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_7"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_8"; Value = "LED_DIN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_9"; Value = "SWITCH_FL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_10"; Value = "SWITCH_FR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_11"; Value = "SWITCH_BL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_12"; Value = "SWITCH_BR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_13"; Value = "SCL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_14"; Value = "SDA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_15"; Value = "VL1_INT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_16"; Value = "VL1_LPn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_17"; Value = "VL2_INT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_18"; Value = "VL2_LPn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_19"; Value = "VL3_INT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_20"; Value = "VL3_LPn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_21"; Value = "VL4_INT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_22"; Value = "VL4_LPn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_23"; Value = "VL5_INT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_24"; Value = "VL5_LPn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_25"; Value = "VL6_INT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_26"; Value = "VL6_LPn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Наименование"; Value = "IDC_26"; VariantName = "[No Variations]"
+Added Component: Designator=X?(JST-S03B-PASK-2)
+Add component (AddParameter): Name = "Contact_1"; Value = "SIGNAL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_2"; Value = "+5В"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_3"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Наименование"; Value = "JST-S03B-PASK-2"; VariantName = "[No Variations]"
+Added Component: Designator=X?(JST-S04B-PASK-2)
+Add component (AddParameter): Name = "Contact_1"; Value = "+3,3В"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_2"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_3"; Value = "SCL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_4"; Value = "SDA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Наименование"; Value = "JST-S04B-PASK-2"; VariantName = "[No Variations]"
+Added Component: Designator=X?(pls-2,54-3-tht-v)
+Add component (AddParameter): Name = "Contact_1"; Value = "SIGNAL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_2"; Value = "+5В"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_3"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "PLS 3"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MCU_IMU_UART0_RX Pin=?-1
+Added Pin To Net: NetName=MCU_IMU_UART0_TX Pin=?-1
+Added Pin To Net: NetName=+3,3В Pin=A2-1
+Added Pin To Net: NetName=GND Pin=A2-2
+Added Pin To Net: NetName=MCU_IMU_UART0_RX Pin=A2-3
+Added Pin To Net: NetName=MCU_IMU_UART0_TX Pin=A2-4
+Added Pin To Net: NetName=MCU_IMU_INT Pin=A2-6
+Add Pin To Net: Unknown Pin: Pin A?-2
+Add Pin To Net: Unknown Pin: Pin A?-6
+Add Pin To Net: Unknown Pin: Pin A?-8
+Add Pin To Net: Unknown Pin: Pin A?-10
+Add Pin To Net: Unknown Pin: Pin A?-12
+Add Pin To Net: Unknown Pin: Pin A?-15
+Add Pin To Net: Unknown Pin: Pin A?-16
+Add Pin To Net: Unknown Pin: Pin A?-18
+Add Pin To Net: Unknown Pin: Pin A?-19
+Add Pin To Net: Unknown Pin: Pin A?-21
+Add Pin To Net: Unknown Pin: Pin A?-22
+Add Pin To Net: Unknown Pin: Pin A?-32
+Add Pin To Net: Unknown Pin: Pin A?-33
+Add Pin To Net: Unknown Pin: Pin A?-35
+Add Pin To Net: Unknown Pin: Pin A?-36
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=+5В_RPI Pin=C?-2
+Added Pin To Net: NetName=+5В_RPI Pin=C?-2
+Add Pin To Net: Unknown Pin: Pin DD?-1
+Add Pin To Net: Unknown Pin: Pin DD?-2
+Add Pin To Net: Unknown Pin: Pin DD?-3
+Add Pin To Net: Unknown Pin: Pin DD?-4
+Add Pin To Net: Unknown Pin: Pin DD?-6
+Add Pin To Net: Unknown Pin: Pin DD?-7
+Add Pin To Net: Unknown Pin: Pin DD?-9
+Add Pin To Net: Unknown Pin: Pin DD?-10
+Add Pin To Net: Unknown Pin: Pin DD?-11
+Add Pin To Net: Unknown Pin: Pin DD?-12
+Add Pin To Net: Unknown Pin: Pin DD?-13
+Add Pin To Net: Unknown Pin: Pin DD?-14
+Add Pin To Net: Unknown Pin: Pin DD?-15
+Add Pin To Net: Unknown Pin: Pin DD?-16
+Add Pin To Net: Unknown Pin: Pin DD?-17
+Add Pin To Net: Unknown Pin: Pin DD?-18
+Add Pin To Net: Unknown Pin: Pin DD?-19
+Add Pin To Net: Unknown Pin: Pin DD?-21
+Add Pin To Net: Unknown Pin: Pin DD?-23
+Add Pin To Net: Unknown Pin: Pin DD?-24
+Add Pin To Net: Unknown Pin: Pin DD?-25
+Add Pin To Net: Unknown Pin: Pin DD?-26
+Add Pin To Net: Unknown Pin: Pin DD?-27
+Add Pin To Net: Unknown Pin: Pin DD?-28
+Add Pin To Net: Unknown Pin: Pin DD?-29
+Add Pin To Net: Unknown Pin: Pin DD?-30
+Add Pin To Net: Unknown Pin: Pin DD?-31
+Add Pin To Net: Unknown Pin: Pin DD?-32
+Add Pin To Net: Unknown Pin: Pin DD?-33
+Add Pin To Net: Unknown Pin: Pin DD?-34
+Add Pin To Net: Unknown Pin: Pin DD?-35
+Add Pin To Net: Unknown Pin: Pin DD?-36
+Add Pin To Net: Unknown Pin: Pin DD?-37
+Add Pin To Net: Unknown Pin: Pin DD?-39
+Add Pin To Net: Unknown Pin: Pin DD?-41
+Added Pin To Net: NetName=+3,3В Pin=R?-2
+Added Pin To Net: NetName=+3,3В Pin=X?-1
+Added Pin To Net: NetName=+3,3В Pin=X?-1
+Added Pin To Net: NetName=+3,3В Pin=X?-1
+Added Pin To Net: NetName=+5В Pin=X?-1
+Added Pin To Net: NetName=MCU_LIGHT_SENSOR_SIGNAL Pin=X?-1
+Added Pin To Net: NetName=MCU_SERVO_SIGNAL Pin=X?-1
+Added Pin To Net: NetName=+3,3В Pin=X?-2
+Added Pin To Net: NetName=+5В Pin=X?-2
+Added Pin To Net: NetName=+5В Pin=X?-2
+Added Pin To Net: NetName=+5В Pin=X?-2
+Added Pin To Net: NetName=GND Pin=X?-2
+Added Pin To Net: NetName=GND Pin=X?-2
+Added Pin To Net: NetName=GND Pin=X?-2
+Added Pin To Net: NetName=+5В_RPI Pin=X?-3
+Added Pin To Net: NetName=GND Pin=X?-3
+Added Pin To Net: NetName=GND Pin=X?-3
+Added Pin To Net: NetName=GND Pin=X?-3
+Added Pin To Net: NetName=GND Pin=X?-3
+Added Pin To Net: NetName=MCU_I2C_PERIPH_SCL Pin=X?-3
+Added Pin To Net: NetName=+5В_RPI Pin=X?-4
+Added Pin To Net: NetName=GND Pin=X?-4
+Added Pin To Net: NetName=MCU_I2C_PERIPH_SDA Pin=X?-4
+Added Pin To Net: NetName=RPI_ENC_A Pin=X?-4
+Added Pin To Net: NetName=+5В_RPI Pin=X?-5
+Added Pin To Net: NetName=GND Pin=X?-5
+Added Pin To Net: NetName=RPI_ENC_B Pin=X?-5
+Added Pin To Net: NetName=GND Pin=X?-6
+Added Pin To Net: NetName=GND Pin=X?-6
+Added Pin To Net: NetName=RPI_ENC_BTN Pin=X?-6
+Added Pin To Net: NetName=GND Pin=X?-7
+Added Pin To Net: NetName=GND Pin=X?-7
+Added Pin To Net: NetName=GND Pin=X?-8
+Added Pin To Net: NetName=MCU_LED_STRIP_DIN Pin=X?-8
+Added Pin To Net: NetName=GND Pin=X?-9
+Added Pin To Net: NetName=MCU_SWITCH_FL Pin=X?-9
+Added Pin To Net: NetName=RPI_BTN Pin=X?-9
+Added Pin To Net: NetName=MCU_SWITCH_FR Pin=X?-10
+Added Pin To Net: NetName=RPI_DSP_DIN Pin=X?-10
+Added Pin To Net: NetName=MCU_SWITCH_BL Pin=X?-11
+Added Pin To Net: NetName=RPI_DSP_CLK Pin=X?-11
+Added Pin To Net: NetName=MCU_MOTORS_UART2_RX Pin=X?-12
+Added Pin To Net: NetName=MCU_SWITCH_BR Pin=X?-12
+Added Pin To Net: NetName=RPI_DSP_CS Pin=X?-12
+Added Pin To Net: NetName=MCU_I2C_PERIPH_SCL Pin=X?-13
+Added Pin To Net: NetName=MCU_MOTORS_UART2_TX Pin=X?-13
+Added Pin To Net: NetName=RPI_DSP_DS Pin=X?-13
+Added Pin To Net: NetName=MCU_I2C_PERIPH_SDA Pin=X?-14
+Added Pin To Net: NetName=RPI_DSP_RST Pin=X?-14
+Added Pin To Net: NetName=MCU_VL1_INT Pin=X?-15
+Added Pin To Net: NetName=RPI_LD_TX Pin=X?-15
+Added Pin To Net: NetName=MCU_VL1_LPn Pin=X?-16
+Added Pin To Net: NetName=RPI_LD_PWM Pin=X?-16
+Added Pin To Net: NetName=MCU_VL2_INT Pin=X?-17
+Added Pin To Net: NetName=MCU_VL2_LPn Pin=X?-18
+Added Pin To Net: NetName=MCU_VL3_INT Pin=X?-19
+Added Pin To Net: NetName=MCU_VL3_LPn Pin=X?-20
+Added Pin To Net: NetName=MCU_VL4_INT Pin=X?-21
+Added Pin To Net: NetName=MCU_VL4_LPn Pin=X?-22
+Added Pin To Net: NetName=MCU_VL5_INT Pin=X?-23
+Added Pin To Net: NetName=MCU_VL5_LPn Pin=X?-24
+Added Pin To Net: NetName=MCU_VL6_INT Pin=X?-25
+Added Pin To Net: NetName=MCU_VL6_LPn Pin=X?-26
+Change Net Name : Old Net Name=NetC3_2 New Net Name=NetC?_2
+Change Net Name : Old Net Name=NetR3_2 New Net Name=NetR?_2
+Change Net Name : Old Net Name=NetR4_2 New Net Name=NetR?_2
+Change Net Name : Old Net Name=NetVD1_2 New Net Name=NetVD?_2
+Added Pin To Net: NetName=BTN_PWR- Pin=X?-8
+Added Pin To Net: NetName=BTN_PWR- Pin=X?-11
+Added Net: Name=BTN_PWR-
+Added Pin To Net: NetName=BTN_PWR+ Pin=X?-7
+Added Pin To Net: NetName=BTN_PWR+ Pin=X?-10
+Added Net: Name=BTN_PWR+
+Added Pin To Net: NetName=RPI_BAT_MEASURE Pin=X?-14
+Added Net: Name=RPI_BAT_MEASURE
+Added Pin To Net: NetName=RPI_LATCH_SIGNAL Pin=C?-2
+Added Pin To Net: NetName=RPI_LATCH_SIGNAL Pin=R?-1
+Added Pin To Net: NetName=RPI_LATCH_SIGNAL Pin=X?-1
+Added Net: Name=RPI_LATCH_SIGNAL
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component A2 BNO055
+Add Class Member: Failed to add class member : Component A? Raspberry Pi 5
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component C? 0,1мк
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component C? 10мк
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component C? 10мк
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 10к
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component X? IDC_14
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component X? IDC_16
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component X? JST-S02B-PASK-2
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component X? IDC_26
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component X? JST-S03B-PASK-2
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component X? JST-S04B-PASK-2
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component X? PLS 3

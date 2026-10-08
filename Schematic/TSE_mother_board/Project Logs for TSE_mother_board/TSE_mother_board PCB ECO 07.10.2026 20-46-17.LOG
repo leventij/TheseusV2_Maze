@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=MCU_VL5_INT Pin=DD1-21
+Removed Pin From Net: NetName=MCU_VL5_LPn Pin=DD1-22
+Removed Pin From Net: NetName=MCU_VL6_INT Pin=DD1-23
+Removed Pin From Net: NetName=MCU_VL6_LPn Pin=DD1-24
+Added Pin To Net: NetName=MCU_VL5_INT Pin=DD1-18
+Added Pin To Net: NetName=MCU_VL5_LPn Pin=DD1-19
+Added Pin To Net: NetName=MCU_VL6_INT Pin=DD1-21
+Added Pin To Net: NetName=MCU_VL6_LPn Pin=DD1-22

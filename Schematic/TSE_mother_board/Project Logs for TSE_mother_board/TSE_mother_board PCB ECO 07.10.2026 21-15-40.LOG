@@ -1,0 +1,70 @@
+Removed Pin From Net: NetName=+5В_RPI Pin=A1-2
+Removed Pin From Net: NetName=GND Pin=A1-6
+Removed Pin From Net: NetName=RPI_DSP_CS Pin=A1-8
+Removed Pin From Net: NetName=RPI_DSP_DS Pin=A1-10
+Removed Pin From Net: NetName=RPI_LATCH_SIGNAL Pin=A1-11
+Removed Pin From Net: NetName=RPI_ENC_A Pin=A1-12
+Removed Pin From Net: NetName=RPI_ENC_BTN Pin=A1-15
+Removed Pin From Net: NetName=RPI_BTN Pin=A1-16
+Removed Pin From Net: NetName=RPI_MCU_UART0_RX Pin=A1-18
+Removed Pin From Net: NetName=RPI_LD_PWM Pin=A1-19
+Removed Pin From Net: NetName=RPI_LD_TX Pin=A1-21
+Removed Pin From Net: NetName=RPI_MCU_UART0_TX Pin=A1-22
+Removed Pin From Net: NetName=RPI_BAT_MEASURE Pin=A1-23
+Removed Pin From Net: NetName=RPI_DSP_DIN Pin=A1-32
+Removed Pin From Net: NetName=RPI_DSP_CLK Pin=A1-33
+Removed Pin From Net: NetName=RPI_ENC_B Pin=A1-35
+Removed Pin From Net: NetName=RPI_DSP_RST Pin=A1-36
+Removed Pin From Net: NetName=GND Pin=C5-1
+Removed Pin From Net: NetName=+5В_RPI Pin=C5-2
+Removed Pin From Net: NetName=GND Pin=C6-1
+Removed Pin From Net: NetName=+5В_RPI Pin=C6-2
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=A1
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=C5
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=C6
+Added Component: Designator=A?(PLS_40)
+Add component (AddParameter): Name = "Наименование"; Value = "Raspberry Pi 5"; VariantName = "[No Variations]"
+Added Component: Designator=C?(C1210)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "CC1206KKX7R8BB106"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10мк"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "35В"; VariantName = "[No Variations]"
+Added Component: Designator=C?(C1210)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "CC1206KKX7R8BB106"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10мк"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "35В"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5В_RPI Pin=A?-2
+Added Pin To Net: NetName=+5В_RPI Pin=A?-4
+Added Pin To Net: NetName=GND Pin=A?-6
+Added Pin To Net: NetName=RPI_DSP_CS Pin=A?-8
+Added Pin To Net: NetName=GND Pin=A?-9
+Added Pin To Net: NetName=RPI_DSP_DS Pin=A?-10
+Added Pin To Net: NetName=RPI_LATCH_SIGNAL Pin=A?-11
+Added Pin To Net: NetName=RPI_ENC_A Pin=A?-12
+Added Pin To Net: NetName=GND Pin=A?-14
+Added Pin To Net: NetName=RPI_ENC_BTN Pin=A?-15
+Added Pin To Net: NetName=RPI_BTN Pin=A?-16
+Added Pin To Net: NetName=RPI_MCU_UART0_RX Pin=A?-18
+Added Pin To Net: NetName=RPI_LD_PWM Pin=A?-19
+Added Pin To Net: NetName=GND Pin=A?-20
+Added Pin To Net: NetName=RPI_LD_TX Pin=A?-21
+Added Pin To Net: NetName=RPI_MCU_UART0_TX Pin=A?-22
+Added Pin To Net: NetName=RPI_BAT_MEASURE Pin=A?-23
+Added Pin To Net: NetName=GND Pin=A?-25
+Added Pin To Net: NetName=GND Pin=A?-30
+Added Pin To Net: NetName=RPI_DSP_DIN Pin=A?-32
+Added Pin To Net: NetName=RPI_DSP_CLK Pin=A?-33
+Added Pin To Net: NetName=GND Pin=A?-34
+Added Pin To Net: NetName=RPI_ENC_B Pin=A?-35
+Added Pin To Net: NetName=RPI_DSP_RST Pin=A?-36
+Added Pin To Net: NetName=GND Pin=A?-39
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=+5В_RPI Pin=C?-2
+Added Pin To Net: NetName=+5В_RPI Pin=C?-2
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component A? Raspberry Pi 5
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component C? 10мк
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component C? 10мк

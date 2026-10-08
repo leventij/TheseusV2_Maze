@@ -1,0 +1,47 @@
+Removed Pin From Net: NetName=GND Pin=C5-1
+Removed Pin From Net: NetName=+5ֲ_RPI Pin=C5-2
+Removed Pin From Net: NetName=GND Pin=C6-1
+Removed Pin From Net: NetName=+5ֲ_RPI Pin=C6-2
+Change Component Designator: OldDesignator=C1 NewDesignator=C4
+Change Component Designator: OldDesignator=C2 NewDesignator=C5
+Change Component Designator: OldDesignator=C3 NewDesignator=C6
+Change Component Designator: OldDesignator=C4 NewDesignator=C1
+Change Component Designator: OldDesignator=R1 NewDesignator=R2
+Change Component Designator: OldDesignator=R2 NewDesignator=R3
+Change Component Designator: OldDesignator=R3 NewDesignator=R4
+Change Component Designator: OldDesignator=R4 NewDesignator=R5
+Change Component Designator: OldDesignator=R5 NewDesignator=R1
+Change Component Designator: OldDesignator=X1 NewDesignator=X4
+Change Component Designator: OldDesignator=X2 NewDesignator=X1
+Change Component Designator: OldDesignator=X3 NewDesignator=X2
+Change Component Designator: OldDesignator=X4 NewDesignator=X3
+Added Component: Designator=C2(C1210)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "CC1206KKX7R8BB106"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10לך"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "35ֲ"; VariantName = "[No Variations]"
+Added Component: Designator=C3(C1210)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "CC1206KKX7R8BB106"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10לך"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "35ֲ"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5ֲ_RPI Pin=A1-4
+Added Pin To Net: NetName=GND Pin=A1-9
+Added Pin To Net: NetName=GND Pin=A1-14
+Added Pin To Net: NetName=GND Pin=A1-20
+Added Pin To Net: NetName=GND Pin=A1-25
+Added Pin To Net: NetName=GND Pin=A1-30
+Added Pin To Net: NetName=GND Pin=A1-34
+Added Pin To Net: NetName=GND Pin=A1-39
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=+5ֲ_RPI Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=+5ֲ_RPI Pin=C3-2
+Change Net Name : Old Net Name=NetC1_2 New Net Name=NetC4_2
+Change Net Name : Old Net Name=NetR1_2 New Net Name=NetR2_2
+Change Net Name : Old Net Name=NetR2_2 New Net Name=NetR3_2
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component A1 Raspberry Pi 5
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component C2 10לך
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component C3 10לך

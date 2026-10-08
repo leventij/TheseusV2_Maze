@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=MCU_PERIPH_SCL Pin=DD1-39
+Added Pin To Net: NetName=MCU_PERIPH_SCL Pin=DD1-28
+Added Pin To Net: NetName=MCU_LIGHT_SENSOR_SIGNAL Pin=DD1-29
+Added Pin To Net: NetName=MCU_SWITCH_BR Pin=DD1-30
+Added Pin To Net: NetName=MCU_SWITCH_BL Pin=DD1-31
+Added Pin To Net: NetName=MCU_SWITCH_FR Pin=DD1-32
+Added Pin To Net: NetName=MCU_SWITCH_FL Pin=DD1-33
+Added Pin To Net: NetName=MCU_PERIPH_SDA Pin=DD1-26
+Added Net: Name=MCU_PERIPH_SDA
