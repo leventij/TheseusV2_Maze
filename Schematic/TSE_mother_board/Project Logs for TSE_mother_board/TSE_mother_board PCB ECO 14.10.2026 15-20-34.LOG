@@ -1,0 +1,556 @@
+Removed Pin From Net: NetName=RPI_BAT_MEASURE Pin=A1-23
+Removed Pin From Net: NetName=MCU_IMU_UART1_RX Pin=A2-3
+Removed Pin From Net: NetName=MCU_IMU_UART1_TX Pin=A2-4
+Removed Pin From Net: NetName=MCU_IMU_INT Pin=A2-6
+Removed Pin From Net: NetName=MCU_SWITCH_FL Pin=R8-1
+Removed Pin From Net: NetName=MCU_SWITCH_FR Pin=R8-3
+Removed Pin From Net: NetName=MCU_SWITCH_BL Pin=R8-5
+Removed Pin From Net: NetName=MCU_SWITCH_BR Pin=R8-7
+Removed Pin From Net: NetName=MCU_VL1_INT Pin=R9-1
+Removed Pin From Net: NetName=MCU_VL1_LPn Pin=R9-3
+Removed Pin From Net: NetName=MCU_VL2_INT Pin=R9-5
+Removed Pin From Net: NetName=MCU_VL2_LPn Pin=R9-7
+Removed Pin From Net: NetName=MCU_VL3_INT Pin=R10-1
+Removed Pin From Net: NetName=MCU_VL3_LPn Pin=R10-3
+Removed Pin From Net: NetName=MCU_VL4_INT Pin=R10-5
+Removed Pin From Net: NetName=MCU_VL4_LPn Pin=R10-7
+Removed Pin From Net: NetName=MCU_VL5_INT Pin=R11-1
+Removed Pin From Net: NetName=MCU_VL5_LPn Pin=R11-3
+Removed Pin From Net: NetName=MCU_VL6_INT Pin=R11-5
+Removed Pin From Net: NetName=MCU_VL6_LPn Pin=R11-7
+Removed Pin From Net: NetName=MCU_I2C_PERIPH_SCL Pin=R12-1
+Removed Pin From Net: NetName=MCU_I2C_PERIPH_SDA Pin=R13-1
+Removed Pin From Net: NetName=MCU_LED_STRIP_SIGNAL Pin=R14-1
+Removed Pin From Net: NetName=RPI_LATCH_SIGNAL Pin=X1-1
+Removed Pin From Net: NetName=GND Pin=X1-2
+Removed Pin From Net: NetName=RPI_BAT_MEASURE Pin=X2-13
+Removed Pin From Net: NetName=+5В Pin=X3-1
+Removed Pin From Net: NetName=GND Pin=X3-2
+Removed Pin From Net: NetName=GND Pin=X3-3
+Removed Pin From Net: NetName=RPI_ENC_A Pin=X3-4
+Removed Pin From Net: NetName=RPI_ENC_B Pin=X3-5
+Removed Pin From Net: NetName=RPI_ENC_BTN Pin=X3-6
+Removed Pin From Net: NetName=RPI_BTN Pin=X3-7
+Removed Pin From Net: NetName=RPI_DISP_DIN Pin=X3-8
+Removed Pin From Net: NetName=RPI_DISP_CLK Pin=X3-9
+Removed Pin From Net: NetName=RPI_DISP_CS Pin=X3-10
+Removed Pin From Net: NetName=RPI_DISP_DS Pin=X3-11
+Removed Pin From Net: NetName=RPI_DISP_RST Pin=X3-12
+Removed Pin From Net: NetName=RPI_LD_TX Pin=X3-13
+Removed Pin From Net: NetName=RPI_LD_PWM Pin=X3-14
+Removed Pin From Net: NetName=BTN_PWR+ Pin=X3-15
+Removed Pin From Net: NetName=BTN_PWR- Pin=X3-16
+Removed Pin From Net: NetName=+5В Pin=X7-2
+Removed Pin From Net: NetName=GND Pin=X7-3
+Removed Pin From Net: NetName=GND Pin=X7-4
+Removed Pin From Net: NetName=GND Pin=X7-6
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R8
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R9
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R10
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R11
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R12
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R13
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R14
+Change Footprint: Cannot match pads with new footprint in component :DD1 Footprint:ESP32-S3-WROOM-1
+Change Component Footprint: Designator=R8 Old Footprint=R0603X4 New Footprint=R0603
+Change Component Footprint: Designator=R9 Old Footprint=R0603X4 New Footprint=R0603
+Change Component Footprint: Designator=R10 Old Footprint=R0603X4 New Footprint=R0603
+Change Component Footprint: Designator=R11 Old Footprint=R0603X4 New Footprint=R0603
+Change Component Designator: OldDesignator=R2 NewDesignator=R21
+Change Component Designator: OldDesignator=R3 NewDesignator=R22
+Change Component Designator: OldDesignator=R4 NewDesignator=R25
+Change Component Designator: OldDesignator=R5 NewDesignator=R26
+Change Component Designator: OldDesignator=R6 NewDesignator=R27
+Change Component Designator: OldDesignator=R7 NewDesignator=R28
+Change Component Designator: OldDesignator=X2 NewDesignator=X1
+Change component parameters: Designator = "R8" ("R8"); Footprint = "R0603X4"; UniqueID = "\RSHLCXJY" ("\RSHLCXJY")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R9" ("R9"); Footprint = "R0603X4"; UniqueID = "\OHIHEWTH" ("\OHIHEWTH")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R10" ("R10"); Footprint = "R0603X4"; UniqueID = "\QUUYJSPP" ("\QUUYJSPP")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R11" ("R11"); Footprint = "R0603X4"; UniqueID = "\SUHTXSQF" ("\SUHTXSQF")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X2" ("X1"); Footprint = "IDC1.27_14"; UniqueID = "\WGWFHGBA" ("\WGWFHGBA")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "+3,3В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "+5В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_5"; Value = "BTN_PWR+"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_6"; Value = "+5В_RPI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_7"; Value = "BTN_PWR-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_8"; Value = "+5В_RPI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_9"; Value = "MOTORS_RX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_10"; Value = "+5В_RPI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_11"; Value = "MOTORS_TX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_12"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_13"; Value = "BAT_MEAS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_14"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "IDC_14"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X3" ("X3"); Footprint = "IDC1.27_16"; UniqueID = "\YZWLUACR" ("\YZWLUACR")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "DISP_CLK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "+5В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "DISP_CS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_5"; Value = "DISP_DS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_6"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_7"; Value = "DISP_RST"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_8"; Value = "ENC_A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_9"; Value = "LD_TX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_10"; Value = "ENC_B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_11"; Value = "LD_PWM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_12"; Value = "ENC_BTN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_13"; Value = "BTN_PWR+"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_14"; Value = "RPI_BTN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_15"; Value = "BTN_PWR-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_16"; Value = "DISP_DIN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "IDC_16"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X7" ("X7"); Footprint = "IDC1.27_26"; UniqueID = "\FPOCCDUC" ("\FPOCCDUC")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "+3,3В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "LED_DIN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "+5В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "VL1_INT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_5"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_6"; Value = "VL1_LPn"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_7"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_8"; Value = "VL2_INT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_9"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_10"; Value = "VL2_LPn"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_11"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_12"; Value = "VL3_INT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_13"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_14"; Value = "VL3_LPn"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_15"; Value = "SWITCH_FL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_16"; Value = "VL4_INT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_17"; Value = "SWITCH_FR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_18"; Value = "VL4_LPn"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_19"; Value = "SWITCH_BL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_20"; Value = "VL5_INT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_21"; Value = "SWITCH_FR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_22"; Value = "VL5_LPn"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_23"; Value = "SCL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_24"; Value = "VL6_INT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_25"; Value = "SDA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_26"; Value = "VL6_LPn"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "IDC_26"; VariantName = "[No Variations]"
+Added Component: Designator=1(JUMPER_SOLDERED_3x1)
+Added Component: Designator=2(JUMPER_SOLDERED_3x1)
+Added Component: Designator=C7(C0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "CC0603JPX7R9BB104"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0,1мк"; VariantName = "[No Variations]"
+Added Component: Designator=C8(C0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "CC0603JPX7R9BB104"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0,1мк"; VariantName = "[No Variations]"
+Added Component: Designator=C9(C0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "CC0603JPX7R9BB104"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0,1мк"; VariantName = "[No Variations]"
+Added Component: Designator=C10(C0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "CC0603JPX7R9BB104"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0,1мк"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50В"; VariantName = "[No Variations]"
+Added Component: Designator=R2(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R3(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R4(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R5(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R6(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R7(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R15(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R16(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R17(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R18(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R19(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R20(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R23(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R24(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R29(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R30(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R31(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R32(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R33(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R34(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R35(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R36(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R37(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R38(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R39(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R40(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R41(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R42(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R43(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R44(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R45(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R46(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R47(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R48(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R49(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R50(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Add component: Footprint Not Found JST-S02B-PASK-2
+Add component: Footprint Not Found JST-S04B-PASK-2
+Added Pin To Net: NetName=RPI_MCU_UART0_TX Pin=1-1
+Added Pin To Net: NetName=RPI_MCU_UART0_RX Pin=2-1
+Added Pin To Net: NetName=+5В Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=+3,3В Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=+3,3В Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=GND Pin=C10-1
+Added Pin To Net: NetName=+3,3В Pin=C10-2
+Added Pin To Net: NetName=GND Pin=DD1-27
+Added Pin To Net: NetName=RPI_BAT_MEASURE Pin=DD1-39
+Added Pin To Net: NetName=BTN_PWR+ Pin=R2-1
+Added Pin To Net: NetName=BTN_PWR- Pin=R3-1
+Added Pin To Net: NetName=MCU_MOTORS_UART2_RX Pin=R4-1
+Added Pin To Net: NetName=MCU_MOTORS_UART2_TX Pin=R5-1
+Added Pin To Net: NetName=RPI_LATCH_SIGNAL Pin=R7-1
+Added Pin To Net: NetName=RPI_DISP_CLK Pin=R8-1
+Added Pin To Net: NetName=RPI_DISP_CS Pin=R9-1
+Added Pin To Net: NetName=RPI_DISP_DS Pin=R10-1
+Added Pin To Net: NetName=RPI_DISP_RST Pin=R11-1
+Added Pin To Net: NetName=RPI_ENC_A Pin=R12-1
+Added Pin To Net: NetName=RPI_LD_TX Pin=R13-1
+Added Pin To Net: NetName=RPI_ENC_B Pin=R14-1
+Added Pin To Net: NetName=RPI_LD_PWM Pin=R15-1
+Added Pin To Net: NetName=RPI_ENC_BTN Pin=R16-1
+Added Pin To Net: NetName=BTN_PWR+ Pin=R17-1
+Added Pin To Net: NetName=RPI_BTN Pin=R18-1
+Added Pin To Net: NetName=BTN_PWR- Pin=R19-1
+Added Pin To Net: NetName=RPI_DISP_DIN Pin=R20-1
+Added Pin To Net: NetName=MCU_USB_D- Pin=R23-1
+Added Pin To Net: NetName=MCU_USB_D+ Pin=R24-1
+Added Pin To Net: NetName=GND Pin=R25-1
+Added Pin To Net: NetName=MCU_IMU_INT Pin=R29-1
+Added Pin To Net: NetName=MCU_IMU_UART1_TX Pin=R30-1
+Added Pin To Net: NetName=MCU_IMU_UART1_RX Pin=R31-1
+Added Pin To Net: NetName=MCU_LED_STRIP_SIGNAL Pin=R32-1
+Added Pin To Net: NetName=MCU_VL1_INT Pin=R33-1
+Added Pin To Net: NetName=MCU_VL1_LPn Pin=R34-1
+Added Pin To Net: NetName=MCU_VL2_INT Pin=R35-1
+Added Pin To Net: NetName=MCU_VL2_LPn Pin=R36-1
+Added Pin To Net: NetName=MCU_VL3_INT Pin=R37-1
+Added Pin To Net: NetName=MCU_VL3_LPn Pin=R38-1
+Added Pin To Net: NetName=MCU_VL4_INT Pin=R39-1
+Added Pin To Net: NetName=MCU_VL4_LPn Pin=R40-1
+Added Pin To Net: NetName=MCU_VL5_INT Pin=R41-1
+Added Pin To Net: NetName=MCU_VL5_LPn Pin=R42-1
+Added Pin To Net: NetName=MCU_VL6_INT Pin=R43-1
+Added Pin To Net: NetName=MCU_VL6_LPn Pin=R44-1
+Added Pin To Net: NetName=MCU_SWITCH_FL Pin=R45-1
+Added Pin To Net: NetName=MCU_SWITCH_FR Pin=R46-1
+Added Pin To Net: NetName=MCU_SWITCH_BL Pin=R47-1
+Added Pin To Net: NetName=MCU_SWITCH_BR Pin=R48-1
+Added Pin To Net: NetName=MCU_I2C_PERIPH_SCL Pin=R49-1
+Added Pin To Net: NetName=MCU_I2C_PERIPH_SDA Pin=R50-1
+Added Pin To Net: NetName=GND Pin=S2-2
+Add Pin To Net: Unknown Pin: Pin X1-14
+Add Pin To Net: Unknown Pin: Pin X2-1
+Add Pin To Net: Unknown Pin: Pin X2-2
+Added Pin To Net: NetName=RPI_DISP_CLK Pin=X3-1
+Added Pin To Net: NetName=+5В Pin=X3-2
+Added Pin To Net: NetName=RPI_DISP_CS Pin=X3-3
+Added Pin To Net: NetName=GND Pin=X3-4
+Added Pin To Net: NetName=RPI_DISP_DS Pin=X3-5
+Added Pin To Net: NetName=GND Pin=X3-6
+Added Pin To Net: NetName=RPI_DISP_RST Pin=X3-7
+Added Pin To Net: NetName=RPI_ENC_A Pin=X3-8
+Added Pin To Net: NetName=RPI_LD_TX Pin=X3-9
+Added Pin To Net: NetName=RPI_ENC_B Pin=X3-10
+Added Pin To Net: NetName=RPI_LD_PWM Pin=X3-11
+Added Pin To Net: NetName=RPI_ENC_BTN Pin=X3-12
+Added Pin To Net: NetName=BTN_PWR+ Pin=X3-13
+Added Pin To Net: NetName=RPI_BTN Pin=X3-14
+Added Pin To Net: NetName=BTN_PWR- Pin=X3-15
+Added Pin To Net: NetName=RPI_DISP_DIN Pin=X3-16
+Added Pin To Net: NetName=+5В Pin=X7-3
+Added Pin To Net: NetName=GND Pin=X7-9
+Added Pin To Net: NetName=GND Pin=X7-11
+Added Pin To Net: NetName=GND Pin=X7-13
+Add Pin To Net: Unknown Pin: Pin X8-1
+Add Pin To Net: Unknown Pin: Pin X8-2
+Change Net Name : Old Net Name=NetR2_2 New Net Name=NetR21_2
+Change Net Name : Old Net Name=NetR3_2 New Net Name=NetR22_2
+Change Net Name : Old Net Name=NetR6_1 New Net Name=NetR27_1
+Change Net Name : Old Net Name=NetR7_1 New Net Name=NetR28_1
+Added Pin To Net: NetName=MCU_BAT_MEASURE Pin=R6-1
+Added Pin To Net: NetName=MCU_BAT_MEASURE Pin=X1-13
+Added Net: Name=MCU_BAT_MEASURE
+Added Pin To Net: NetName=NetA2_3 Pin=A2-3
+Added Pin To Net: NetName=NetA2_3 Pin=R31-2
+Added Net: Name=NetA2_3
+Added Pin To Net: NetName=NetA2_4 Pin=A2-4
+Added Pin To Net: NetName=NetA2_4 Pin=R30-2
+Added Net: Name=NetA2_4
+Added Pin To Net: NetName=NetA2_6 Pin=A2-6
+Added Pin To Net: NetName=NetA2_6 Pin=R29-2
+Added Net: Name=NetA2_6
+Added Pin To Net: NetName=NetR32_2 Pin=R32-2
+Added Pin To Net: NetName=NetR32_2 Pin=X7-2
+Added Net: Name=NetR32_2
+Added Pin To Net: NetName=NetR33_2 Pin=R33-2
+Added Pin To Net: NetName=NetR33_2 Pin=X7-4
+Added Net: Name=NetR33_2
+Added Pin To Net: NetName=NetR34_2 Pin=R34-2
+Added Pin To Net: NetName=NetR34_2 Pin=X7-6
+Added Net: Name=NetR34_2
+Added Pin To Net: NetName=NetR35_2 Pin=R35-2
+Added Pin To Net: NetName=NetR35_2 Pin=X7-8
+Added Net: Name=NetR35_2
+Added Pin To Net: NetName=NetR36_2 Pin=R36-2
+Added Pin To Net: NetName=NetR36_2 Pin=X7-10
+Added Net: Name=NetR36_2
+Added Pin To Net: NetName=NetR37_2 Pin=R37-2
+Added Pin To Net: NetName=NetR37_2 Pin=X7-12
+Added Net: Name=NetR37_2
+Added Pin To Net: NetName=NetR38_2 Pin=R38-2
+Added Pin To Net: NetName=NetR38_2 Pin=X7-14
+Added Net: Name=NetR38_2
+Added Pin To Net: NetName=NetR39_2 Pin=R39-2
+Added Pin To Net: NetName=NetR39_2 Pin=X7-16
+Added Net: Name=NetR39_2
+Added Pin To Net: NetName=NetR40_2 Pin=R40-2
+Added Pin To Net: NetName=NetR40_2 Pin=X7-18
+Added Net: Name=NetR40_2
+Added Pin To Net: NetName=NetR41_2 Pin=R41-2
+Added Pin To Net: NetName=NetR41_2 Pin=X7-20
+Added Net: Name=NetR41_2
+Added Pin To Net: NetName=NetR42_2 Pin=R42-2
+Added Pin To Net: NetName=NetR42_2 Pin=X7-22
+Added Net: Name=NetR42_2
+Added Pin To Net: NetName=NetR43_2 Pin=R43-2
+Added Pin To Net: NetName=NetR43_2 Pin=X7-24
+Added Net: Name=NetR43_2
+Added Pin To Net: NetName=NetR44_2 Pin=R44-2
+Added Pin To Net: NetName=NetR44_2 Pin=X7-26
+Added Net: Name=NetR44_2
+Added Pin To Net: NetName=NetR45_2 Pin=R45-2
+Added Pin To Net: NetName=NetR45_2 Pin=X7-15
+Added Net: Name=NetR45_2
+Added Pin To Net: NetName=NetR46_2 Pin=R46-2
+Added Pin To Net: NetName=NetR46_2 Pin=X7-17
+Added Net: Name=NetR46_2
+Added Pin To Net: NetName=NetR47_2 Pin=R47-2
+Added Pin To Net: NetName=NetR47_2 Pin=X7-19
+Added Net: Name=NetR47_2
+Added Pin To Net: NetName=NetR48_2 Pin=R48-2
+Added Pin To Net: NetName=NetR48_2 Pin=X7-21
+Added Net: Name=NetR48_2
+Added Pin To Net: NetName=NetR49_2 Pin=R49-2
+Added Pin To Net: NetName=NetR49_2 Pin=X7-23
+Added Net: Name=NetR49_2
+Added Pin To Net: NetName=NetR50_2 Pin=R50-2
+Added Pin To Net: NetName=NetR50_2 Pin=X7-25
+Added Net: Name=NetR50_2
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component 1 JUMPER_SOLDERED
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component 2 JUMPER_SOLDERED
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component C7 0,1мк
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component C8 0,1мк
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component C9 0,1мк
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component C10 0,1мк
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R2 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R3 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R4 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R5 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R6 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R7 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R8 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R9 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R10 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R11 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R12 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R13 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R14 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R15 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R16 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R17 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R18 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R19 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R20 100
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R23 100
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R24 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R29 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R30 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R31 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R32 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R33 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R34 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R35 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R36 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R37 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R38 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R39 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R40 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R41 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R42 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R43 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R44 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R45 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R46 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R47 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R48 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R49 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R50 100
+Add Class Member: Failed to add class member : Component X8 JST-S04B-PASK-2

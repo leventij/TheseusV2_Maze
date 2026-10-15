@@ -1,0 +1,35 @@
+Change Footprint: Cannot match pads with new footprint in component :X2 Footprint:IDC1.27_14
+Add component: Footprint Not Found IDC1.27_26
+Add component: Footprint Not Found JST-S04B-PASK-2
+Add Pin To Net: Unknown Pin: Pin X7-1
+Add Pin To Net: Unknown Pin: Pin X7-2
+Add Pin To Net: Unknown Pin: Pin X7-3
+Add Pin To Net: Unknown Pin: Pin X7-4
+Add Pin To Net: Unknown Pin: Pin X7-5
+Add Pin To Net: Unknown Pin: Pin X7-6
+Add Pin To Net: Unknown Pin: Pin X7-7
+Add Pin To Net: Unknown Pin: Pin X7-8
+Add Pin To Net: Unknown Pin: Pin X7-9
+Add Pin To Net: Unknown Pin: Pin X7-10
+Add Pin To Net: Unknown Pin: Pin X7-11
+Add Pin To Net: Unknown Pin: Pin X7-12
+Add Pin To Net: Unknown Pin: Pin X7-13
+Add Pin To Net: Unknown Pin: Pin X7-14
+Add Pin To Net: Unknown Pin: Pin X7-15
+Add Pin To Net: Unknown Pin: Pin X7-16
+Add Pin To Net: Unknown Pin: Pin X7-17
+Add Pin To Net: Unknown Pin: Pin X7-18
+Add Pin To Net: Unknown Pin: Pin X7-19
+Add Pin To Net: Unknown Pin: Pin X7-20
+Add Pin To Net: Unknown Pin: Pin X7-21
+Add Pin To Net: Unknown Pin: Pin X7-22
+Add Pin To Net: Unknown Pin: Pin X7-23
+Add Pin To Net: Unknown Pin: Pin X7-24
+Add Pin To Net: Unknown Pin: Pin X7-25
+Add Pin To Net: Unknown Pin: Pin X7-26
+Add Pin To Net: Unknown Pin: Pin X8-1
+Add Pin To Net: Unknown Pin: Pin X8-2
+Add Pin To Net: Unknown Pin: Pin X8-3
+Add Pin To Net: Unknown Pin: Pin X8-4
+Add Class Member: Failed to add class member : Component X7 IDC_26
+Add Class Member: Failed to add class member : Component X8 JST-S04B-PASK-2

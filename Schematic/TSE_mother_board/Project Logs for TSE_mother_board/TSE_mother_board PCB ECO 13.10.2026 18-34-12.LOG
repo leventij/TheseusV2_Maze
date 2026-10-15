@@ -1,0 +1,8 @@
+Change Footprint: Cannot match pads with new footprint in component :DD1 Footprint:ESP32-S3-WROOM-1
+Add component: Footprint Not Found JST-S04B-PASK-2
+Add Pin To Net: Unknown Pin: Pin X2-14
+Add Pin To Net: Unknown Pin: Pin X8-1
+Add Pin To Net: Unknown Pin: Pin X8-2
+Add Pin To Net: Unknown Pin: Pin X8-3
+Add Pin To Net: Unknown Pin: Pin X8-4
+Add Class Member: Failed to add class member : Component X8 JST-S04B-PASK-2

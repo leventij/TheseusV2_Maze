@@ -50,13 +50,13 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=TSE_mother_board.PcbDoc
+DocumentPath=TSE_mother_board_MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -64,7 +64,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=BOCVWEGL
+DocumentUniqueId=KNDHWDOG
 
 [Document2]
 DocumentPath=TSE_mother_board_CPU_commutation.SchDoc
@@ -84,23 +84,6 @@ GenerateClassCluster=0
 DocumentUniqueId=LWEPJBQM
 
 [Document3]
-DocumentPath=TSE_mother_board_MCU.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=KNDHWDOG
-
-[Document4]
 DocumentPath=TSE_mother_board_periph_commutation.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -116,6 +99,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EDVDRZJP
+
+[Document4]
+DocumentPath=TSE_mother_board.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BOCVWEGL
 
 [Configuration1]
 Name=Sources

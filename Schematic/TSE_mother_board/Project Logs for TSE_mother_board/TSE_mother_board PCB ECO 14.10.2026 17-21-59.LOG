@@ -1,0 +1,372 @@
+Removed Pin From Net: NetName=RPI_LATCH_SIGNAL Pin=A1-19
+Removed Pin From Net: NetName=+3,3В Pin=A2-1
+Removed Pin From Net: NetName=GND Pin=A2-2
+Removed Pin From Net: NetName=GND Pin=C10-1
+Removed Pin From Net: NetName=+3,3В Pin=C10-2
+Removed Pin From Net: NetName=BTN_PWR+ Pin=R2-1
+Removed Pin From Net: NetName=BTN_PWR- Pin=R3-1
+Removed Pin From Net: NetName=MCU_MOTORS_UART2_RX Pin=R4-1
+Removed Pin From Net: NetName=MCU_MOTORS_UART2_TX Pin=R5-1
+Removed Pin From Net: NetName=RPI_DISP_CLK Pin=R8-1
+Removed Pin From Net: NetName=RPI_DISP_CS Pin=R9-1
+Removed Pin From Net: NetName=RPI_DISP_DS Pin=R10-1
+Removed Pin From Net: NetName=RPI_DISP_RST Pin=R11-1
+Removed Pin From Net: NetName=RPI_ENC_A Pin=R12-1
+Removed Pin From Net: NetName=RPI_LD_TX Pin=R13-1
+Removed Pin From Net: NetName=RPI_ENC_B Pin=R14-1
+Removed Pin From Net: NetName=RPI_LD_PWM Pin=R15-1
+Removed Pin From Net: NetName=RPI_ENC_BTN Pin=R16-1
+Removed Pin From Net: NetName=BTN_PWR+ Pin=R17-1
+Removed Pin From Net: NetName=RPI_BTN Pin=R18-1
+Removed Pin From Net: NetName=BTN_PWR- Pin=R19-1
+Removed Pin From Net: NetName=RPI_DISP_DIN Pin=R20-1
+Removed Pin From Net: NetName=MCU_IMU_INT Pin=R29-1
+Removed Pin From Net: NetName=MCU_IMU_UART1_TX Pin=R30-1
+Removed Pin From Net: NetName=MCU_IMU_UART1_RX Pin=R31-1
+Removed Pin From Net: NetName=MCU_LED_STRIP_SIGNAL Pin=R32-1
+Removed Pin From Net: NetName=MCU_VL1_INT Pin=R33-1
+Removed Pin From Net: NetName=MCU_VL1_LPn Pin=R34-1
+Removed Pin From Net: NetName=MCU_VL2_INT Pin=R35-1
+Removed Pin From Net: NetName=MCU_VL2_LPn Pin=R36-1
+Removed Pin From Net: NetName=MCU_VL3_INT Pin=R37-1
+Removed Pin From Net: NetName=MCU_VL3_LPn Pin=R38-1
+Removed Pin From Net: NetName=MCU_VL4_INT Pin=R39-1
+Removed Pin From Net: NetName=MCU_VL4_LPn Pin=R40-1
+Removed Pin From Net: NetName=MCU_VL5_INT Pin=R41-1
+Removed Pin From Net: NetName=MCU_VL5_LPn Pin=R42-1
+Removed Pin From Net: NetName=MCU_VL6_INT Pin=R43-1
+Removed Pin From Net: NetName=MCU_VL6_LPn Pin=R44-1
+Removed Pin From Net: NetName=MCU_SWITCH_FL Pin=R45-1
+Removed Pin From Net: NetName=MCU_SWITCH_FR Pin=R46-1
+Removed Pin From Net: NetName=MCU_SWITCH_BL Pin=R47-1
+Removed Pin From Net: NetName=MCU_SWITCH_BR Pin=R48-1
+Removed Pin From Net: NetName=MCU_I2C_PERIPH_SCL Pin=R49-1
+Removed Pin From Net: NetName=MCU_I2C_PERIPH_SDA Pin=R50-1
+Removed Pin From Net: NetName=BTN_PWR+ Pin=X1-5
+Removed Pin From Net: NetName=BTN_PWR- Pin=X1-7
+Removed Pin From Net: NetName=BTN_PWR- Pin=X1-7
+Removed Pin From Net: NetName=MCU_MOTORS_UART2_RX Pin=X1-9
+Removed Pin From Net: NetName=MCU_MOTORS_UART2_TX Pin=X1-11
+Removed Pin From Net: NetName=RPI_DISP_CLK Pin=X3-1
+Removed Pin From Net: NetName=RPI_DISP_CS Pin=X3-3
+Removed Pin From Net: NetName=RPI_DISP_DS Pin=X3-5
+Removed Pin From Net: NetName=RPI_DISP_RST Pin=X3-7
+Removed Pin From Net: NetName=RPI_ENC_A Pin=X3-8
+Removed Pin From Net: NetName=RPI_LD_TX Pin=X3-9
+Removed Pin From Net: NetName=RPI_ENC_B Pin=X3-10
+Removed Pin From Net: NetName=RPI_LD_PWM Pin=X3-11
+Removed Pin From Net: NetName=RPI_ENC_BTN Pin=X3-12
+Removed Pin From Net: NetName=BTN_PWR+ Pin=X3-13
+Removed Pin From Net: NetName=RPI_BTN Pin=X3-14
+Removed Pin From Net: NetName=BTN_PWR- Pin=X3-15
+Removed Pin From Net: NetName=RPI_DISP_DIN Pin=X3-16
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=A2
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=C10
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R8
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R9
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R10
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R11
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R12
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R13
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R14
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R15
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R16
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R17
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R18
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R19
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R20
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R21
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R22
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R25
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R26
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R27
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R28
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R29
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R30
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R31
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R32
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R33
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R34
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R35
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R36
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R37
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R38
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R39
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R40
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R41
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R42
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R43
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R44
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R45
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R46
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R47
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R48
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R49
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R50
+Change Footprint: Cannot match pads with new footprint in component :DD1 Footprint:ESP32-S3-WROOM-1
+Add component: Footprint Not Found BNO055
+Added Component: Designator=C?(C0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "CC0603JPX7R9BB104"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0,1мк"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50В"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603x4)
+Add component (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603x4)
+Add component (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603x4)
+Add component (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603x4)
+Add component (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Add component: Footprint Not Found JST-S02B-PASK-2
+Add component: Footprint Not Found JST-S04B-PASK-2
+Add Pin To Net: Unknown Pin: Pin A?-1
+Add Pin To Net: Unknown Pin: Pin A?-2
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=+3,3В Pin=C?-2
+Added Pin To Net: NetName=BTN_PWR+ Pin=R2-2
+Added Pin To Net: NetName=BTN_PWR- Pin=R3-2
+Added Pin To Net: NetName=MCU_MOTORS_UART2_RX Pin=R4-2
+Added Pin To Net: NetName=MCU_MOTORS_UART2_TX Pin=R5-2
+Added Pin To Net: NetName=MCU_I2C_PERIPH_SCL Pin=R?-1
+Added Pin To Net: NetName=MCU_I2C_PERIPH_SDA Pin=R?-1
+Added Pin To Net: NetName=MCU_IMU_INT Pin=R?-1
+Added Pin To Net: NetName=MCU_IMU_UART1_RX Pin=R?-1
+Added Pin To Net: NetName=MCU_IMU_UART1_TX Pin=R?-1
+Added Pin To Net: NetName=MCU_LED_STRIP_SIGNAL Pin=R?-1
+Added Pin To Net: NetName=MCU_SWITCH_FL Pin=R?-1
+Added Pin To Net: NetName=MCU_VL1_INT Pin=R?-1
+Added Pin To Net: NetName=MCU_VL3_INT Pin=R?-1
+Added Pin To Net: NetName=MCU_VL5_INT Pin=R?-1
+Added Pin To Net: NetName=BTN_PWR- Pin=R?-2
+Added Pin To Net: NetName=BTN_PWR+ Pin=R?-2
+Added Pin To Net: NetName=RPI_BTN Pin=R?-2
+Added Pin To Net: NetName=RPI_DISP_CLK Pin=R?-2
+Added Pin To Net: NetName=RPI_DISP_CS Pin=R?-2
+Added Pin To Net: NetName=RPI_DISP_DIN Pin=R?-2
+Added Pin To Net: NetName=RPI_DISP_DS Pin=R?-2
+Added Pin To Net: NetName=RPI_DISP_RST Pin=R?-2
+Added Pin To Net: NetName=RPI_ENC_A Pin=R?-2
+Added Pin To Net: NetName=RPI_ENC_B Pin=R?-2
+Added Pin To Net: NetName=RPI_ENC_BTN Pin=R?-2
+Added Pin To Net: NetName=RPI_LD_PWM Pin=R?-2
+Added Pin To Net: NetName=RPI_LD_TX Pin=R?-2
+Added Pin To Net: NetName=MCU_SWITCH_FR Pin=R?-3
+Added Pin To Net: NetName=MCU_VL1_LPn Pin=R?-3
+Added Pin To Net: NetName=MCU_VL3_LPn Pin=R?-3
+Added Pin To Net: NetName=MCU_VL5_LPn Pin=R?-3
+Added Pin To Net: NetName=MCU_SWITCH_BL Pin=R?-5
+Added Pin To Net: NetName=MCU_VL2_INT Pin=R?-5
+Added Pin To Net: NetName=MCU_VL4_INT Pin=R?-5
+Added Pin To Net: NetName=MCU_VL6_INT Pin=R?-5
+Added Pin To Net: NetName=MCU_SWITCH_BR Pin=R?-7
+Added Pin To Net: NetName=MCU_VL2_LPn Pin=R?-7
+Added Pin To Net: NetName=MCU_VL4_LPn Pin=R?-7
+Added Pin To Net: NetName=MCU_VL6_LPn Pin=R?-7
+Add Pin To Net: Unknown Pin: Pin X1-14
+Add Pin To Net: Unknown Pin: Pin X2-1
+Add Pin To Net: Unknown Pin: Pin X2-2
+Add Pin To Net: Unknown Pin: Pin X8-1
+Add Pin To Net: Unknown Pin: Pin X8-2
+Change Net Name : Old Net Name=MCU_BAT_MEASURE New Net Name=NetR6_1
+Change Net Name : Old Net Name=RPI_LATCH_SIGNAL New Net Name=NetC1_2
+Added Pin To Net: NetName=MCU_BAT_MEASURE Pin=R6-2
+Added Net: Name=MCU_BAT_MEASURE
+Added Pin To Net: NetName=NetA?_3 Pin=R?-2
+Added Net: Name=NetA?_3
+Added Pin To Net: NetName=NetA?_4 Pin=R?-2
+Added Net: Name=NetA?_4
+Added Pin To Net: NetName=NetA?_6 Pin=R?-2
+Added Net: Name=NetA?_6
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=X1-5
+Added Net: Name=NetR2_1
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=NetR3_1 Pin=X1-7
+Added Pin To Net: NetName=NetR3_1 Pin=X1-7
+Added Net: Name=NetR3_1
+Added Pin To Net: NetName=NetR4_1 Pin=R4-1
+Added Pin To Net: NetName=NetR4_1 Pin=X1-9
+Added Net: Name=NetR4_1
+Added Pin To Net: NetName=NetR5_1 Pin=R5-1
+Added Pin To Net: NetName=NetR5_1 Pin=X1-11
+Added Net: Name=NetR5_1
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=X3-10
+Added Net: Name=NetR?_1
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Added Pin To Net: NetName=NetR?_2 Pin=R?-2
+Added Pin To Net: NetName=NetR?_2 Pin=X7-25
+Added Net: Name=NetR?_2
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Added Pin To Net: NetName=NetR?_4 Pin=R?-4
+Added Pin To Net: NetName=NetR?_4 Pin=X7-14
+Added Net: Name=NetR?_4
+Add Net: Net with name "NetR?_4" already exists
+Add Net: Net with name "NetR?_4" already exists
+Add Net: Net with name "NetR?_4" already exists
+Added Pin To Net: NetName=NetR?_6 Pin=R?-6
+Added Pin To Net: NetName=NetR?_6 Pin=X7-16
+Added Net: Name=NetR?_6
+Add Net: Net with name "NetR?_6" already exists
+Add Net: Net with name "NetR?_6" already exists
+Add Net: Net with name "NetR?_6" already exists
+Added Pin To Net: NetName=NetR?_8 Pin=R?-8
+Added Pin To Net: NetName=NetR?_8 Pin=X7-21
+Added Net: Name=NetR?_8
+Add Net: Net with name "NetR?_8" already exists
+Add Net: Net with name "NetR?_8" already exists
+Add Net: Net with name "NetR?_8" already exists
+Added Pin To Net: NetName=RPI_LATCH_SIGNAL Pin=A1-19
+Added Pin To Net: NetName=RPI_LATCH_SIGNAL Pin=R7-2
+Added Net: Name=RPI_LATCH_SIGNAL
+Add Class Member: Failed to add class member : Component A? BNO055
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component C? 0,1мк
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R2 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R3 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R4 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R5 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R6 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R7 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component X1 IDC_14
+Add Class Member: Failed to add class member : Component X2 JST-S02B-PASK-2
+Add Class Member: Failed to add class member : Component X8 JST-S04B-PASK-2

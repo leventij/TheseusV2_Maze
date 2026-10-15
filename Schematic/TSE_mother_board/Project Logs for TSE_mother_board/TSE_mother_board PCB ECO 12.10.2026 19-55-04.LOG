@@ -1,0 +1,47 @@
+Removed Pin From Net: NetName=GND Pin=C6-1
+Removed Pin From Net: NetName=+3,3ֲ Pin=C6-2
+Removed Pin From Net: NetName=GND Pin=DD1-27
+Removed Pin From Net: NetName=GND Pin=R4-1
+Removed Pin From Net: NetName=GND Pin=S2-2
+Change Component Comment : Designator=C6 Old Comment=0,1לך New Comment=10לך
+Change component parameters: Designator = "C6" ("C6"); Footprint = "C0603"; UniqueID = "\DMBKGLXL" ("\DMBKGLXL")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "CC0603MRX5R8BB106"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10לך"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "25ֲ"; VariantName = "[No Variations]"
+Added Component: Designator=TP3(TP_0,6X1)
+Add component (AddParameter): Name = "Name"; Value = "TESTPOINT"; VariantName = "[No Variations]"
+Added Component: Designator=TP4(TP_0,6X1)
+Add component (AddParameter): Name = "Name"; Value = "TESTPOINT"; VariantName = "[No Variations]"
+Added Component: Designator=TP5(TP_0,6X1)
+Add component (AddParameter): Name = "Name"; Value = "TESTPOINT"; VariantName = "[No Variations]"
+Added Component: Designator=TP6(TP_0,6X1)
+Add component (AddParameter): Name = "Name"; Value = "TESTPOINT"; VariantName = "[No Variations]"
+Added Component: Designator=TP7(TP_0,6X1)
+Add component (AddParameter): Name = "Name"; Value = "TESTPOINT"; VariantName = "[No Variations]"
+Added Component: Designator=TP8(TP_0,6X1)
+Add component (AddParameter): Name = "Name"; Value = "TESTPOINT"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3,3ֲ Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=GND Pin=DD1-13
+Added Pin To Net: NetName=MCU_IMU_UART1_TX Pin=TP3-1
+Added Pin To Net: NetName=MCU_IMU_UART1_RX Pin=TP4-1
+Added Pin To Net: NetName=MCU_I2C_PERIPH_SDA Pin=TP5-1
+Added Pin To Net: NetName=MCU_I2C_PERIPH_SCL Pin=TP6-1
+Added Pin To Net: NetName=MCU_MOTORS_UART2_TX Pin=TP7-1
+Added Pin To Net: NetName=MCU_MOTORS_UART2_RX Pin=TP8-1
+Added Pin To Net: NetName=GND Pin=X4-3
+Added Pin To Net: NetName=GND Pin=X4-5
+Change Net Name : Old Net Name=GND New Net Name=MCU_USB_D-
+Added Pin To Net: NetName=NetDD1_27 Pin=DD1-27
+Added Pin To Net: NetName=NetDD1_27 Pin=R4-1
+Added Pin To Net: NetName=NetDD1_27 Pin=S2-2
+Added Net: Name=NetDD1_27
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP3 TESTPOINT
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP4 TESTPOINT
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP5 TESTPOINT
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP6 TESTPOINT
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP7 TESTPOINT
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP8 TESTPOINT
+Added Rule: Name=Schematic Supply Nets_4

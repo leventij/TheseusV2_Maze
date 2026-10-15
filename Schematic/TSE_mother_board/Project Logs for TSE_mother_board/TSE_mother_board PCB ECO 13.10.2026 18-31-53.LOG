@@ -1,0 +1,63 @@
+Change Footprint: Cannot match pads with new footprint in component :DD1 Footprint:ESP32-S3-WROOM-1
+Added Component: Designator=X7(IDC1.27_26)
+Add component (AddParameter): Name = "Contact_1"; Value = "+3,3В"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_2"; Value = "+5В"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_3"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_4"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_5"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_6"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_7"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_8"; Value = "SWITCH_FL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_9"; Value = "SWITCH_FR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_10"; Value = "SWITCH_BL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_11"; Value = "SWITCH_BR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_12"; Value = "SCL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_13"; Value = "SDA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_14"; Value = "LED_DIN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_15"; Value = "VL1_INT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_16"; Value = "VL1_LPn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_17"; Value = "VL2_INT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_18"; Value = "VL2_LPn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_19"; Value = "VL3_INT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_20"; Value = "VL3_LPn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_21"; Value = "VL4_INT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_22"; Value = "VL4_LPn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_23"; Value = "VL5_INT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_24"; Value = "VL5_LPn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_25"; Value = "VL6_INT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_26"; Value = "VL6_LPn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Наименование"; Value = "IDC_26"; VariantName = "[No Variations]"
+Add component: Footprint Not Found JST-S04B-PASK-2
+Add Pin To Net: Unknown Pin: Pin X2-14
+Added Pin To Net: NetName=+3,3В Pin=X7-1
+Added Pin To Net: NetName=+5В Pin=X7-2
+Added Pin To Net: NetName=GND Pin=X7-3
+Added Pin To Net: NetName=GND Pin=X7-4
+Added Pin To Net: NetName=GND Pin=X7-5
+Added Pin To Net: NetName=GND Pin=X7-6
+Added Pin To Net: NetName=GND Pin=X7-7
+Added Pin To Net: NetName=NetR8_2 Pin=X7-8
+Added Pin To Net: NetName=NetR8_4 Pin=X7-9
+Added Pin To Net: NetName=NetR8_6 Pin=X7-10
+Added Pin To Net: NetName=NetR8_8 Pin=X7-11
+Added Pin To Net: NetName=NetR12_2 Pin=X7-12
+Added Pin To Net: NetName=NetR13_2 Pin=X7-13
+Added Pin To Net: NetName=NetR14_2 Pin=X7-14
+Added Pin To Net: NetName=NetR9_2 Pin=X7-15
+Added Pin To Net: NetName=NetR9_4 Pin=X7-16
+Added Pin To Net: NetName=NetR9_6 Pin=X7-17
+Added Pin To Net: NetName=NetR9_8 Pin=X7-18
+Added Pin To Net: NetName=NetR10_2 Pin=X7-19
+Added Pin To Net: NetName=NetR10_4 Pin=X7-20
+Added Pin To Net: NetName=NetR10_6 Pin=X7-21
+Added Pin To Net: NetName=NetR10_8 Pin=X7-22
+Added Pin To Net: NetName=NetR11_2 Pin=X7-23
+Added Pin To Net: NetName=NetR11_4 Pin=X7-24
+Added Pin To Net: NetName=NetR11_6 Pin=X7-25
+Added Pin To Net: NetName=NetR11_8 Pin=X7-26
+Add Pin To Net: Unknown Pin: Pin X8-1
+Add Pin To Net: Unknown Pin: Pin X8-2
+Add Pin To Net: Unknown Pin: Pin X8-3
+Add Pin To Net: Unknown Pin: Pin X8-4
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component X7 IDC_26
+Add Class Member: Failed to add class member : Component X8 JST-S04B-PASK-2

@@ -1,0 +1,178 @@
+Removed Pin From Net: NetName=MCU_USB_D- Pin=DD1-13
+Removed Pin From Net: NetName=+3,3В Pin=X2-1
+Removed Pin From Net: NetName=+5В Pin=X2-2
+Removed Pin From Net: NetName=+5В_RPI Pin=X2-3
+Removed Pin From Net: NetName=+5В_RPI Pin=X2-4
+Removed Pin From Net: NetName=+5В_RPI Pin=X2-5
+Removed Pin From Net: NetName=MCU_USB_D- Pin=X2-6
+Removed Pin From Net: NetName=MCU_USB_D- Pin=X2-7
+Removed Pin From Net: NetName=MCU_USB_D- Pin=X2-8
+Removed Pin From Net: NetName=MCU_USB_D- Pin=X2-9
+Removed Pin From Net: NetName=BTN_PWR+ Pin=X2-10
+Removed Pin From Net: NetName=BTN_PWR- Pin=X2-11
+Removed Pin From Net: NetName=MCU_MOTORS_UART2_RX Pin=X2-12
+Removed Pin From Net: NetName=MCU_MOTORS_UART2_TX Pin=X2-13
+Removed Pin From Net: NetName=RPI_BAT_MEASURE Pin=X2-14
+Removed Pin From Net: NetName=MCU_USB_D- Pin=X4-3
+Removed Pin From Net: NetName=MCU_USB_D- Pin=X4-5
+Removed Pin From Net: NetName=MCU_LIGHT_SENSOR_SIGNAL Pin=X5-3
+Removed Pin From Net: NetName=MCU_SERVO_SIGNAL Pin=X6-3
+Removed Pin From Net: NetName=+3,3В Pin=X7-1
+Removed Pin From Net: NetName=+5В Pin=X7-2
+Removed Pin From Net: NetName=MCU_USB_D- Pin=X7-3
+Removed Pin From Net: NetName=MCU_USB_D- Pin=X7-4
+Removed Pin From Net: NetName=MCU_USB_D- Pin=X7-5
+Removed Pin From Net: NetName=MCU_USB_D- Pin=X7-6
+Removed Pin From Net: NetName=MCU_USB_D- Pin=X7-7
+Removed Pin From Net: NetName=MCU_SWITCH_FL Pin=X7-8
+Removed Pin From Net: NetName=MCU_SWITCH_FR Pin=X7-9
+Removed Pin From Net: NetName=MCU_SWITCH_BL Pin=X7-10
+Removed Pin From Net: NetName=MCU_SWITCH_BR Pin=X7-11
+Removed Pin From Net: NetName=MCU_I2C_PERIPH_SCL Pin=X7-12
+Removed Pin From Net: NetName=MCU_I2C_PERIPH_SDA Pin=X7-13
+Removed Pin From Net: NetName=MCU_LED_STRIP_SIGNAL Pin=X7-14
+Removed Pin From Net: NetName=MCU_VL1_INT Pin=X7-15
+Removed Pin From Net: NetName=MCU_VL1_LPn Pin=X7-16
+Removed Pin From Net: NetName=MCU_VL2_INT Pin=X7-17
+Removed Pin From Net: NetName=MCU_VL2_LPn Pin=X7-18
+Removed Pin From Net: NetName=MCU_VL3_INT Pin=X7-19
+Removed Pin From Net: NetName=MCU_VL3_LPn Pin=X7-20
+Removed Pin From Net: NetName=MCU_VL4_INT Pin=X7-21
+Removed Pin From Net: NetName=MCU_VL4_LPn Pin=X7-22
+Removed Pin From Net: NetName=MCU_VL5_INT Pin=X7-23
+Removed Pin From Net: NetName=MCU_VL5_LPn Pin=X7-24
+Removed Pin From Net: NetName=MCU_VL6_INT Pin=X7-25
+Removed Pin From Net: NetName=MCU_VL6_LPn Pin=X7-26
+Removed Pin From Net: NetName=+3,3В Pin=X8-1
+Removed Pin From Net: NetName=MCU_USB_D- Pin=X8-2
+Removed Pin From Net: NetName=MCU_I2C_PERIPH_SDA Pin=X8-3
+Removed Pin From Net: NetName=MCU_I2C_PERIPH_SCL Pin=X8-4
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=X7
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=X8
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603x4)
+Add component (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603x4)
+Add component (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603x4)
+Add component (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603x4)
+Add component (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "100"; VariantName = "[No Variations]"
+Add component: Footprint Not Found IDC1.27_26
+Add component: Footprint Not Found JST-S04B-PASK-2
+Added Pin To Net: NetName=MCU_I2C_PERIPH_SCL Pin=R?-1
+Added Pin To Net: NetName=MCU_I2C_PERIPH_SDA Pin=R?-1
+Added Pin To Net: NetName=MCU_LED_STRIP_SIGNAL Pin=R?-1
+Added Pin To Net: NetName=MCU_SWITCH_FL Pin=R?-1
+Added Pin To Net: NetName=MCU_VL1_INT Pin=R?-1
+Added Pin To Net: NetName=MCU_VL3_INT Pin=R?-1
+Added Pin To Net: NetName=MCU_VL5_INT Pin=R?-1
+Added Pin To Net: NetName=MCU_LIGHT_SENSOR_SIGNAL Pin=R?-2
+Added Pin To Net: NetName=MCU_SERVO_SIGNAL Pin=R?-2
+Added Pin To Net: NetName=MCU_SWITCH_FR Pin=R?-3
+Added Pin To Net: NetName=MCU_VL1_LPn Pin=R?-3
+Added Pin To Net: NetName=MCU_VL3_LPn Pin=R?-3
+Added Pin To Net: NetName=MCU_VL5_LPn Pin=R?-3
+Added Pin To Net: NetName=MCU_SWITCH_BL Pin=R?-5
+Added Pin To Net: NetName=MCU_VL2_INT Pin=R?-5
+Added Pin To Net: NetName=MCU_VL4_INT Pin=R?-5
+Added Pin To Net: NetName=MCU_VL6_INT Pin=R?-5
+Added Pin To Net: NetName=MCU_SWITCH_BR Pin=R?-7
+Added Pin To Net: NetName=MCU_VL2_LPn Pin=R?-7
+Added Pin To Net: NetName=MCU_VL4_LPn Pin=R?-7
+Added Pin To Net: NetName=MCU_VL6_LPn Pin=R?-7
+Added Pin To Net: NetName=MCU_USB_D- Pin=X2-1
+Added Pin To Net: NetName=+3,3В Pin=X2-2
+Added Pin To Net: NetName=MCU_USB_D- Pin=X2-3
+Added Pin To Net: NetName=+5В Pin=X2-4
+Added Pin To Net: NetName=BTN_PWR+ Pin=X2-5
+Added Pin To Net: NetName=+5В_RPI Pin=X2-6
+Added Pin To Net: NetName=BTN_PWR- Pin=X2-7
+Added Pin To Net: NetName=+5В_RPI Pin=X2-8
+Added Pin To Net: NetName=MCU_MOTORS_UART2_RX Pin=X2-9
+Added Pin To Net: NetName=+5В_RPI Pin=X2-10
+Added Pin To Net: NetName=MCU_MOTORS_UART2_TX Pin=X2-11
+Added Pin To Net: NetName=MCU_USB_D- Pin=X2-12
+Added Pin To Net: NetName=RPI_BAT_MEASURE Pin=X2-13
+Added Pin To Net: NetName=MCU_USB_D- Pin=X2-14
+Add Pin To Net: Unknown Pin: Pin X?-1
+Add Pin To Net: Unknown Pin: Pin X?-1
+Add Pin To Net: Unknown Pin: Pin X?-2
+Add Pin To Net: Unknown Pin: Pin X?-2
+Add Pin To Net: Unknown Pin: Pin X?-3
+Add Pin To Net: Unknown Pin: Pin X?-4
+Add Pin To Net: Unknown Pin: Pin X?-5
+Add Pin To Net: Unknown Pin: Pin X?-6
+Add Pin To Net: Unknown Pin: Pin X?-7
+Change Net Name : Old Net Name=MCU_USB_D- New Net Name=GND
+Added Pin To Net: NetName=MCU_USB_D- Pin=DD1-13
+Added Pin To Net: NetName=MCU_USB_D- Pin=X4-3
+Added Pin To Net: NetName=MCU_USB_D- Pin=X4-5
+Added Net: Name=MCU_USB_D-
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=X6-3
+Added Net: Name=NetR?_1
+Add Net: Net with name "NetR?_1" already exists
+Added Pin To Net: NetName=NetR?_2 Pin=R?-2
+Added Net: Name=NetR?_2
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Added Pin To Net: NetName=NetR?_4 Pin=R?-4
+Added Net: Name=NetR?_4
+Add Net: Net with name "NetR?_4" already exists
+Add Net: Net with name "NetR?_4" already exists
+Add Net: Net with name "NetR?_4" already exists
+Added Pin To Net: NetName=NetR?_6 Pin=R?-6
+Added Net: Name=NetR?_6
+Add Net: Net with name "NetR?_6" already exists
+Add Net: Net with name "NetR?_6" already exists
+Add Net: Net with name "NetR?_6" already exists
+Added Pin To Net: NetName=NetR?_8 Pin=R?-8
+Added Net: Name=NetR?_8
+Add Net: Net with name "NetR?_8" already exists
+Add Net: Net with name "NetR?_8" already exists
+Add Net: Net with name "NetR?_8" already exists
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R? 100
+Add Class Member: Failed to add class member : Component X? IDC_26
+Add Class Member: Failed to add class member : Component X? JST-S04B-PASK-2
+Added Rule: Name=Schematic Supply Nets

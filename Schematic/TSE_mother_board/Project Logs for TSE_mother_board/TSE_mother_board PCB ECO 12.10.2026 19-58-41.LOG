@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=MCU_USB_D- Pin=DD1-13
+Removed Pin From Net: NetName=MCU_USB_D- Pin=X4-3
+Removed Pin From Net: NetName=MCU_USB_D- Pin=X4-5
+Change Net Name : Old Net Name=MCU_USB_D- New Net Name=GND
+Added Pin To Net: NetName=MCU_USB_D- Pin=DD1-13
+Added Pin To Net: NetName=MCU_USB_D- Pin=X4-3
+Added Pin To Net: NetName=MCU_USB_D- Pin=X4-5
+Added Net: Name=MCU_USB_D-
+Added Rule: Name=Schematic Supply Nets
