@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=NetR13_1 Pin=R13-1
+Removed Pin From Net: NetName=RPI_DISP_DIN Pin=R13-2
+Removed Pin From Net: NetName=NetR13_3 Pin=R13-3
+Removed Pin From Net: NetName=RPI_BTN Pin=R13-4
+Removed Pin From Net: NetName=NetR13_5 Pin=R13-5
+Removed Pin From Net: NetName=RPI_ENC_BTN Pin=R13-6
+Removed Pin From Net: NetName=NetR13_7 Pin=R13-7
+Removed Pin From Net: NetName=RPI_ENC_B Pin=R13-8
+Removed Pin From Net: NetName=NetR13_1 Pin=X3-2
+Removed Pin From Net: NetName=NetR13_3 Pin=X3-4
+Removed Pin From Net: NetName=NetR13_5 Pin=X3-6
+Removed Pin From Net: NetName=NetR13_7 Pin=X3-8
+Added Component: Designator=R13(R0603x4)
+Add component (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "100"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR13_1 Pin=R13-1
+Added Pin To Net: NetName=RPI_DISP_DIN Pin=R13-2
+Added Pin To Net: NetName=NetR13_3 Pin=R13-3
+Added Pin To Net: NetName=RPI_BTN Pin=R13-4
+Added Pin To Net: NetName=NetR13_5 Pin=R13-5
+Added Pin To Net: NetName=RPI_ENC_BTN Pin=R13-6
+Added Pin To Net: NetName=NetR13_7 Pin=R13-7
+Added Pin To Net: NetName=RPI_ENC_B Pin=R13-8
+Add Pin To Net: Unknown Pin: Pin X1-14
+Added Pin To Net: NetName=NetR13_7 Pin=X3-2
+Added Pin To Net: NetName=NetR13_5 Pin=X3-4
+Added Pin To Net: NetName=NetR13_3 Pin=X3-6
+Added Pin To Net: NetName=NetR13_1 Pin=X3-8

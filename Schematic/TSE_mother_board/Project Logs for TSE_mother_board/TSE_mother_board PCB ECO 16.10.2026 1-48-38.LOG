@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=MCU_VL5_INT Pin=DD1-18
+Removed Pin From Net: NetName=MCU_VL5_LPn Pin=DD1-19
+Removed Pin From Net: NetName=MCU_VL6_INT Pin=DD1-21
+Removed Pin From Net: NetName=MCU_VL6_LPn Pin=DD1-22
+Added Pin To Net: NetName=MCU_VL6_LPn Pin=DD1-18
+Added Pin To Net: NetName=MCU_VL6_INT Pin=DD1-19
+Added Pin To Net: NetName=MCU_VL5_LPn Pin=DD1-21
+Added Pin To Net: NetName=MCU_VL5_INT Pin=DD1-22
+Add Pin To Net: Unknown Pin: Pin X1-14
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP? TESTPOINT
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP? TESTPOINT
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP? TESTPOINT
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP? TESTPOINT
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP? TESTPOINT

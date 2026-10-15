@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=RPI_DISP_DS Pin=R12-2
+Removed Pin From Net: NetName=NetR11_7 Pin=X3-10
+Removed Pin From Net: NetName=NetR12_1 Pin=X3-11
+Add Pin To Net: Unknown Pin: Pin X1-14
+Added Pin To Net: NetName=NetR12_1 Pin=X3-10
+Added Pin To Net: NetName=NetR11_7 Pin=X3-11
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R13 100
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R14 100
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R17 10ê
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R18 10ê
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R21 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R24 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R25 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R26 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R29 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R30 100

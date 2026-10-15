@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=RPI_DISP_DS Pin=R10-2
+Removed Pin From Net: NetName=RPI_DISP_RST Pin=R11-2
+Removed Pin From Net: NetName=RPI_LD_TX Pin=R13-2
+Removed Pin From Net: NetName=RPI_LD_PWM Pin=R15-2
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R10
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R11
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R13
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R15
+Add Pin To Net: Unknown Pin: Pin R?-2
+Add Pin To Net: Unknown Pin: Pin R?-4
+Add Pin To Net: Unknown Pin: Pin R?-6
+Add Pin To Net: Unknown Pin: Pin R?-8
+Add Pin To Net: Unknown Pin: Pin X1-14
+Added Pin To Net: NetName=NetR?_1 Pin=X3-5
+Added Net: Name=NetR?_1
+Added Pin To Net: NetName=NetR?_3 Pin=X3-7
+Added Net: Name=NetR?_3
+Added Pin To Net: NetName=NetR?_5 Pin=X3-9
+Added Net: Name=NetR?_5
+Added Pin To Net: NetName=NetR?_7 Pin=X3-11
+Added Net: Name=NetR?_7
+Add Class Member: Failed to add class member : Component R? 100

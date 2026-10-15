@@ -1,0 +1,28 @@
+Removed Member From Class: ClassName=TSE_mother_board_MCU Member=R14
+Removed Member From Class: ClassName=TSE_mother_board_MCU Member=R16
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R21
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R22
+Add Pin To Net: Unknown Pin: Pin R17-1
+Add Pin To Net: Unknown Pin: Pin R17-2
+Add Pin To Net: Unknown Pin: Pin R17-3
+Add Pin To Net: Unknown Pin: Pin R17-4
+Add Pin To Net: Unknown Pin: Pin R17-5
+Add Pin To Net: Unknown Pin: Pin R17-6
+Add Pin To Net: Unknown Pin: Pin R17-7
+Add Pin To Net: Unknown Pin: Pin R17-8
+Add Pin To Net: Unknown Pin: Pin X1-14
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R10 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R11 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R12 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R13 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R15 100
+Add Class Member: Failed to add class member : Component R17 100
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R18 5,1ê
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R20 100
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R23 10ê
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R24 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R25 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R29 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R33 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R34 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R35 100

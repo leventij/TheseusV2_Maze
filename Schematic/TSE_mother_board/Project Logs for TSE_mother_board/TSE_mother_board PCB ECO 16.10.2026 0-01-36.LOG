@@ -1,0 +1,41 @@
+Removed Pin From Net: NetName=RPI_DISP_CLK Pin=R12-2
+Removed Pin From Net: NetName=GND Pin=X3-15
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=C4
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R6
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R12
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=X2
+Change component parameters: Designator = "X3" ("X3"); Footprint = "IDC1.27_16"; UniqueID = "\YZWLUACR" ("\YZWLUACR")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "BTN_PWR-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "DISP_DIN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "DISP_CS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "RPI_BTN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_5"; Value = "LD_PWM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_6"; Value = "ENC_BTN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_7"; Value = "LD_TX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_8"; Value = "ENC_B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_9"; Value = "DISP_RST"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_10"; Value = "ENC_A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_11"; Value = "DISP_DS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_12"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_13"; Value = "DISP_CS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_14"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_15"; Value = "DISP_CLK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_16"; Value = "+5В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "IDC_16"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=RPI_DISP_CLK Pin=R?-2
+Add Pin To Net: Unknown Pin: Pin X1-14
+Added Pin To Net: NetName=GND Pin=X3-14
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=X3-15
+Added Net: Name=NetR?_1
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component 1 JUMPER_SOLDERED
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component C1 0,1мк
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R31 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component S2 IT-1187
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component X6 PLS 3

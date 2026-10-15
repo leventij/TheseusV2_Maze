@@ -1,0 +1,106 @@
+Removed Pin From Net: NetName=RPI_DISP_CS Pin=R11-2
+Removed Pin From Net: NetName=RPI_DISP_CLK Pin=R12-2
+Removed Pin From Net: NetName=RPI_LD_PWM Pin=R13-2
+Removed Pin From Net: NetName=RPI_LD_TX Pin=R13-4
+Removed Pin From Net: NetName=RPI_DISP_RST Pin=R13-6
+Removed Pin From Net: NetName=RPI_DISP_DS Pin=R13-8
+Removed Pin From Net: NetName=RPI_DISP_DIN Pin=R14-2
+Removed Pin From Net: NetName=RPI_BTN Pin=R14-4
+Removed Pin From Net: NetName=RPI_ENC_BTN Pin=R14-6
+Removed Pin From Net: NetName=RPI_ENC_B Pin=R14-8
+Removed Pin From Net: NetName=NetR10_1 Pin=X3-10
+Removed Pin From Net: NetName=NetR11_1 Pin=X3-13
+Removed Pin From Net: NetName=NetR12_1 Pin=X3-15
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R13
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R14
+Change Component Footprint: Designator=R11 Old Footprint=R0603 New Footprint=R0603x4
+Change Component Footprint: Designator=R12 Old Footprint=R0603 New Footprint=R0603x4
+Change Component Designator: OldDesignator=R17 NewDesignator=R13
+Change Component Designator: OldDesignator=R18 NewDesignator=R14
+Change Component Designator: OldDesignator=R19 NewDesignator=R17
+Change Component Designator: OldDesignator=R20 NewDesignator=R18
+Change Component Designator: OldDesignator=R21 NewDesignator=R19
+Change Component Designator: OldDesignator=R22 NewDesignator=R20
+Change Component Designator: OldDesignator=R23 NewDesignator=R21
+Change Component Designator: OldDesignator=R24 NewDesignator=R22
+Change Component Designator: OldDesignator=R25 NewDesignator=R23
+Change Component Designator: OldDesignator=R26 NewDesignator=R24
+Change Component Designator: OldDesignator=R27 NewDesignator=R25
+Change Component Designator: OldDesignator=R28 NewDesignator=R26
+Change Component Designator: OldDesignator=R29 NewDesignator=R27
+Change Component Designator: OldDesignator=R30 NewDesignator=R28
+Change Component Designator: OldDesignator=R31 NewDesignator=R29
+Change Component Designator: OldDesignator=R32 NewDesignator=R30
+Change component parameters: Designator = "R11" ("R11"); Footprint = "R0603"; UniqueID = "\ZTSZQUQW" ("\ZTSZQUQW")
+Change component parameters (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Номинал"; Value = "100"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R12" ("R12"); Footprint = "R0603"; UniqueID = "\OGUIPRIG" ("\OGUIPRIG")
+Change component parameters (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Номинал"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R10(R0603x4)
+Add component (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "100"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR10_1 Pin=R10-1
+Added Pin To Net: NetName=RPI_DISP_DIN Pin=R10-2
+Added Pin To Net: NetName=RPI_BTN Pin=R10-4
+Added Pin To Net: NetName=RPI_ENC_BTN Pin=R10-6
+Added Pin To Net: NetName=RPI_ENC_B Pin=R10-8
+Added Pin To Net: NetName=RPI_LD_PWM Pin=R11-2
+Added Pin To Net: NetName=RPI_LD_TX Pin=R11-4
+Added Pin To Net: NetName=RPI_DISP_RST Pin=R11-6
+Added Pin To Net: NetName=RPI_DISP_DS Pin=R11-8
+Added Pin To Net: NetName=RPI_DISP_DS Pin=R12-2
+Added Pin To Net: NetName=RPI_DISP_CS Pin=R12-4
+Added Pin To Net: NetName=RPI_DISP_CLK Pin=R12-6
+Add Pin To Net: Unknown Pin: Pin X1-14
+Added Pin To Net: NetName=NetR10_1 Pin=X3-2
+Added Pin To Net: NetName=NetR11_1 Pin=X3-5
+Added Pin To Net: NetName=NetR12_1 Pin=X3-11
+Change Net Name : Old Net Name=NetR17_1 New Net Name=NetR13_1
+Change Net Name : Old Net Name=NetR18_1 New Net Name=NetR14_1
+Change Net Name : Old Net Name=NetR21_1 New Net Name=NetR19_1
+Change Net Name : Old Net Name=NetR22_1 New Net Name=NetR20_1
+Change Net Name : Old Net Name=NetR23_2 New Net Name=NetR21_2
+Change Net Name : Old Net Name=NetR23_4 New Net Name=NetR21_4
+Change Net Name : Old Net Name=NetR23_6 New Net Name=NetR21_6
+Change Net Name : Old Net Name=NetR23_8 New Net Name=NetR21_8
+Change Net Name : Old Net Name=NetR24_2 New Net Name=NetR22_2
+Change Net Name : Old Net Name=NetR24_4 New Net Name=NetR22_4
+Change Net Name : Old Net Name=NetR24_6 New Net Name=NetR22_6
+Change Net Name : Old Net Name=NetR24_8 New Net Name=NetR22_8
+Change Net Name : Old Net Name=NetR25_2 New Net Name=NetR23_2
+Change Net Name : Old Net Name=NetR25_4 New Net Name=NetR23_4
+Change Net Name : Old Net Name=NetR25_6 New Net Name=NetR23_6
+Change Net Name : Old Net Name=NetR25_8 New Net Name=NetR23_8
+Change Net Name : Old Net Name=NetR26_2 New Net Name=NetR24_2
+Change Net Name : Old Net Name=NetR26_4 New Net Name=NetR24_4
+Change Net Name : Old Net Name=NetR26_6 New Net Name=NetR24_6
+Change Net Name : Old Net Name=NetR26_8 New Net Name=NetR24_8
+Change Net Name : Old Net Name=NetR30_2 New Net Name=NetR28_2
+Change Net Name : Old Net Name=NetR31_2 New Net Name=NetR29_2
+Change Net Name : Old Net Name=NetR32_2 New Net Name=NetR30_2
+Added Pin To Net: NetName=NetR10_3 Pin=R10-3
+Added Pin To Net: NetName=NetR10_3 Pin=X3-4
+Added Net: Name=NetR10_3
+Added Pin To Net: NetName=NetR10_5 Pin=R10-5
+Added Pin To Net: NetName=NetR10_5 Pin=X3-6
+Added Net: Name=NetR10_5
+Added Pin To Net: NetName=NetR10_7 Pin=R10-7
+Added Pin To Net: NetName=NetR10_7 Pin=X3-8
+Added Net: Name=NetR10_7
+Added Pin To Net: NetName=NetR11_3 Pin=R11-3
+Added Pin To Net: NetName=NetR11_3 Pin=X3-7
+Added Net: Name=NetR11_3
+Added Pin To Net: NetName=NetR11_5 Pin=R11-5
+Added Pin To Net: NetName=NetR11_5 Pin=X3-9
+Added Net: Name=NetR11_5
+Added Pin To Net: NetName=NetR11_7 Pin=R11-7
+Added Pin To Net: NetName=NetR11_7 Pin=X3-10
+Added Net: Name=NetR11_7
+Added Pin To Net: NetName=NetR12_3 Pin=R12-3
+Added Pin To Net: NetName=NetR12_3 Pin=X3-13
+Added Net: Name=NetR12_3
+Added Pin To Net: NetName=NetR12_5 Pin=R12-5
+Added Pin To Net: NetName=NetR12_5 Pin=X3-15
+Added Net: Name=NetR12_5
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R10 100

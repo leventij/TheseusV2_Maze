@@ -1,0 +1,134 @@
+Removed Pin From Net: NetName=RPI_DISP_CLK Pin=R8-2
+Removed Pin From Net: NetName=RPI_DISP_CS Pin=R9-2
+Removed Pin From Net: NetName=RPI_ENC_A Pin=R10-2
+Removed Pin From Net: NetName=RPI_ENC_B Pin=R11-2
+Removed Pin From Net: NetName=RPI_ENC_BTN Pin=R12-2
+Removed Pin From Net: NetName=BTN_PWR+ Pin=R13-2
+Removed Pin From Net: NetName=RPI_BTN Pin=R14-2
+Removed Pin From Net: NetName=BTN_PWR- Pin=R15-2
+Removed Pin From Net: NetName=RPI_DISP_DIN Pin=R16-2
+Removed Pin From Net: NetName=+5В Pin=X3-2
+Removed Pin From Net: NetName=GND Pin=X3-4
+Removed Pin From Net: NetName=NetR17_1 Pin=X3-5
+Removed Pin From Net: NetName=GND Pin=X3-6
+Removed Pin From Net: NetName=NetR17_3 Pin=X3-7
+Removed Pin From Net: NetName=NetR17_5 Pin=X3-9
+Removed Pin From Net: NetName=NetR17_7 Pin=X3-11
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R8
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R9
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R10
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R11
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R12
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R13
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R14
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R15
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R16
+Change component parameters: Designator = "X3" ("X3"); Footprint = "IDC1.27_16"; UniqueID = "\YZWLUACR" ("\YZWLUACR")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "BTN_PWR-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "DISP_DIN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "DISP_CS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "RPI_BTN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_5"; Value = "LD_PWM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_6"; Value = "ENC_BTN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_7"; Value = "LD_TX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_8"; Value = "ENC_B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_9"; Value = "DISP_RST"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_10"; Value = "ENC_A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_11"; Value = "DISP_DS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_12"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_13"; Value = "DISP_CS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_14"; Value = "DISP_CLK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_15"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_16"; Value = "+5В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "IDC_16"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin R17-1
+Add Pin To Net: Unknown Pin: Pin R17-2
+Add Pin To Net: Unknown Pin: Pin R17-3
+Add Pin To Net: Unknown Pin: Pin R17-4
+Add Pin To Net: Unknown Pin: Pin R17-5
+Add Pin To Net: Unknown Pin: Pin R17-6
+Add Pin To Net: Unknown Pin: Pin R17-7
+Add Pin To Net: Unknown Pin: Pin R17-8
+Added Pin To Net: NetName=BTN_PWR- Pin=R?-2
+Added Pin To Net: NetName=BTN_PWR+ Pin=R?-2
+Added Pin To Net: NetName=RPI_BTN Pin=R?-2
+Added Pin To Net: NetName=RPI_DISP_CLK Pin=R?-2
+Added Pin To Net: NetName=RPI_DISP_CS Pin=R?-2
+Added Pin To Net: NetName=RPI_DISP_DIN Pin=R?-2
+Added Pin To Net: NetName=RPI_ENC_A Pin=R?-2
+Added Pin To Net: NetName=RPI_ENC_B Pin=R?-2
+Added Pin To Net: NetName=RPI_ENC_BTN Pin=R?-2
+Add Pin To Net: Unknown Pin: Pin X1-14
+Added Pin To Net: NetName=NetR17_7 Pin=X3-5
+Added Pin To Net: NetName=NetR17_5 Pin=X3-7
+Added Pin To Net: NetName=NetR17_3 Pin=X3-9
+Added Pin To Net: NetName=NetR17_1 Pin=X3-11
+Added Pin To Net: NetName=GND Pin=X3-12
+Added Pin To Net: NetName=GND Pin=X3-15
+Added Pin To Net: NetName=+5В Pin=X3-16
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=X3-3
+Added Net: Name=NetR?_1
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Class Member: Failed to add class member : Component R17 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100

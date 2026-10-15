@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=MCU_BAT_MEASURE Pin=R4-2
+Removed Pin From Net: NetName=MCU_MOTORS_UART2_RX Pin=R5-2
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R4
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R5
+Added Component: Designator=R?(R0603x4)
+Add component (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "100"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MCU_BAT_MEASURE Pin=R?-2
+Added Pin To Net: NetName=MCU_MOTORS_UART2_RX Pin=R?-4
+Added Pin To Net: NetName=MCU_MOTORS_UART2_TX Pin=R?-6
+Add Pin To Net: Unknown Pin: Pin X1-14
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=X1-9
+Added Net: Name=NetR?_1
+Added Pin To Net: NetName=NetR?_3 Pin=R?-3
+Added Pin To Net: NetName=NetR?_3 Pin=X1-11
+Added Net: Name=NetR?_3
+Added Pin To Net: NetName=NetR?_5 Pin=R?-5
+Added Pin To Net: NetName=NetR?_5 Pin=X1-13
+Added Net: Name=NetR?_5
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100

@@ -1,0 +1,40 @@
+Removed Pin From Net: NetName=BTN_PWR- Pin=R?-2
+Removed Pin From Net: NetName=RPI_BTN Pin=R?-2
+Removed Pin From Net: NetName=RPI_DISP_CLK Pin=R?-2
+Removed Pin From Net: NetName=RPI_DISP_CS Pin=R?-2
+Removed Pin From Net: NetName=RPI_DISP_DIN Pin=R?-2
+Removed Pin From Net: NetName=RPI_ENC_A Pin=R?-2
+Removed Pin From Net: NetName=RPI_ENC_BTN Pin=R?-2
+Add Pin To Net: Unknown Pin: Pin R17-1
+Add Pin To Net: Unknown Pin: Pin R17-2
+Add Pin To Net: Unknown Pin: Pin R17-3
+Add Pin To Net: Unknown Pin: Pin R17-4
+Add Pin To Net: Unknown Pin: Pin R17-5
+Add Pin To Net: Unknown Pin: Pin R17-6
+Add Pin To Net: Unknown Pin: Pin R17-7
+Add Pin To Net: Unknown Pin: Pin R17-8
+Added Pin To Net: NetName=BTN_PWR- Pin=R?-2
+Added Pin To Net: NetName=RPI_BTN Pin=R?-2
+Added Pin To Net: NetName=RPI_DISP_CLK Pin=R?-2
+Added Pin To Net: NetName=RPI_DISP_CS Pin=R?-2
+Added Pin To Net: NetName=RPI_DISP_DIN Pin=R?-2
+Added Pin To Net: NetName=RPI_ENC_A Pin=R?-2
+Added Pin To Net: NetName=RPI_ENC_BTN Pin=R?-2
+Add Pin To Net: Unknown Pin: Pin X1-14
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Class Member: Failed to add class member : Component R17 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 100

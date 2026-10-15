@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=RPI_DISP_DIN Pin=A1-3
+Removed Pin From Net: NetName=RPI_ENC_B Pin=A1-5
+Removed Pin From Net: NetName=RPI_BTN Pin=A1-7
+Removed Pin From Net: NetName=RPI_ENC_A Pin=A1-8
+Removed Pin From Net: NetName=RPI_ENC_BTN Pin=A1-10
+Added Pin To Net: NetName=RPI_ENC_B Pin=A1-3
+Added Pin To Net: NetName=RPI_ENC_BTN Pin=A1-5
+Added Pin To Net: NetName=RPI_ENC_A Pin=A1-7
+Added Pin To Net: NetName=RPI_BTN Pin=A1-8
+Added Pin To Net: NetName=RPI_DISP_DIN Pin=A1-10
+Add Pin To Net: Unknown Pin: Pin X1-14

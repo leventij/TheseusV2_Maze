@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=RPI_MCU_UART0_RX Pin=2-2
+Add Pin To Net: Unknown Pin: Pin X1-14
+Change Net Name : Old Net Name=MCU_VL5_INT New Net Name=MCU_VL6_LPn
+Change Net Name : Old Net Name=MCU_VL5_LPn New Net Name=MCU_VL6_INT
+Change Net Name : Old Net Name=MCU_VL6_INT New Net Name=MCU_VL5_LPn
+Change Net Name : Old Net Name=MCU_VL6_LPn New Net Name=MCU_VL5_INT
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP? TESTPOINT
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP? TESTPOINT
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP? TESTPOINT
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP? TESTPOINT
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP? TESTPOINT

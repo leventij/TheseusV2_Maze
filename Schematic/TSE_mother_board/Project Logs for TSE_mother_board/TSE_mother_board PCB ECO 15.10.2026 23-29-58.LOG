@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=RPI_ENC_BTN Pin=A1-5
+Removed Pin From Net: NetName=RPI_ENC_A Pin=A1-7
+Removed Pin From Net: NetName=RPI_BTN Pin=A1-8
+Removed Pin From Net: NetName=RPI_ENC_B Pin=A1-10
+Added Pin To Net: NetName=RPI_ENC_B Pin=A1-5
+Added Pin To Net: NetName=RPI_BTN Pin=A1-7
+Added Pin To Net: NetName=RPI_ENC_A Pin=A1-8
+Added Pin To Net: NetName=RPI_ENC_BTN Pin=A1-10
+Add Pin To Net: Unknown Pin: Pin X1-14
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R13 100

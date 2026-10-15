@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=MCU_MOTORS_UART2_RX Pin=R7-2
+Removed Pin From Net: NetName=MCU_MOTORS_UART2_TX Pin=R7-4
+Removed Pin From Net: NetName=MCU_BAT_MEASURE Pin=R7-6
+Change component parameters: Designator = "X1" ("X1"); Footprint = "IDC1.27_14"; UniqueID = "\WGWFHGBA" ("\WGWFHGBA")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "+3,3В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "+5В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_5"; Value = "BTN_PWR+"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_6"; Value = "+5В_RPI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_7"; Value = "BTN_PWR-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_8"; Value = "+5В_RPI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_9"; Value = "MOTORS_RX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_10"; Value = "+5В_RPI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_11"; Value = "MOTORS_TX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_12"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_13"; Value = "BAT_MEAS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_14"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "IDC_14"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MCU_BAT_MEASURE Pin=R7-2
+Added Pin To Net: NetName=MCU_MOTORS_UART2_RX Pin=R7-4
+Added Pin To Net: NetName=MCU_MOTORS_UART2_TX Pin=R7-6
+Add Pin To Net: Unknown Pin: Pin X1-14

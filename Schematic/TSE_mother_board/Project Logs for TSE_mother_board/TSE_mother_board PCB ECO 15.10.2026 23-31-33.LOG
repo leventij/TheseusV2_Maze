@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=RPI_ENC_BTN Pin=A1-5
+Removed Pin From Net: NetName=RPI_BTN Pin=A1-8
+Change Component Designator: OldDesignator=R13 NewDesignator=R14
+Change Component Designator: OldDesignator=R14 NewDesignator=R13
+Added Pin To Net: NetName=RPI_BTN Pin=A1-5
+Added Pin To Net: NetName=RPI_ENC_BTN Pin=A1-8
+Add Pin To Net: Unknown Pin: Pin X1-14
+Change Net Name : Old Net Name=NetR13_1 New Net Name=NetR14_1
+Change Net Name : Old Net Name=NetR13_3 New Net Name=NetR14_3
+Change Net Name : Old Net Name=NetR13_5 New Net Name=NetR14_5
+Change Net Name : Old Net Name=NetR13_7 New Net Name=NetR14_7
+Change Net Name : Old Net Name=NetR14_1 New Net Name=NetR13_1
+Change Net Name : Old Net Name=NetR14_3 New Net Name=NetR13_3
+Change Net Name : Old Net Name=NetR14_5 New Net Name=NetR13_5
+Change Net Name : Old Net Name=NetR14_7 New Net Name=NetR13_7

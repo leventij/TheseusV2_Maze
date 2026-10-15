@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=MCU_USB_D- Pin=DD1-13
+Removed Pin From Net: NetName=MCU_USB_D+ Pin=DD1-14
+Add Pin To Net: Unknown Pin: Pin X1-14
+Change Net Name : Old Net Name=MCU_USB_D- New Net Name=NetR17_1
+Change Net Name : Old Net Name=MCU_USB_D+ New Net Name=NetR18_1
+Added Pin To Net: NetName=MCU_USB_D- Pin=DD1-13
+Added Pin To Net: NetName=MCU_USB_D- Pin=R17-2
+Added Net: Name=MCU_USB_D-
+Added Pin To Net: NetName=MCU_USB_D+ Pin=DD1-14
+Added Pin To Net: NetName=MCU_USB_D+ Pin=R18-2
+Added Net: Name=MCU_USB_D+

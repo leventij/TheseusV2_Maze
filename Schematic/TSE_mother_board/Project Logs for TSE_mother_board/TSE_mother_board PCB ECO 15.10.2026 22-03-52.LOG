@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=MCU_SWITCH_BR Pin=R29-1
+Removed Pin From Net: NetName=MCU_SWITCH_BL Pin=R29-3
+Removed Pin From Net: NetName=MCU_SWITCH_FR Pin=R29-5
+Removed Pin From Net: NetName=MCU_SWITCH_FL Pin=R29-7
+Removed Pin From Net: NetName=NetR29_8 Pin=X7-15
+Removed Pin From Net: NetName=NetR29_6 Pin=X7-17
+Removed Pin From Net: NetName=NetR29_4 Pin=X7-19
+Removed Pin From Net: NetName=NetR29_2 Pin=X7-21
+Add Pin To Net: Unknown Pin: Pin R17-1
+Add Pin To Net: Unknown Pin: Pin R17-2
+Add Pin To Net: Unknown Pin: Pin R17-3
+Add Pin To Net: Unknown Pin: Pin R17-4
+Add Pin To Net: Unknown Pin: Pin R17-5
+Add Pin To Net: Unknown Pin: Pin R17-6
+Add Pin To Net: Unknown Pin: Pin R17-7
+Add Pin To Net: Unknown Pin: Pin R17-8
+Added Pin To Net: NetName=MCU_SWITCH_FL Pin=R29-1
+Added Pin To Net: NetName=MCU_SWITCH_FR Pin=R29-3
+Added Pin To Net: NetName=MCU_SWITCH_BL Pin=R29-5
+Added Pin To Net: NetName=MCU_SWITCH_BR Pin=R29-7
+Add Pin To Net: Unknown Pin: Pin X1-14
+Added Pin To Net: NetName=NetR29_2 Pin=X7-15
+Added Pin To Net: NetName=NetR29_4 Pin=X7-17
+Added Pin To Net: NetName=NetR29_6 Pin=X7-19
+Added Pin To Net: NetName=NetR29_8 Pin=X7-21
+Add Class Member: Failed to add class member : Component R17 100

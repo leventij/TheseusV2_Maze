@@ -1,0 +1,72 @@
+Removed Pin From Net: NetName=MCU_BAT_MEASURE Pin=R7-2
+Removed Pin From Net: NetName=MCU_MOTORS_UART2_RX Pin=R7-4
+Removed Pin From Net: NetName=MCU_MOTORS_UART2_TX Pin=R7-6
+Removed Pin From Net: NetName=MCU_VL3_INT Pin=R20-1
+Removed Pin From Net: NetName=MCU_VL3_LPn Pin=R20-3
+Removed Pin From Net: NetName=MCU_VL4_INT Pin=R20-5
+Removed Pin From Net: NetName=MCU_VL4_LPn Pin=R20-7
+Removed Pin From Net: NetName=MCU_VL5_INT Pin=R21-1
+Removed Pin From Net: NetName=MCU_VL5_LPn Pin=R21-3
+Removed Pin From Net: NetName=MCU_VL6_INT Pin=R21-5
+Removed Pin From Net: NetName=MCU_VL6_LPn Pin=R21-7
+Removed Member From Class: ClassName=TSE_mother_board_MCU Member=R9
+Removed Member From Class: ClassName=TSE_mother_board_MCU Member=R10
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R13
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R14
+Removed Member From Class: ClassName=TSE_mother_board_periph_commutation Member=R20
+Change component parameters: Designator = "X1" ("X1"); Footprint = "IDC1.27_14"; UniqueID = "\WGWFHGBA" ("\WGWFHGBA")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "+3,3В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "+5В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_5"; Value = "BTN_PWR+"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_6"; Value = "+5В_RPI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_7"; Value = "BTN_PWR-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_8"; Value = "+5В_RPI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_9"; Value = "BAT_MEAS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_10"; Value = "+5В_RPI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_11"; Value = "MOTORS_TX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_12"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_13"; Value = "MOTORS_RX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_14"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "IDC_14"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603x4)
+Add component (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "100"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MCU_MOTORS_UART2_RX Pin=R7-2
+Added Pin To Net: NetName=MCU_MOTORS_UART2_TX Pin=R7-4
+Added Pin To Net: NetName=MCU_BAT_MEASURE Pin=R7-6
+Added Pin To Net: NetName=MCU_VL6_LPn Pin=R21-1
+Added Pin To Net: NetName=MCU_VL6_INT Pin=R21-3
+Added Pin To Net: NetName=MCU_VL5_LPn Pin=R21-5
+Added Pin To Net: NetName=MCU_VL5_INT Pin=R21-7
+Added Pin To Net: NetName=MCU_VL3_INT Pin=R?-1
+Added Pin To Net: NetName=MCU_VL3_LPn Pin=R?-3
+Added Pin To Net: NetName=MCU_VL4_INT Pin=R?-5
+Added Pin To Net: NetName=MCU_VL4_LPn Pin=R?-7
+Add Pin To Net: Unknown Pin: Pin X1-14
+Added Pin To Net: NetName=NetR?_2 Pin=R?-2
+Added Pin To Net: NetName=NetR?_2 Pin=X7-12
+Added Net: Name=NetR?_2
+Added Pin To Net: NetName=NetR?_4 Pin=R?-4
+Added Pin To Net: NetName=NetR?_4 Pin=X7-14
+Added Net: Name=NetR?_4
+Added Pin To Net: NetName=NetR?_6 Pin=R?-6
+Added Pin To Net: NetName=NetR?_6 Pin=X7-16
+Added Net: Name=NetR?_6
+Added Pin To Net: NetName=NetR?_8 Pin=R?-8
+Added Pin To Net: NetName=NetR?_8 Pin=X7-18
+Added Net: Name=NetR?_8
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R4 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R5 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R7 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R10 100
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R15 10к
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R16 10к
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R19 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R22 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R23 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R24 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R27 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R28 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R? 100

@@ -1,0 +1,27 @@
+Change Component Designator: OldDesignator=R3 NewDesignator=R7
+Change Component Designator: OldDesignator=R4 NewDesignator=R3
+Change Component Designator: OldDesignator=R5 NewDesignator=R4
+Change Component Designator: OldDesignator=R6 NewDesignator=R5
+Change Component Designator: OldDesignator=R7 NewDesignator=R6
+Add Pin To Net: Unknown Pin: Pin X1-14
+Change Net Name : Old Net Name=NetR3_1 New Net Name=NetR7_1
+Change Net Name : Old Net Name=NetR3_3 New Net Name=NetR7_3
+Change Net Name : Old Net Name=NetR3_5 New Net Name=NetR7_5
+Change Net Name : Old Net Name=NetR4_1 New Net Name=NetR3_1
+Change Net Name : Old Net Name=NetR5_1 New Net Name=NetR4_1
+Change Net Name : Old Net Name=NetR6_1 New Net Name=NetR5_1
+Change Net Name : Old Net Name=NetR7_1 New Net Name=NetR6_1
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R2 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R3 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R4 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R7 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R8 100
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R9 100
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R15 10ê
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R16 10ê
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R19 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R22 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R23 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R24 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R27 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R28 100

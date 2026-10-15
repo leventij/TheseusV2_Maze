@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=RPI_DISP_CLK Pin=R12-2
+Removed Pin From Net: NetName=RPI_DISP_CS Pin=R12-4
+Removed Pin From Net: NetName=NetR12_3 Pin=X3-13
+Removed Pin From Net: NetName=NetR12_1 Pin=X3-15
+Added Pin To Net: NetName=RPI_DISP_CS Pin=R12-2
+Added Pin To Net: NetName=RPI_DISP_CLK Pin=R12-4
+Add Pin To Net: Unknown Pin: Pin X1-14
+Added Pin To Net: NetName=NetR12_1 Pin=X3-13
+Added Pin To Net: NetName=NetR12_3 Pin=X3-15
