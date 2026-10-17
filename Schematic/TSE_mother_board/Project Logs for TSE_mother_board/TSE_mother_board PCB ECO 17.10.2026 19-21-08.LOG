@@ -1,0 +1,20 @@
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=A2
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=R11
+Removed Member From Class: ClassName=TSE_mother_board_CPU_commutation Member=X4
+Add component: Footprint Not Found LED_0603
+Add component: Footprint Not Found LED_0603
+Add component: Footprint Not Found LED_0603
+Add Pin To Net: Unknown Pin: Pin VD1-1
+Add Pin To Net: Unknown Pin: Pin VD1-2
+Add Pin To Net: Unknown Pin: Pin VD3-1
+Add Pin To Net: Unknown Pin: Pin VD3-2
+Add Pin To Net: Unknown Pin: Pin VD4-1
+Add Pin To Net: Unknown Pin: Pin VD4-2
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component 1 JUMPER_SOLDERED
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component A1 Raspberry Pi 5
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R8 100
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP8 TESTPOINT
+Add Class Member: Failed to add class member : Component VD1
+Add Class Member: Failed to add class member : Component VD3
+Add Class Member: Failed to add class member : Component VD4
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component X1 IDC_14

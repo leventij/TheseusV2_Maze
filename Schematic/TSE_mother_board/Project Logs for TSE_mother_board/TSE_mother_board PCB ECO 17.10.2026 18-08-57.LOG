@@ -1,0 +1,6 @@
+Change Footprint: Cannot match pads with new footprint in component :X5 Footprint:JST-S03B-PASK-2
+Change component parameters: Designator = "X5" ("X5"); UniqueID = "\JGYGRMNZ" ("\JGYGRMNZ")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "+3,3В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "SIGNAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "JST-S03B-PASK-2"; VariantName = "[No Variations]"

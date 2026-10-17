@@ -1,0 +1,10 @@
+Change Component Designator: OldDesignator=X6 NewDesignator=X5
+Added Component: Designator=X6(JST-S03B-PASK-2)
+Add component (AddParameter): Name = "Contact_1"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_2"; Value = "+3,3В"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_3"; Value = "SIGNAL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Наименование"; Value = "JST-S03B-PASK-2"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=X6-1
+Added Pin To Net: NetName=+3,3В Pin=X6-2
+Added Pin To Net: NetName=NetR16_1 Pin=X6-3
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component X6 JST-S03B-PASK-2

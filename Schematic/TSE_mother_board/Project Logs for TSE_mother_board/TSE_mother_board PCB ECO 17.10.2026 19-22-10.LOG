@@ -1,0 +1,24 @@
+Added Component: Designator=VD1(LED0603_GREEN)
+Add component (AddParameter): Name = "Imax"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vf"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vr"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VD3(LED0603_GREEN)
+Add component (AddParameter): Name = "Imax"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vf"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vr"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VD4(LED0603_GREEN)
+Add component (AddParameter): Name = "Imax"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vf"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vr"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=VD1-1
+Added Pin To Net: NetName=NetR1_1 Pin=VD1-2
+Added Pin To Net: NetName=RPI_MCU_UART0_TX Pin=VD3-1
+Added Pin To Net: NetName=NetR14_1 Pin=VD3-2
+Added Pin To Net: NetName=RPI_MCU_UART0_RX Pin=VD4-1
+Added Pin To Net: NetName=NetR15_1 Pin=VD4-2
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component VD1
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component VD3
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component VD4

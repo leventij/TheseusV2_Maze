@@ -1,0 +1,147 @@
+Change Component Designator: OldDesignator=1 NewDesignator=?
+Change Component Designator: OldDesignator=2 NewDesignator=?
+Change Component Designator: OldDesignator=A1 NewDesignator=A?
+Change Component Designator: OldDesignator=A2 NewDesignator=A?
+Change Component Designator: OldDesignator=C1 NewDesignator=C?
+Change Component Designator: OldDesignator=C2 NewDesignator=C?
+Change Component Designator: OldDesignator=C3 NewDesignator=C?
+Change Component Designator: OldDesignator=C4 NewDesignator=C?
+Change Component Designator: OldDesignator=C5 NewDesignator=C?
+Change Component Designator: OldDesignator=C6 NewDesignator=C?
+Change Component Designator: OldDesignator=C7 NewDesignator=C?
+Change Component Designator: OldDesignator=C8 NewDesignator=C?
+Change Component Designator: OldDesignator=C9 NewDesignator=C?
+Change Component Designator: OldDesignator=C10 NewDesignator=C?
+Change Component Designator: OldDesignator=DD1 NewDesignator=DD?
+Change Component Designator: OldDesignator=R1 NewDesignator=R?
+Change Component Designator: OldDesignator=R2 NewDesignator=R?
+Change Component Designator: OldDesignator=R3 NewDesignator=R?
+Change Component Designator: OldDesignator=R4 NewDesignator=R?
+Change Component Designator: OldDesignator=R5 NewDesignator=R?
+Change Component Designator: OldDesignator=R6 NewDesignator=R?
+Change Component Designator: OldDesignator=R7 NewDesignator=R?
+Change Component Designator: OldDesignator=R8 NewDesignator=R?
+Change Component Designator: OldDesignator=R9 NewDesignator=R?
+Change Component Designator: OldDesignator=R10 NewDesignator=R?
+Change Component Designator: OldDesignator=R11 NewDesignator=R?
+Change Component Designator: OldDesignator=R12 NewDesignator=R?
+Change Component Designator: OldDesignator=R13 NewDesignator=R?
+Change Component Designator: OldDesignator=R14 NewDesignator=R?
+Change Component Designator: OldDesignator=R15 NewDesignator=R?
+Change Component Designator: OldDesignator=R16 NewDesignator=R?
+Change Component Designator: OldDesignator=R17 NewDesignator=R?
+Change Component Designator: OldDesignator=R18 NewDesignator=R?
+Change Component Designator: OldDesignator=R19 NewDesignator=R?
+Change Component Designator: OldDesignator=R20 NewDesignator=R?
+Change Component Designator: OldDesignator=R21 NewDesignator=R?
+Change Component Designator: OldDesignator=R22 NewDesignator=R?
+Change Component Designator: OldDesignator=R23 NewDesignator=R?
+Change Component Designator: OldDesignator=R24 NewDesignator=R?
+Change Component Designator: OldDesignator=R25 NewDesignator=R?
+Change Component Designator: OldDesignator=R26 NewDesignator=R?
+Change Component Designator: OldDesignator=S1 NewDesignator=S?
+Change Component Designator: OldDesignator=S2 NewDesignator=S?
+Change Component Designator: OldDesignator=TP1 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP2 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP3 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP4 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP5 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP6 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP7 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP8 NewDesignator=TP?
+Change Component Designator: OldDesignator=VD1 NewDesignator=VD?
+Change Component Designator: OldDesignator=X1 NewDesignator=X?
+Change Component Designator: OldDesignator=X2 NewDesignator=X?
+Change Component Designator: OldDesignator=X3 NewDesignator=X?
+Change Component Designator: OldDesignator=X4 NewDesignator=X?
+Change Component Designator: OldDesignator=X5 NewDesignator=X?
+Change Component Designator: OldDesignator=X6 NewDesignator=X?
+Change Component Designator: OldDesignator=X7 NewDesignator=X?
+Change Component Designator: OldDesignator=X8 NewDesignator=X?
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-071KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1ê"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-072KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2ê"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "RC0603FR-072KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2ê"; VariantName = "[No Variations]"
+Add component: Footprint Not Found LED_0603
+Add component: Footprint Not Found LED_0603
+Add component: Footprint Not Found LED_0603
+Added Pin To Net: NetName=+3,3Â Pin=R?-2
+Added Pin To Net: NetName=+3,3Â Pin=R?-2
+Added Pin To Net: NetName=+3,3Â Pin=R?-2
+Added Pin To Net: NetName=GND Pin=VD?-1
+Added Pin To Net: NetName=RPI_MCU_UART0_RX Pin=VD?-1
+Added Pin To Net: NetName=RPI_MCU_UART0_TX Pin=VD?-1
+Change Net Name : Old Net Name=Net1_1 New Net Name=Net?_1
+Change Net Name : Old Net Name=Net2_1 New Net Name=Net?_1
+Change Net Name : Old Net Name=NetA2_3 New Net Name=NetA?_3
+Change Net Name : Old Net Name=NetA2_4 New Net Name=NetA?_4
+Change Net Name : Old Net Name=NetA2_6 New Net Name=NetA?_6
+Change Net Name : Old Net Name=NetC1_2 New Net Name=NetC?_2
+Change Net Name : Old Net Name=NetC4_2 New Net Name=NetC?_2
+Change Net Name : Old Net Name=NetDD1_27 New Net Name=NetDD?_27
+Change Net Name : Old Net Name=NetR3_1 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetR4_1 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetR5_1 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetR5_3 New Net Name=NetR?_3
+Change Net Name : Old Net Name=NetR6_1 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetR6_3 New Net Name=NetR?_3
+Change Net Name : Old Net Name=NetR6_5 New Net Name=NetR?_5
+Change Net Name : Old Net Name=NetR6_7 New Net Name=NetR?_7
+Change Net Name : Old Net Name=NetR7_1 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetR7_3 New Net Name=NetR?_3
+Change Net Name : Old Net Name=NetR7_5 New Net Name=NetR?_5
+Change Net Name : Old Net Name=NetR7_7 New Net Name=NetR?_7
+Change Net Name : Old Net Name=NetR8_1 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetR8_3 New Net Name=NetR?_3
+Change Net Name : Old Net Name=NetR8_5 New Net Name=NetR?_5
+Change Net Name : Old Net Name=NetR9_1 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetR10_1 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetR11_2 New Net Name=NetR?_2
+Change Net Name : Old Net Name=NetR12_2 New Net Name=NetR?_2
+Change Net Name : Old Net Name=NetR15_1 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetR16_1 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetR17_2 New Net Name=NetR?_2
+Change Net Name : Old Net Name=NetR17_4 New Net Name=NetR?_4
+Change Net Name : Old Net Name=NetR17_6 New Net Name=NetR?_6
+Change Net Name : Old Net Name=NetR17_8 New Net Name=NetR?_8
+Change Net Name : Old Net Name=NetR18_2 New Net Name=NetR?_2
+Change Net Name : Old Net Name=NetR18_4 New Net Name=NetR?_4
+Change Net Name : Old Net Name=NetR18_6 New Net Name=NetR?_6
+Change Net Name : Old Net Name=NetR18_8 New Net Name=NetR?_8
+Change Net Name : Old Net Name=NetR19_2 New Net Name=NetR?_2
+Change Net Name : Old Net Name=NetR19_4 New Net Name=NetR?_4
+Change Net Name : Old Net Name=NetR19_6 New Net Name=NetR?_6
+Change Net Name : Old Net Name=NetR19_8 New Net Name=NetR?_8
+Change Net Name : Old Net Name=NetR20_2 New Net Name=NetR?_2
+Change Net Name : Old Net Name=NetR20_4 New Net Name=NetR?_4
+Change Net Name : Old Net Name=NetR20_6 New Net Name=NetR?_6
+Change Net Name : Old Net Name=NetR20_8 New Net Name=NetR?_8
+Change Net Name : Old Net Name=NetR24_2 New Net Name=NetR?_2
+Change Net Name : Old Net Name=NetR25_2 New Net Name=NetR?_2
+Change Net Name : Old Net Name=NetR26_2 New Net Name=NetR?_2
+Change Net Name : Old Net Name=NetVD1_2 New Net Name=NetVD?_2
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component R? 1ê
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R? 2ê
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R? 2ê
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component VD?
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component VD?
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component VD?
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component X? JST-S03B-PASK-2
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_2
+Added Rule: Name=Schematic Supply Nets_3

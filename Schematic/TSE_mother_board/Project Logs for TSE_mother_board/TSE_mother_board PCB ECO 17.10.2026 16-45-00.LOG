@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=NetR6_1 Pin=X3-2
+Removed Pin From Net: NetName=NetR6_3 Pin=X3-4
+Removed Pin From Net: NetName=NetR6_5 Pin=X3-6
+Removed Pin From Net: NetName=NetR6_7 Pin=X3-8
+Change component parameters: Designator = "X3" ("X3"); Footprint = "IDC1.27_16"; UniqueID = "\YZWLUACR" ("\YZWLUACR")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "BTN_PWR-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "ENC_B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "DISP_CS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "ENC_BTN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_5"; Value = "LD_PWM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_6"; Value = "RPI_BTN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_7"; Value = "LD_TX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_8"; Value = "DISP_DIN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_9"; Value = "DISP_RST"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_10"; Value = "ENC_A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_11"; Value = "DISP_DS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_12"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_13"; Value = "DISP_CS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_14"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_15"; Value = "DISP_CLK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_16"; Value = "+5В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "IDC_16"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR6_7 Pin=X3-2
+Added Pin To Net: NetName=NetR6_5 Pin=X3-4
+Added Pin To Net: NetName=NetR6_3 Pin=X3-6
+Added Pin To Net: NetName=NetR6_1 Pin=X3-8
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP3 TESTPOINT
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_2
+Added Rule: Name=Schematic Supply Nets_3
