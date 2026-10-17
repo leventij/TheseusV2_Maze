@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=MCU_MOTORS_UART2_TX Pin=DD1-36
+Removed Pin From Net: NetName=MCU_MOTORS_UART2_RX Pin=DD1-37
+Removed Pin From Net: NetName=MCU_MOTORS_UART2_TX Pin=TP7-1
+Removed Pin From Net: NetName=MCU_MOTORS_UART2_RX Pin=TP8-1
+Added Pin To Net: NetName=MCU_MOTORS_UART2_RX Pin=DD1-36
+Added Pin To Net: NetName=MCU_MOTORS_UART2_TX Pin=DD1-37
+Added Pin To Net: NetName=MCU_MOTORS_UART2_RX Pin=TP7-1
+Added Pin To Net: NetName=MCU_MOTORS_UART2_TX Pin=TP8-1

@@ -1,0 +1,31 @@
+Added Component: Designator=X1(IDC1.27_14)
+Add component (AddParameter): Name = "Contact_1"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_2"; Value = "+3,3В"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_3"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_4"; Value = "+5В"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_5"; Value = "BTN_PWR+"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_6"; Value = "+5В_RPI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_7"; Value = "BTN_PWR-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_8"; Value = "+5В_RPI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_9"; Value = "MOTORS_RX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_10"; Value = "+5В_RPI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_11"; Value = "MOTORS_TX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_12"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_13"; Value = "BAT_MEAS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_14"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Наименование"; Value = "IDC_14"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=X1-1
+Added Pin To Net: NetName=+3,3В Pin=X1-2
+Added Pin To Net: NetName=GND Pin=X1-3
+Added Pin To Net: NetName=+5В Pin=X1-4
+Added Pin To Net: NetName=BTN_PWR+ Pin=X1-5
+Added Pin To Net: NetName=+5В_RPI Pin=X1-6
+Added Pin To Net: NetName=BTN_PWR- Pin=X1-7
+Added Pin To Net: NetName=+5В_RPI Pin=X1-8
+Added Pin To Net: NetName=NetR5_5 Pin=X1-9
+Added Pin To Net: NetName=+5В_RPI Pin=X1-10
+Added Pin To Net: NetName=NetR5_3 Pin=X1-11
+Added Pin To Net: NetName=GND Pin=X1-12
+Added Pin To Net: NetName=NetR5_1 Pin=X1-13
+Added Pin To Net: NetName=GND Pin=X1-14
+Added Member To Class: ClassName=TSE_mother_board_CPU_commutation Member=Component X1 IDC_14

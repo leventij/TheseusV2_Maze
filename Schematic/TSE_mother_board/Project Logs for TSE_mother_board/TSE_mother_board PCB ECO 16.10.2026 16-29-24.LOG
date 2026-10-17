@@ -1,0 +1,10 @@
+Change Component Footprint: Designator=TP1 Old Footprint=TP_1X1 New Footprint=TP_0,6X1
+Change Component Footprint: Designator=TP2 Old Footprint=TP_1X1 New Footprint=TP_0,6X1
+Change Component Footprint: Designator=TP3 Old Footprint=TP_1X1 New Footprint=TP_0,6X1
+Change Component Footprint: Designator=TP4 Old Footprint=TP_1X1 New Footprint=TP_0,6X1
+Change Component Footprint: Designator=TP5 Old Footprint=TP_1X1 New Footprint=TP_0,6X1
+Change Component Footprint: Designator=TP6 Old Footprint=TP_1X1 New Footprint=TP_0,6X1
+Change Component Footprint: Designator=TP7 Old Footprint=TP_1X1 New Footprint=TP_0,6X1
+Change Component Footprint: Designator=TP8 Old Footprint=TP_1X1 New Footprint=TP_0,6X1
+Change Net Name : Old Net Name=NetR5_5 New Net Name=CN_BAT_MEASURE
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP3 TESTPOINT
