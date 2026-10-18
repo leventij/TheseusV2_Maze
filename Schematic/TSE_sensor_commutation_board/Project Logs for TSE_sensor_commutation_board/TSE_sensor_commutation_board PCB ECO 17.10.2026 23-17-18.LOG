@@ -1,0 +1,176 @@
+Added Component: Designator=A1(VL53L4CD)
+Add component (AddParameter): Name = "Наименование"; Value = "VL53L4CD"; VariantName = "[No Variations]"
+Added Component: Designator=A2(VL53L4CD)
+Add component (AddParameter): Name = "Наименование"; Value = "VL53L4CD"; VariantName = "[No Variations]"
+Added Component: Designator=A3(VL53L4CD)
+Add component (AddParameter): Name = "Наименование"; Value = "VL53L4CD"; VariantName = "[No Variations]"
+Added Component: Designator=A4(VL53L4CD)
+Add component (AddParameter): Name = "Наименование"; Value = "VL53L4CD"; VariantName = "[No Variations]"
+Added Component: Designator=A5(VL53L4CD)
+Add component (AddParameter): Name = "Наименование"; Value = "VL53L4CD"; VariantName = "[No Variations]"
+Added Component: Designator=A6(VL53L4CD)
+Add component (AddParameter): Name = "Наименование"; Value = "VL53L4CD"; VariantName = "[No Variations]"
+Added Component: Designator=DD1(SK6812-SIDE-A)
+Add component (AddParameter): Name = "Наименование"; Value = "SK6812"; VariantName = "[No Variations]"
+Added Component: Designator=DD2(SK6812-SIDE-A)
+Add component (AddParameter): Name = "Наименование"; Value = "SK6812"; VariantName = "[No Variations]"
+Added Component: Designator=DD3(SK6812-SIDE-A)
+Add component (AddParameter): Name = "Наименование"; Value = "SK6812"; VariantName = "[No Variations]"
+Added Component: Designator=DD4(SK6812-SIDE-A)
+Add component (AddParameter): Name = "Наименование"; Value = "SK6812"; VariantName = "[No Variations]"
+Added Component: Designator=DD5(SK6812-SIDE-A)
+Add component (AddParameter): Name = "Наименование"; Value = "SK6812"; VariantName = "[No Variations]"
+Added Component: Designator=DD6(SK6812-SIDE-A)
+Add component (AddParameter): Name = "Наименование"; Value = "SK6812"; VariantName = "[No Variations]"
+Added Component: Designator=DD7(SK6812-SIDE-A)
+Add component (AddParameter): Name = "Наименование"; Value = "SK6812"; VariantName = "[No Variations]"
+Added Component: Designator=DD8(SK6812-SIDE-A)
+Add component (AddParameter): Name = "Наименование"; Value = "SK6812"; VariantName = "[No Variations]"
+Added Component: Designator=DD9(SK6812-SIDE-A)
+Add component (AddParameter): Name = "Наименование"; Value = "SK6812"; VariantName = "[No Variations]"
+Added Component: Designator=DD10(SK6812-SIDE-A)
+Add component (AddParameter): Name = "Наименование"; Value = "SK6812"; VariantName = "[No Variations]"
+Added Component: Designator=DD11(SK6812-SIDE-A)
+Add component (AddParameter): Name = "Наименование"; Value = "SK6812"; VariantName = "[No Variations]"
+Added Component: Designator=DD12(SK6812-SIDE-A)
+Add component (AddParameter): Name = "Наименование"; Value = "SK6812"; VariantName = "[No Variations]"
+Added Component: Designator=S1(KW10-Z1P)
+Add component (AddParameter): Name = "Name"; Value = "KW10-Z1P"; VariantName = "[No Variations]"
+Added Component: Designator=S2(KW10-Z1P)
+Add component (AddParameter): Name = "Name"; Value = "KW10-Z1P"; VariantName = "[No Variations]"
+Added Component: Designator=S3(KW10-Z1P)
+Add component (AddParameter): Name = "Name"; Value = "KW10-Z1P"; VariantName = "[No Variations]"
+Added Component: Designator=S4(KW10-Z1P)
+Add component (AddParameter): Name = "Name"; Value = "KW10-Z1P"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3,3В Pin=A1-1
+Added Pin To Net: NetName=GND Pin=A1-2
+Added Pin To Net: NetName=NetA1_3 Pin=A1-3
+Added Pin To Net: NetName=NetA1_4 Pin=A1-4
+Added Pin To Net: NetName=NetA1_5 Pin=A1-5
+Added Pin To Net: NetName=NetA1_6 Pin=A1-6
+Added Pin To Net: NetName=+3,3В Pin=A2-1
+Added Pin To Net: NetName=GND Pin=A2-2
+Added Pin To Net: NetName=NetA1_3 Pin=A2-3
+Added Pin To Net: NetName=NetA1_4 Pin=A2-4
+Added Pin To Net: NetName=NetA2_5 Pin=A2-5
+Added Pin To Net: NetName=NetA2_6 Pin=A2-6
+Added Pin To Net: NetName=+3,3В Pin=A3-1
+Added Pin To Net: NetName=GND Pin=A3-2
+Added Pin To Net: NetName=NetA3_3 Pin=A3-3
+Added Pin To Net: NetName=NetA3_4 Pin=A3-4
+Added Pin To Net: NetName=NetA3_5 Pin=A3-5
+Added Pin To Net: NetName=NetA3_6 Pin=A3-6
+Added Pin To Net: NetName=+3,3В Pin=A4-1
+Added Pin To Net: NetName=GND Pin=A4-2
+Added Pin To Net: NetName=NetA1_3 Pin=A4-3
+Added Pin To Net: NetName=NetA1_4 Pin=A4-4
+Added Pin To Net: NetName=NetA4_5 Pin=A4-5
+Added Pin To Net: NetName=NetA4_6 Pin=A4-6
+Added Pin To Net: NetName=+3,3В Pin=A5-1
+Added Pin To Net: NetName=GND Pin=A5-2
+Added Pin To Net: NetName=NetA1_3 Pin=A5-3
+Added Pin To Net: NetName=NetA1_4 Pin=A5-4
+Added Pin To Net: NetName=NetA5_5 Pin=A5-5
+Added Pin To Net: NetName=NetA5_6 Pin=A5-6
+Added Pin To Net: NetName=+3,3В Pin=A6-1
+Added Pin To Net: NetName=GND Pin=A6-2
+Added Pin To Net: NetName=NetA1_3 Pin=A6-3
+Added Pin To Net: NetName=NetA1_4 Pin=A6-4
+Added Pin To Net: NetName=NetA6_5 Pin=A6-5
+Added Pin To Net: NetName=NetA6_6 Pin=A6-6
+Added Pin To Net: NetName=NetC1_2 Pin=DD1-1
+Added Pin To Net: NetName=NetC1_2 Pin=DD1-1
+Add Pin To Net: Unknown Pin: Pin DD1-2
+Added Pin To Net: NetName=LED_DIN Pin=DD1-3
+Added Pin To Net: NetName=GND Pin=DD1-4
+Added Pin To Net: NetName=NetC2_2 Pin=DD2-1
+Added Pin To Net: NetName=NetC2_2 Pin=DD2-1
+Add Pin To Net: Unknown Pin: Pin DD2-2
+Added Pin To Net: NetName=LED_DO4_DIN5 Pin=DD2-3
+Added Pin To Net: NetName=GND Pin=DD2-4
+Added Pin To Net: NetName=NetC3_2 Pin=DD3-1
+Added Pin To Net: NetName=NetC3_2 Pin=DD3-1
+Add Pin To Net: Unknown Pin: Pin DD3-2
+Added Pin To Net: NetName=LED_DO8_DIN9 Pin=DD3-3
+Added Pin To Net: NetName=GND Pin=DD3-4
+Added Pin To Net: NetName=NetC4_2 Pin=DD4-1
+Added Pin To Net: NetName=NetC4_2 Pin=DD4-1
+Add Pin To Net: Unknown Pin: Pin DD4-2
+Added Pin To Net: NetName=NetDD1_2 Pin=DD4-3
+Added Pin To Net: NetName=GND Pin=DD4-4
+Added Pin To Net: NetName=NetC5_2 Pin=DD5-1
+Added Pin To Net: NetName=NetC5_2 Pin=DD5-1
+Add Pin To Net: Unknown Pin: Pin DD5-2
+Added Pin To Net: NetName=NetDD2_2 Pin=DD5-3
+Added Pin To Net: NetName=GND Pin=DD5-4
+Added Pin To Net: NetName=NetC6_2 Pin=DD6-1
+Added Pin To Net: NetName=NetC6_2 Pin=DD6-1
+Add Pin To Net: Unknown Pin: Pin DD6-2
+Added Pin To Net: NetName=NetDD3_2 Pin=DD6-3
+Added Pin To Net: NetName=GND Pin=DD6-4
+Added Pin To Net: NetName=NetC9_2 Pin=DD7-1
+Added Pin To Net: NetName=NetC9_2 Pin=DD7-1
+Add Pin To Net: Unknown Pin: Pin DD7-2
+Added Pin To Net: NetName=NetDD4_2 Pin=DD7-3
+Added Pin To Net: NetName=GND Pin=DD7-4
+Added Pin To Net: NetName=NetC10_2 Pin=DD8-1
+Added Pin To Net: NetName=NetC10_2 Pin=DD8-1
+Add Pin To Net: Unknown Pin: Pin DD8-2
+Added Pin To Net: NetName=NetDD5_2 Pin=DD8-3
+Added Pin To Net: NetName=GND Pin=DD8-4
+Added Pin To Net: NetName=NetC11_2 Pin=DD9-1
+Added Pin To Net: NetName=NetC11_2 Pin=DD9-1
+Add Pin To Net: Unknown Pin: Pin DD9-2
+Added Pin To Net: NetName=NetDD6_2 Pin=DD9-3
+Added Pin To Net: NetName=GND Pin=DD9-4
+Added Pin To Net: NetName=NetC14_2 Pin=DD10-1
+Added Pin To Net: NetName=NetC14_2 Pin=DD10-1
+Add Pin To Net: Unknown Pin: Pin DD10-2
+Added Pin To Net: NetName=NetDD7_2 Pin=DD10-3
+Added Pin To Net: NetName=GND Pin=DD10-4
+Added Pin To Net: NetName=NetC15_2 Pin=DD11-1
+Added Pin To Net: NetName=NetC15_2 Pin=DD11-1
+Add Pin To Net: Unknown Pin: Pin DD11-2
+Added Pin To Net: NetName=NetDD8_2 Pin=DD11-3
+Added Pin To Net: NetName=GND Pin=DD11-4
+Added Pin To Net: NetName=NetC16_2 Pin=DD12-1
+Added Pin To Net: NetName=NetC16_2 Pin=DD12-1
+Added Pin To Net: NetName=NetDD9_2 Pin=DD12-3
+Added Pin To Net: NetName=GND Pin=DD12-4
+Add Pin To Net: Unknown Pin: Pin R6-1
+Add Pin To Net: Unknown Pin: Pin R6-2
+Add Pin To Net: Unknown Pin: Pin R6-3
+Add Pin To Net: Unknown Pin: Pin R6-4
+Add Pin To Net: Unknown Pin: Pin R6-5
+Add Pin To Net: Unknown Pin: Pin R6-6
+Added Pin To Net: NetName=MCU_SWITCH_BR Pin=S1-1
+Added Pin To Net: NetName=GND Pin=S1-2
+Added Pin To Net: NetName=MCU_SWITCH_FL Pin=S2-1
+Added Pin To Net: NetName=GND Pin=S2-2
+Added Pin To Net: NetName=MCU_SWITCH_BL Pin=S3-1
+Added Pin To Net: NetName=GND Pin=S3-2
+Added Pin To Net: NetName=MCU_SWITCH_FR Pin=S4-1
+Added Pin To Net: NetName=GND Pin=S4-2
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component A1 VL53L4CD
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component A2 VL53L4CD
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component A3 VL53L4CD
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component A4 VL53L4CD
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component A5 VL53L4CD
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component A6 VL53L4CD
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component DD1 SK6812
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component DD2 SK6812
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component DD3 SK6812
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component DD4 SK6812
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component DD5 SK6812
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component DD6 SK6812
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component DD7 SK6812
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component DD8 SK6812
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component DD9 SK6812
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component DD10 SK6812
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component DD11 SK6812
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component DD12 SK6812
+Add Class Member: Failed to add class member : Component R6 10к
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component S1 KW10-Z1P
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component S2 KW10-Z1P
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component S3 KW10-Z1P
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component S4 KW10-Z1P

@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=MCU_SWITCH_BR Pin=S1-1
+Removed Pin From Net: NetName=GND Pin=S1-2
+Removed Pin From Net: NetName=MCU_SWITCH_BL Pin=S3-1
+Removed Pin From Net: NetName=GND Pin=S3-2
+Change Component Designator: OldDesignator=S2 NewDesignator=S1
+Change Component Designator: OldDesignator=S4 NewDesignator=S3
+Added Component: Designator=S2(KW10-Z1P)
+Add component (AddParameter): Name = "Name"; Value = "KW10-Z1P"; VariantName = "[No Variations]"
+Added Component: Designator=S4(KW10-Z1P)
+Add component (AddParameter): Name = "Name"; Value = "KW10-Z1P"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MCU_SWITCH_BR Pin=S2-1
+Added Pin To Net: NetName=GND Pin=S2-2
+Added Pin To Net: NetName=MCU_SWITCH_BL Pin=S4-1
+Added Pin To Net: NetName=GND Pin=S4-2
