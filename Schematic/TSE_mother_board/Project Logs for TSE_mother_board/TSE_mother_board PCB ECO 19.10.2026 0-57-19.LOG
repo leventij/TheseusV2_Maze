@@ -1,0 +1,42 @@
+Change component parameters: Designator = "X7" ("X7"); Footprint = "IDC1.27_26"; UniqueID = "\SYXEUFZP" ("\SYXEUFZP")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "+3,3В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "LED_DIN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "+5В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "VL6_INT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_5"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_6"; Value = "VL6_LPn"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_7"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_8"; Value = "VL1_INT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_9"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_10"; Value = "VL1_LPn"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_11"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_12"; Value = "VL2_INT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_13"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_14"; Value = "VL2_LPn"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_15"; Value = "SWITCH_BR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_16"; Value = "VL3_INT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_17"; Value = "SWITCH_FR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_18"; Value = "VL3_LPn"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_19"; Value = "SWITCH_BL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_20"; Value = "VL4_INT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_21"; Value = "SWITCH_FL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_22"; Value = "VL4_LPn"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_23"; Value = "SCL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_24"; Value = "VL5_LPn"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_25"; Value = "SDA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_26"; Value = "VL5_INT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "IDC_26"; VariantName = "[No Variations]"
+Change Net Name : Old Net Name=MCU_SWITCH_BR New Net Name=MCU_SWITCH_FL
+Change Net Name : Old Net Name=MCU_SWITCH_FL New Net Name=MCU_SWITCH_BR
+Change Net Name : Old Net Name=MCU_VL1_INT New Net Name=MCU_VL6_INT
+Change Net Name : Old Net Name=MCU_VL1_LPn New Net Name=MCU_VL6_LPn
+Change Net Name : Old Net Name=MCU_VL2_INT New Net Name=MCU_VL1_INT
+Change Net Name : Old Net Name=MCU_VL2_LPn New Net Name=MCU_VL1_LPn
+Change Net Name : Old Net Name=MCU_VL3_INT New Net Name=MCU_VL2_INT
+Change Net Name : Old Net Name=MCU_VL3_LPn New Net Name=MCU_VL2_LPn
+Change Net Name : Old Net Name=MCU_VL4_INT New Net Name=MCU_VL3_INT
+Change Net Name : Old Net Name=MCU_VL4_LPn New Net Name=MCU_VL3_LPn
+Change Net Name : Old Net Name=MCU_VL5_INT New Net Name=MCU_VL4_INT
+Change Net Name : Old Net Name=MCU_VL5_LPn New Net Name=MCU_VL4_LPn
+Change Net Name : Old Net Name=MCU_VL6_INT New Net Name=MCU_VL5_LPn
+Change Net Name : Old Net Name=MCU_VL6_LPn New Net Name=MCU_VL5_INT

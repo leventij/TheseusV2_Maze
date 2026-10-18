@@ -1,0 +1,170 @@
+Removed Pin From Net: NetName=+3,3В Pin=R1-2
+Removed Pin From Net: NetName=+3,3В Pin=R2-2
+Removed Pin From Net: NetName=+3,3В Pin=R3-2
+Removed Pin From Net: NetName=+3,3В Pin=R6-4
+Removed Pin From Net: NetName=+3,3В Pin=R6-6
+Removed Pin From Net: NetName=+3,3В Pin=R8-2
+Removed Pin From Net: NetName=+3,3В Pin=R9-2
+Removed Pin From Net: NetName=+3,3В Pin=R10-2
+Removed Pin From Net: NetName=+3,3В Pin=X1-1
+Removed Pin From Net: NetName=+5В Pin=X1-2
+Removed Pin From Net: NetName=GND Pin=X1-3
+Removed Pin From Net: NetName=GND Pin=X1-4
+Removed Pin From Net: NetName=GND Pin=X1-5
+Removed Pin From Net: NetName=GND Pin=X1-6
+Removed Pin From Net: NetName=GND Pin=X1-7
+Removed Pin From Net: NetName=LED_DIN Pin=X1-14
+Removed Member From Class: ClassName=TSE_sensor_commutation_board Member=R8
+Removed Member From Class: ClassName=TSE_sensor_commutation_board Member=R9
+Removed Member From Class: ClassName=TSE_sensor_commutation_board Member=R10
+Change Component Footprint: Designator=R1 Old Footprint=R0603 New Footprint=R0603x4
+Change Component Footprint: Designator=R2 Old Footprint=R0603 New Footprint=R0603x4
+Change Component Footprint: Designator=R3 Old Footprint=R0603 New Footprint=R0603x4
+Change Component Footprint: Designator=R6 Old Footprint=R0603x4 New Footprint=R0603
+Change Component Comment : Designator=R1 Old Comment=10к New Comment=100
+Change Component Comment : Designator=R2 Old Comment=10к New Comment=100
+Change Component Comment : Designator=R3 Old Comment=10к New Comment=100
+Change Component Comment : Designator=R6 Old Comment=100 New Comment=10к
+Change component parameters: Designator = "R1" ("R1"); Footprint = "R0603"; UniqueID = "\GAJZXVPB" ("\GAJZXVPB")
+Change component parameters (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Номинал"; Value = "100"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2" ("R2"); Footprint = "R0603"; UniqueID = "\PXXANHBS" ("\PXXANHBS")
+Change component parameters (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Номинал"; Value = "100"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R3" ("R3"); Footprint = "R0603"; UniqueID = "\MEKNJTZP" ("\MEKNJTZP")
+Change component parameters (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Номинал"; Value = "100"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R6" ("R6"); Footprint = "R0603x4"; UniqueID = "\IMFGFECW" ("\IMFGFECW")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "RC0603FR-0710KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10к"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X1" ("X1"); Footprint = "IDC1.27_26"; UniqueID = "\DXIMHOMA" ("\DXIMHOMA")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "VL6_LPn"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "SDA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "VL6_INT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "SCL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_5"; Value = "VL5_LPn"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_6"; Value = "SWITCH_BR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_7"; Value = "VL5_INT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_8"; Value = "SWITCH_BL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_9"; Value = "VL4_LPn"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_10"; Value = "SWITCH_FR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_11"; Value = "VL4_INT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_12"; Value = "SWITCH_FL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_13"; Value = "VL3_LPn"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_14"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_15"; Value = "VL3_INT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_16"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_17"; Value = "VL2_LPn"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_18"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_19"; Value = "VL2_INT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_20"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_21"; Value = "VL1_LPn"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_22"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_23"; Value = "VL1_INT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_24"; Value = "+5В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_25"; Value = "LED_DIN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_26"; Value = "+3,3В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "IDC_26"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetA1_3 Pin=A3-3
+Added Pin To Net: NetName=NetA1_4 Pin=A3-4
+Added Pin To Net: NetName=+3,3В Pin=R1-1
+Added Pin To Net: NetName=+3,3В Pin=R1-3
+Added Pin To Net: NetName=+3,3В Pin=R1-5
+Added Pin To Net: NetName=+3,3В Pin=R1-7
+Added Pin To Net: NetName=+3,3В Pin=R2-1
+Added Pin To Net: NetName=+3,3В Pin=R2-3
+Added Pin To Net: NetName=+3,3В Pin=R2-5
+Added Pin To Net: NetName=+3,3В Pin=R2-7
+Added Pin To Net: NetName=+3,3В Pin=R3-1
+Added Pin To Net: NetName=+3,3В Pin=R3-3
+Added Pin To Net: NetName=+3,3В Pin=R3-5
+Added Pin To Net: NetName=+3,3В Pin=R3-7
+Added Pin To Net: NetName=NetA1_4 Pin=X1-2
+Added Pin To Net: NetName=NetA1_3 Pin=X1-4
+Added Pin To Net: NetName=GND Pin=X1-14
+Added Pin To Net: NetName=GND Pin=X1-16
+Added Pin To Net: NetName=GND Pin=X1-18
+Added Pin To Net: NetName=GND Pin=X1-20
+Added Pin To Net: NetName=GND Pin=X1-22
+Added Pin To Net: NetName=+5В Pin=X1-24
+Added Pin To Net: NetName=LED_DIN Pin=X1-25
+Added Pin To Net: NetName=+3,3В Pin=X1-26
+Change Net Name : Old Net Name=NetA1_3 New Net Name=SCL
+Change Net Name : Old Net Name=NetA1_4 New Net Name=SDA
+Added Pin To Net: NetName=SWITCH_BL Pin=C13-2
+Added Pin To Net: NetName=SWITCH_BL Pin=R7-1
+Added Pin To Net: NetName=SWITCH_BL Pin=S4-1
+Added Pin To Net: NetName=SWITCH_BL Pin=X1-8
+Added Net: Name=SWITCH_BL
+Added Pin To Net: NetName=SWITCH_BR Pin=C8-2
+Added Pin To Net: NetName=SWITCH_BR Pin=R5-1
+Added Pin To Net: NetName=SWITCH_BR Pin=S2-1
+Added Pin To Net: NetName=SWITCH_BR Pin=X1-6
+Added Net: Name=SWITCH_BR
+Added Pin To Net: NetName=SWITCH_FL Pin=C7-2
+Added Pin To Net: NetName=SWITCH_FL Pin=R4-1
+Added Pin To Net: NetName=SWITCH_FL Pin=S1-1
+Added Pin To Net: NetName=SWITCH_FL Pin=X1-12
+Added Net: Name=SWITCH_FL
+Added Pin To Net: NetName=SWITCH_FR Pin=C12-2
+Added Pin To Net: NetName=SWITCH_FR Pin=R6-1
+Added Pin To Net: NetName=SWITCH_FR Pin=S3-1
+Added Pin To Net: NetName=SWITCH_FR Pin=X1-10
+Added Net: Name=SWITCH_FR
+Added Pin To Net: NetName=VL1_INT Pin=A1-5
+Added Pin To Net: NetName=VL1_INT Pin=R1-8
+Added Pin To Net: NetName=VL1_INT Pin=X1-23
+Added Net: Name=VL1_INT
+Added Pin To Net: NetName=VL1_LPn Pin=A1-6
+Added Pin To Net: NetName=VL1_LPn Pin=R1-6
+Added Pin To Net: NetName=VL1_LPn Pin=X1-21
+Added Net: Name=VL1_LPn
+Added Pin To Net: NetName=VL2_INT Pin=A2-5
+Added Pin To Net: NetName=VL2_INT Pin=R1-4
+Added Pin To Net: NetName=VL2_INT Pin=X1-19
+Added Net: Name=VL2_INT
+Added Pin To Net: NetName=VL2_LPn Pin=A2-6
+Added Pin To Net: NetName=VL2_LPn Pin=R1-2
+Added Pin To Net: NetName=VL2_LPn Pin=X1-17
+Added Net: Name=VL2_LPn
+Added Pin To Net: NetName=VL3_INT Pin=A3-5
+Added Pin To Net: NetName=VL3_INT Pin=R2-8
+Added Pin To Net: NetName=VL3_INT Pin=X1-15
+Added Net: Name=VL3_INT
+Added Pin To Net: NetName=VL3_LPn Pin=A3-6
+Added Pin To Net: NetName=VL3_LPn Pin=R2-6
+Added Pin To Net: NetName=VL3_LPn Pin=X1-13
+Added Net: Name=VL3_LPn
+Added Pin To Net: NetName=VL4_INT Pin=A4-5
+Added Pin To Net: NetName=VL4_INT Pin=R2-4
+Added Pin To Net: NetName=VL4_INT Pin=X1-11
+Added Net: Name=VL4_INT
+Added Pin To Net: NetName=VL4_LPn Pin=A4-6
+Added Pin To Net: NetName=VL4_LPn Pin=R2-2
+Added Pin To Net: NetName=VL4_LPn Pin=X1-9
+Added Net: Name=VL4_LPn
+Added Pin To Net: NetName=VL5_INT Pin=A5-5
+Added Pin To Net: NetName=VL5_INT Pin=R3-8
+Added Pin To Net: NetName=VL5_INT Pin=X1-7
+Added Net: Name=VL5_INT
+Added Pin To Net: NetName=VL5_LPn Pin=A5-6
+Added Pin To Net: NetName=VL5_LPn Pin=R3-6
+Added Pin To Net: NetName=VL5_LPn Pin=X1-5
+Added Net: Name=VL5_LPn
+Added Pin To Net: NetName=VL6_INT Pin=A6-5
+Added Pin To Net: NetName=VL6_INT Pin=R3-4
+Added Pin To Net: NetName=VL6_INT Pin=X1-3
+Added Net: Name=VL6_INT
+Added Pin To Net: NetName=VL6_LPn Pin=A6-6
+Added Pin To Net: NetName=VL6_LPn Pin=R3-2
+Added Pin To Net: NetName=VL6_LPn Pin=X1-1
+Added Net: Name=VL6_LPn
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component S1 KW10-Z1P
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component S2 KW10-Z1P
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component S3 KW10-Z1P
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component S4 KW10-Z1P
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_2

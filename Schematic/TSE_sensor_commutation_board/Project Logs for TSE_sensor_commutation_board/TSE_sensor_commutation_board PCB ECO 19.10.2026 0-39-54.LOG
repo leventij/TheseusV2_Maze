@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=VL6_INT Pin=R3-2
+Removed Pin From Net: NetName=VL6_LPn Pin=R3-4
+Removed Pin From Net: NetName=VL5_LPn Pin=R3-6
+Removed Pin From Net: NetName=VL5_INT Pin=R3-8
+Added Pin To Net: NetName=VL6_LPn Pin=R3-2
+Added Pin To Net: NetName=VL6_INT Pin=R3-4
+Added Pin To Net: NetName=VL5_INT Pin=R3-6
+Added Pin To Net: NetName=VL5_LPn Pin=R3-8

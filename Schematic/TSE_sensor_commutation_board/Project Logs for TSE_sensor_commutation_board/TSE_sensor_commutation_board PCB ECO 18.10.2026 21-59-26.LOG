@@ -1,0 +1,25 @@
+Added Pin To Net: NetName=+5ֲ Pin=C1-2
+Added Pin To Net: NetName=+5ֲ Pin=C2-2
+Added Pin To Net: NetName=+5ֲ Pin=C3-2
+Added Pin To Net: NetName=+5ֲ Pin=C4-2
+Added Pin To Net: NetName=+5ֲ Pin=C5-2
+Added Pin To Net: NetName=+5ֲ Pin=C6-2
+Added Pin To Net: NetName=+5ֲ Pin=C9-2
+Added Pin To Net: NetName=+5ֲ Pin=C10-2
+Added Pin To Net: NetName=+5ֲ Pin=C11-2
+Added Pin To Net: NetName=+5ֲ Pin=C14-2
+Added Pin To Net: NetName=+5ֲ Pin=C15-2
+Added Pin To Net: NetName=+5ֲ Pin=C16-2
+Added Pin To Net: NetName=+5ֲ Pin=DD1-2
+Added Pin To Net: NetName=+5ֲ Pin=DD2-2
+Added Pin To Net: NetName=+5ֲ Pin=DD3-2
+Added Pin To Net: NetName=+5ֲ Pin=DD4-2
+Added Pin To Net: NetName=+5ֲ Pin=DD5-2
+Added Pin To Net: NetName=+5ֲ Pin=DD6-2
+Added Pin To Net: NetName=+5ֲ Pin=DD7-2
+Added Pin To Net: NetName=+5ֲ Pin=DD8-2
+Added Pin To Net: NetName=+5ֲ Pin=DD9-2
+Added Pin To Net: NetName=+5ֲ Pin=DD10-2
+Added Pin To Net: NetName=+5ֲ Pin=DD11-2
+Added Pin To Net: NetName=+5ֲ Pin=DD12-2
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component C5 0,1לך
