@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=RPI_ENC_BTN Pin=R7-6
+Change component parameters: Designator = "X3" ("X3"); Footprint = "IDC1.27_16"; UniqueID = "\YZWLUACR" ("\YZWLUACR")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "BTN_PWR-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "RPI_BTN_L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "DISP_CS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "RPI_BTN_C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_5"; Value = "LD_PWM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_6"; Value = "RPI_BTN_R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_7"; Value = "LD_TX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_8"; Value = "DISP_DIN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_9"; Value = "DISP_RST"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_10"; Value = "RPI_BTN_R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_11"; Value = "DISP_DS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_12"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_13"; Value = "DISP_CS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_14"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_15"; Value = "DISP_CLK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_16"; Value = "+5В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "IDC_16"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=RPI_BTN_C Pin=A1-5
+Added Pin To Net: NetName=RPI_BTN_C Pin=R7-6
+Added Net: Name=RPI_BTN_C
+Added Pin To Net: NetName=RPI_BTN_L Pin=A1-7
+Added Pin To Net: NetName=RPI_BTN_L Pin=R7-8
+Added Net: Name=RPI_BTN_L
+Added Pin To Net: NetName=RPI_BTN_R Pin=A1-3
+Added Pin To Net: NetName=RPI_BTN_R Pin=R7-4
+Added Net: Name=RPI_BTN_R

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=RPI_BTN_R Pin=A1-3
+Removed Pin From Net: NetName=RPI_BTN_L Pin=A1-7
+Added Pin To Net: NetName=RPI_BTN_L Pin=A1-3
+Added Pin To Net: NetName=RPI_BTN_R Pin=A1-7
