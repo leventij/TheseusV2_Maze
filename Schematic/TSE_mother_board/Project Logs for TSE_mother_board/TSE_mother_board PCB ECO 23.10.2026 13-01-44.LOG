@@ -1,0 +1,52 @@
+Removed Pin From Net: NetName=RPI_BTN_1 Pin=R10-1
+Removed Pin From Net: NetName=+3,3В Pin=R10-2
+Removed Pin From Net: NetName=RPI_BTN_2 Pin=R10-3
+Removed Pin From Net: NetName=+3,3В Pin=R10-4
+Removed Pin From Net: NetName=RPI_BTN_3 Pin=R10-5
+Removed Pin From Net: NetName=+3,3В Pin=R10-6
+Removed Member From Class: ClassName=TSE_mother_board_MCU Member=C2
+Removed Member From Class: ClassName=TSE_mother_board_MCU Member=VD1
+Removed Member From Class: ClassName=TSE_mother_board_MCU Member=X1
+Change Component Designator: OldDesignator=R2 NewDesignator=R3
+Change Component Designator: OldDesignator=R3 NewDesignator=R4
+Change Component Designator: OldDesignator=R4 NewDesignator=R5
+Change Component Designator: OldDesignator=R5 NewDesignator=R6
+Change Component Designator: OldDesignator=R6 NewDesignator=R7
+Change Component Designator: OldDesignator=R7 NewDesignator=R8
+Change Component Designator: OldDesignator=R8 NewDesignator=R9
+Change Component Designator: OldDesignator=R9 NewDesignator=R10
+Added Component: Designator=R2(R0603x4)
+Add component (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Номинал"; Value = "10к"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3,3В Pin=R2-2
+Added Pin To Net: NetName=+3,3В Pin=R2-4
+Added Pin To Net: NetName=+3,3В Pin=R2-6
+Change Net Name : Old Net Name=NetR4_1 New Net Name=NetR5_1
+Change Net Name : Old Net Name=NetR5_1 New Net Name=NetR6_1
+Change Net Name : Old Net Name=NetR6_1 New Net Name=NetR7_1
+Change Net Name : Old Net Name=NetR6_3 New Net Name=NetR7_3
+Change Net Name : Old Net Name=NetR7_1 New Net Name=NetR8_1
+Change Net Name : Old Net Name=NetR8_1 New Net Name=NetR9_1
+Change Net Name : Old Net Name=NetR8_3 New Net Name=NetR9_3
+Change Net Name : Old Net Name=NetR8_5 New Net Name=NetR9_5
+Change Net Name : Old Net Name=NetR8_7 New Net Name=NetR9_7
+Change Net Name : Old Net Name=NetR9_1 New Net Name=NetR10_1
+Change Net Name : Old Net Name=NetR9_3 New Net Name=NetR10_3
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=R8-7
+Added Pin To Net: NetName=NetR2_1 Pin=X3-2
+Added Net: Name=NetR2_1
+Added Pin To Net: NetName=NetR2_3 Pin=R2-3
+Added Pin To Net: NetName=NetR2_3 Pin=R8-5
+Added Pin To Net: NetName=NetR2_3 Pin=X3-4
+Added Net: Name=NetR2_3
+Added Pin To Net: NetName=NetR2_5 Pin=R2-5
+Added Pin To Net: NetName=NetR2_5 Pin=R8-3
+Added Pin To Net: NetName=NetR2_5 Pin=X3-6
+Added Net: Name=NetR2_5
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component 2 JUMPER_SOLDERED
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component C4 0,1мк
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component S2 IT-1187
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP4 TESTPOINT
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component VD4
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component X4 USB Type-C

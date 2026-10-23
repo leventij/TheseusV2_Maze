@@ -1,0 +1,10 @@
+Add Pin To Net: Unknown Pin: Pin VD?-3
+Add Pin To Net: Unknown Pin: Pin VD?-3
+Add Pin To Net: Unknown Pin: Pin VD?-3
+Added Pin To Net: NetName=NetX2_2 Pin=X3-2
+Added Pin To Net: NetName=NetX2_2 Pin=X4-2
+Added Pin To Net: NetName=GND Pin=X?-1
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component TP2 +5Â
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component TP4 GND
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component VD? SMBJ3.3A
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component VD? SMBJ5.0A

@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=NetC1_2 Pin=R1-1
+Removed Pin From Net: NetName=+5ֲ Pin=R1-2
+Removed Pin From Net: NetName=NetC2_2 Pin=R2-1
+Removed Pin From Net: NetName=+5ֲ Pin=R2-2
+Removed Pin From Net: NetName=NetC3_2 Pin=R3-1
+Removed Pin From Net: NetName=+5ֲ Pin=R3-2
+Removed Member From Class: ClassName=TSE_commutation_board Member=R1
+Removed Member From Class: ClassName=TSE_commutation_board Member=R3
+Added Member To Class: ClassName=TSE_commutation_board Member=Component A3 WAVESHARE 1.5 OLED
+Added Member To Class: ClassName=TSE_commutation_board Member=Component C2 0,1לך
+Added Member To Class: ClassName=TSE_commutation_board Member=Component C4 0,1לך
+Added Member To Class: ClassName=TSE_commutation_board Member=Component S3 IT-1187

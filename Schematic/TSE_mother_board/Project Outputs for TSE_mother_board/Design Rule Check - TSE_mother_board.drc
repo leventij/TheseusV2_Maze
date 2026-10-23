@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc
-Date     : 19.10.2026
-Time     : 23:35:12
+Date     : 23.10.2026
+Time     : 14:28:41
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (NOT (OnTopLayer Or OnBottomLayer)),(All)
 Rule Violations :0
@@ -69,4 +69,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:04
+Time Elapsed        : 00:00:03

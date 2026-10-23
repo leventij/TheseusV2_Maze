@@ -1,0 +1,13 @@
+Change Component Designator: OldDesignator=TP1 NewDesignator=TP2
+Change Component Designator: OldDesignator=TP2 NewDesignator=TP3
+Change Component Designator: OldDesignator=TP3 NewDesignator=TP4
+Change Component Designator: OldDesignator=TP4 NewDesignator=TP5
+Change Component Designator: OldDesignator=VD? NewDesignator=VD8
+Change Component Designator: OldDesignator=VD? NewDesignator=VD9
+Change Component Designator: OldDesignator=VD? NewDesignator=VD10
+Change Component Designator: OldDesignator=X? NewDesignator=X6
+Add Pin To Net: Unknown Pin: Pin VD8-3
+Add Pin To Net: Unknown Pin: Pin VD9-3
+Add Pin To Net: Unknown Pin: Pin VD10-3
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component VD9 SMBJ5.0A
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component VD10 SMBJ5.0A

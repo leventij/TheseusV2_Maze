@@ -1,0 +1,60 @@
+Change Component Comment : Designator=R1 Old Comment=100 New Comment=10ך
+Change Component Comment : Designator=R2 Old Comment=100 New Comment=10ך
+Change Component Comment : Designator=R3 Old Comment=100 New Comment=10ך
+Change component parameters: Designator = "R1" ("R1"); Footprint = "R0603x4"; UniqueID = "\GAJZXVPB" ("\GAJZXVPB")
+Change component parameters (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ֽמלטםאכ"; Value = "10ך"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2" ("R2"); Footprint = "R0603x4"; UniqueID = "\PXXANHBS" ("\PXXANHBS")
+Change component parameters (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ֽמלטםאכ"; Value = "10ך"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R3" ("R3"); Footprint = "R0603x4"; UniqueID = "\MEKNJTZP" ("\MEKNJTZP")
+Change component parameters (AddParameter): Name = "ClassName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ֽמלטםאכ"; Value = "10ך"; VariantName = "[No Variations]"
+Added Component: Designator=C?(C0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "CC0603JPX7R9BB104"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0,1לך"; VariantName = "[No Variations]"
+Added Component: Designator=C?(C0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "CC0603JPX7R9BB104"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0,1לך"; VariantName = "[No Variations]"
+Added Component: Designator=C?(C0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "CC0603JPX7R9BB104"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0,1לך"; VariantName = "[No Variations]"
+Added Component: Designator=C?(C0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "CC0603JPX7R9BB104"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0,1לך"; VariantName = "[No Variations]"
+Added Component: Designator=C?(C0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "CC0603JPX7R9BB104"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0,1לך"; VariantName = "[No Variations]"
+Added Component: Designator=C?(C0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "CC0603JPX7R9BB104"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0,1לך"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=+3,3ֲ Pin=C?-2
+Added Pin To Net: NetName=+3,3ֲ Pin=C?-2
+Added Pin To Net: NetName=+3,3ֲ Pin=C?-2
+Added Pin To Net: NetName=+3,3ֲ Pin=C?-2
+Added Pin To Net: NetName=+3,3ֲ Pin=C?-2
+Added Pin To Net: NetName=+3,3ֲ Pin=C?-2
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component C? 0,1לך
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component C? 0,1לך
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component C? 0,1לך
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component C? 0,1לך
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component C? 0,1לך
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component C? 0,1לך

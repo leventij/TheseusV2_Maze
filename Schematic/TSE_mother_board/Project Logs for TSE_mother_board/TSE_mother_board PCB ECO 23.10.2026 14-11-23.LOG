@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=RPI_LATCH_SIGNAL Pin=A1-11
+Added Pin To Net: NetName=RPI_BTN_2 Pin=A1-8
+Added Pin To Net: NetName=RPI_LATCH_SIGNAL Pin=A1-21

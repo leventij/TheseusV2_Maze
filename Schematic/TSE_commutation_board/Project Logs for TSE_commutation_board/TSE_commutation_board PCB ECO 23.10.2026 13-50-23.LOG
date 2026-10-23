@@ -1,0 +1,20 @@
+Change component parameters: Designator = "X1" ("X1"); Footprint = "IDC1.27_16"; UniqueID = "\LIVLIXMF" ("\LIVLIXMF")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "+5В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "DISP_DS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "DISP_CS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_5"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_6"; Value = "DISP_CLK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_7"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_8"; Value = "DISP_DIN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_9"; Value = "DISP_RST"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_10"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_11"; Value = "RPI_BTN_3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_12"; Value = "LD_TX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_13"; Value = "RPI_BTN_2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_14"; Value = "BTN_PWR+"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_15"; Value = "RPI_BTN_1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_16"; Value = "BTN_PWR-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "IDC_16"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=A2-2
+Added Pin To Net: NetName=GND Pin=X1-10

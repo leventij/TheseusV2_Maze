@@ -1,0 +1,29 @@
+Removed Pin From Net: NetName=NetVD1_1 Pin=X6-4
+Removed Pin From Net: NetName=NetX2_2 Pin=X6-6
+Removed Member From Class: ClassName=TSE_power_control_board_main Member=TP5
+Change component parameters: Designator = "X6" ("X6"); Footprint = "IDC1.27_14"; UniqueID = "\LXYQQXDL" ("\LXYQQXDL")
+Change component parameters (AddParameter): Name = "Contact_1"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_2"; Value = "BAT_MEAS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_3"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_4"; Value = "MOTORS_RX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_5"; Value = "+5В_RPI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_6"; Value = "MOTORS_TX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_7"; Value = "+5В_RPI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_8"; Value = "BTN_PWR-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_9"; Value = "+5В_RPI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_10"; Value = "BTN_PWR+"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_11"; Value = "+5В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_12"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_13"; Value = "+3,3В"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_14"; Value = "GND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Наименование"; Value = "IDC_14"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin VD8-3
+Add Pin To Net: Unknown Pin: Pin VD9-3
+Add Pin To Net: Unknown Pin: Pin VD10-3
+Added Pin To Net: NetName=NetX2_2 Pin=X6-4
+Added Pin To Net: NetName=NetVD1_1 Pin=X6-6
+Added Member To Class: ClassName=TSE_power_control_board_main Member=Component TP1 +4S
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component TP2 +3,3В
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component TP3 +5В
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component TP4 +5В_RPI
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component VD8 SMBJ3.3A
