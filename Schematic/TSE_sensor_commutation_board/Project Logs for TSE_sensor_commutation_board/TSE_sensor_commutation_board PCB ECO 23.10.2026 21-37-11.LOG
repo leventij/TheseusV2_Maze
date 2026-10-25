@@ -1,0 +1,10 @@
+Removed Member From Class: ClassName=TSE_sensor_commutation_board Member=R?
+Change Component Designator: OldDesignator=R1 NewDesignator=R2
+Change Component Designator: OldDesignator=R2 NewDesignator=R3
+Change Component Designator: OldDesignator=R3 NewDesignator=R4
+Change Component Designator: OldDesignator=R4 NewDesignator=R5
+Change Component Designator: OldDesignator=R5 NewDesignator=R6
+Change Component Designator: OldDesignator=R6 NewDesignator=R7
+Change Component Designator: OldDesignator=R7 NewDesignator=R8
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component R8 10ê

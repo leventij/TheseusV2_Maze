@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_sensor_commutation_board\TSE_sensor_commutation_board.PcbDoc
-Date     : 22.10.2026
-Time     : 22:07:08
+PCB File : C:\Users\garin\Documents\Git\TheseusV2_Maze\Schematic\TSE_sensor_commutation_board\TSE_sensor_commutation_board.PcbDoc
+Date     : 23.10.2026
+Time     : 21:35:33
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (NOT (OnTopLayer Or OnBottomLayer)),(All)
 Rule Violations :0
@@ -66,4 +66,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:03
+Time Elapsed        : 00:00:04
