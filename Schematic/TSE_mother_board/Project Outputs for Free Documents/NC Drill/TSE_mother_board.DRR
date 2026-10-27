@@ -1,0 +1,25 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: TSE_mother_board.PcbDoc   26.10.2026  6:32:12
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : TSE_mother_board-RoundHoles.TXT
+ASCII SlotHoles File : TSE_mother_board-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             61        PTH        250.67mm (9.87inch)
+T2      0.6mm (24mil)                                             Round             8         PTH        55.56mm (2.19inch)
+T3      0.6mm (24mil)                                             Slot              4         PTH        37.24mm (1.47inch)
+T4      0.65mm (26mil)                                            Round             56        PTH        111.86mm (4.40inch)
+T5      0.75mm (30mil)                                            Round             40        PTH        114.90mm (4.52inch)
+T6      0.85mm (33mil)                                            Round             9         PTH        26.00mm (1.02inch)
+T7      0.9mm (35mil)                                             Round             3         PTH        5.08mm (0.20inch)
+T8      1mm (39mil)                                               Round             8         PTH        17.78mm (0.70inch)
+T9      2.7mm (106mil)                                            Round             3         PTH        107.00mm (4.21inch)
+T10     0.65mm (26mil)                                            Round             2         NPTH       5.78mm (0.23inch)
+T11     1.5mm (59mil)                                             Round             6         NPTH       29.00mm (1.14inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              200
+
+Total Processing Time (hh:mm:ss) : 00:00:00

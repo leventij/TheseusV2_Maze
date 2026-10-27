@@ -1,0 +1,7 @@
+Added Component: Designator=S?(it-1187)
+Add component (AddParameter): Name = "Name"; Value = "IT-1187"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetS4_1 Pin=S?-1
+Added Pin To Net: NetName=NetS4_1 Pin=S?-1
+Added Pin To Net: NetName=NetS4_2 Pin=S?-2
+Added Pin To Net: NetName=NetS4_2 Pin=S?-2
+Added Member To Class: ClassName=TSE_commutation_board Member=Component S? IT-1187

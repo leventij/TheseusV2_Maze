@@ -1,0 +1,43 @@
+Removed Pin From Net: NetName=Net*_2 Pin=R6-1
+Removed Pin From Net: NetName=Net*_3 Pin=R7-2
+Removed Pin From Net: NetName=Net*_1 Pin=VT2-3
+Removed Member From Class: ClassName=TSE_power_control_board_main Member=C6
+Removed Member From Class: ClassName=TSE_power_control_board_main Member=C14
+Removed Member From Class: ClassName=TSE_power_control_board_main Member=C25
+Removed Member From Class: ClassName=TSE_power_control_board_main Member=R11
+Removed Member From Class: ClassName=TSE_power_control_board_main Member=R12
+Removed Member From Class: ClassName=TSE_power_control_board_main Member=R14
+Removed Member From Class: ClassName=TSE_power_control_board_main Member=R15
+Removed Member From Class: ClassName=TSE_power_control_board_main Member=R18
+Removed Member From Class: ClassName=TSE_power_control_board_main Member=VD6
+Added Pin To Net: NetName=Net*_3 Pin=R6-1
+Added Pin To Net: NetName=Net*_1 Pin=R7-2
+Added Pin To Net: NetName=Net*_2 Pin=VT2-3
+Added Member To Class: ClassName=TSE_power_control_board_main Member=Component C2 100
+Added Member To Class: ClassName=TSE_power_control_board_main Member=Component C3 0,01לך
+Added Member To Class: ClassName=TSE_power_control_board_main Member=Component C4 0,33לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C5 10לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C7 10לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C8 10לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C9 10לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C10 10לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C13 0,1לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C15 0,022לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C16 0,022לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C17 0,1לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C18 0,1לך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component C19 0,1לך
+Added Member To Class: ClassName=TSE_power_control_board_main Member=Component R4 15ך
+Added Member To Class: ClassName=TSE_power_control_board_main Member=Component R5 33ך
+Added Member To Class: ClassName=TSE_power_control_board_main Member=Component R6 10ך
+Added Member To Class: ClassName=TSE_power_control_board_main Member=Component R7 6,8ך
+Added Member To Class: ClassName=TSE_power_control_board_main Member=Component R8 4,7ך
+Added Member To Class: ClassName=TSE_power_control_board_main Member=Component R9 10ך
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component R13 23,7ך
+Added Member To Class: ClassName=TSE_power_control_board_main Member=Component VD1 BZT52C15
+Added Member To Class: ClassName=TSE_power_control_board_main Member=Component VD3 1N5817WS
+Added Member To Class: ClassName=TSE_power_control_board_main Member=Component VD4 1N5817WS
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component VD7 SS10PH10-M3
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component VD8 SS10PH10-M3
+Added Member To Class: ClassName=TSE_power_control_board_converters Member=Component VD10 SMBJ5.0A
+Added Member To Class: ClassName=TSE_power_control_board_main Member=Component VT2 2N7002

@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [TSE_mother_board.PcbDoc]
+   Generated File[TSE_mother_board-RoundHoles.TXT]
+   Generated File[TSE_mother_board-SlotHoles.TXT]
+   Generated File[TSE_mother_board.LDP]
+   Generated File[TSE_mother_board.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 6:32:12 On 26.10.2026

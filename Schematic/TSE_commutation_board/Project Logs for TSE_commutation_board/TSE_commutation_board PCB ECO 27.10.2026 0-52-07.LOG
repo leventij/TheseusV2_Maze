@@ -1,0 +1,5 @@
+Added Component: Designator=S?(BTN5,8)
+Add component (AddParameter): Name = "Name"; Value = "5,8"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetS4_1 Pin=S?-2
+Added Pin To Net: NetName=NetS4_2 Pin=S?-3
+Added Member To Class: ClassName=TSE_commutation_board Member=Component S? 5,8

@@ -117,8 +117,121 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BOCVWEGL
 
+[Document5]
+DocumentPath=TSE_mother_board.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for TSE_mother_board\Design Rule Check - TSE_mother_board.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Free Documents\NC Drill\TSE_mother_board-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for TSE_mother_board\NC Drill\TSE_mother_board-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for Free Documents\NC Drill\TSE_mother_board-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for TSE_mother_board\NC Drill\TSE_mother_board-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for Free Documents\NC Drill\TSE_mother_board.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for TSE_mother_board\NC Drill\TSE_mother_board.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for Free Documents\Gerber\TSE_mother_board.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for TSE_mother_board\Gerber\TSE_mother_board.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for TSE_mother_board\Gerber\TSE_mother_board.G1
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for TSE_mother_board\Gerber\TSE_mother_board.G2
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for TSE_mother_board\Gerber\TSE_mother_board.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for TSE_mother_board\Gerber\TSE_mother_board.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for TSE_mother_board\Gerber\TSE_mother_board.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for TSE_mother_board\Gerber\TSE_mother_board.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for TSE_mother_board\Gerber\TSE_mother_board.GM
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for TSE_mother_board\Gerber\TSE_mother_board.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for TSE_mother_board\Gerber\TSE_mother_board.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for TSE_mother_board\Gerber\TSE_mother_board.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for TSE_mother_board\Gerber\TSE_mother_board.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for TSE_mother_board\Gerber\TSE_mother_board.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for Free Documents\NC Drill\TSE_mother_board.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for TSE_mother_board\NC Drill\TSE_mother_board.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for Free Documents\Gerber\TSE_mother_board.REP
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for TSE_mother_board\Gerber\TSE_mother_board.REP
 DItemRevisionGUID=
 
 [Configuration1]
@@ -257,7 +370,7 @@ OutputDefault1=0
 Name=Documentation Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
 OutputType1=Composite
 OutputName1=Composite Drawing
 OutputDocumentPath1=
@@ -329,7 +442,9 @@ OutputName12=Schematic Prints
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.49|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=A4|PaperIndex=9
+Configuration12_Name1=OutputConfigurationParameter1
+Configuration12_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board_MCU.SchDoc
 OutputType13=SimView Print
 OutputName13=SimView Prints
 OutputDocumentPath13=

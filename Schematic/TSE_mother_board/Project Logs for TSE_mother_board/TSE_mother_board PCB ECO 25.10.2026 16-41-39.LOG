@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=MCU_LIGHT_SENSOR_SIGNAL Pin=DD1-35
+Added Pin To Net: NetName=MCU_LIGHT_SENSOR_SIGNAL Pin=DD1-5
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP3 TESTPOINT
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component TP5 TESTPOINT

@@ -64,7 +64,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=ARIQQAIT
 
 [Document2]
 DocumentPath=TSE_battery_commutation_board.SchDoc
@@ -82,6 +82,107 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document3]
+DocumentPath=TSE_battery_commutation.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for TSE_battery_commutation\Design Rule Check - TSE_battery_commutation_board.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Free Documents\NC Drill\TSE_battery_commutation_board.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for TSE_battery_commutation\NC Drill\TSE_battery_commutation_board.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for Free Documents\Gerber\TSE_battery_commutation_board.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for TSE_battery_commutation\Gerber\TSE_battery_commutation_board.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for TSE_battery_commutation\Gerber\TSE_battery_commutation_board.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for TSE_battery_commutation\Gerber\TSE_battery_commutation_board.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for TSE_battery_commutation\Gerber\TSE_battery_commutation_board.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for TSE_battery_commutation\Gerber\TSE_battery_commutation_board.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for TSE_battery_commutation\Gerber\TSE_battery_commutation_board.GM
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for TSE_battery_commutation\Gerber\TSE_battery_commutation_board.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for TSE_battery_commutation\Gerber\TSE_battery_commutation_board.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for TSE_battery_commutation\Gerber\TSE_battery_commutation_board.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for TSE_battery_commutation\Gerber\TSE_battery_commutation_board.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for TSE_battery_commutation\Gerber\TSE_battery_commutation_board.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for Free Documents\NC Drill\TSE_battery_commutation_board.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for TSE_battery_commutation\NC Drill\TSE_battery_commutation_board.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for Free Documents\Gerber\TSE_battery_commutation_board.REP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for TSE_battery_commutation\Gerber\TSE_battery_commutation_board.REP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for Free Documents\NC Drill\TSE_battery_commutation_board.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for TSE_battery_commutation\NC Drill\TSE_battery_commutation_board.TXT
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
@@ -579,6 +680,36 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=MathWorks
+OutputName15=MathWorks (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=Orcad v7 Capture Design
+OutputName16=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD ASCII
+OutputName17=P-CAD ASCII (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=P-CAD V16 Schematic Design
+OutputName18=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs

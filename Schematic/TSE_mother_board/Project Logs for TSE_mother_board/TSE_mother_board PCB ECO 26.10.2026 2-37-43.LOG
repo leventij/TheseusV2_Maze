@@ -1,0 +1,18 @@
+Change Component Comment : Designator=C4 Old Comment=0,1לך New Comment=1לך
+Change component parameters: Designator = "C4" ("C4"); Footprint = "C0603"; UniqueID = "\YCPVJHJY" ("\YCPVJHJY")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "CC0603KRX7R9BB105"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TKE"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1לך"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "50ֲ"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R11 5,1ך
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R12 5,1ך
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R14 10ך
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R15 2ך
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R16 2ך
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R21 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R22 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R23 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R25 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R26 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R28 100

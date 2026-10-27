@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=+3,3Â Pin=R1-5
+Removed Pin From Net: NetName=SDA Pin=R1-6
+Removed Pin From Net: NetName=+3,3Â Pin=R1-7
+Removed Pin From Net: NetName=SCL Pin=R1-8
+Change Component Footprint: Designator=R1 Old Footprint=R0603x4 New Footprint=R0603
+Change Component Comment : Designator=R1 Old Comment=10ê New Comment=2,4ê
+Change Component Designator: OldDesignator=R2 NewDesignator=R3
+Change Component Designator: OldDesignator=R3 NewDesignator=R4
+Change Component Designator: OldDesignator=R4 NewDesignator=R5
+Change Component Designator: OldDesignator=R5 NewDesignator=R6
+Change Component Designator: OldDesignator=R6 NewDesignator=R7
+Change Component Designator: OldDesignator=R7 NewDesignator=R8
+Change Component Designator: OldDesignator=R8 NewDesignator=R9
+Change component parameters: Designator = "R1" ("R1"); Footprint = "R0603x4"; UniqueID = "\VBLAGDYG" ("\VBLAGDYG")
+Change component parameters (AddParameter): Name = "Value"; Value = "2,4ê"; VariantName = "[No Variations]"
+Added Component: Designator=R2(R0603)
+Add component (AddParameter): Name = "Value"; Value = "2,4ê"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SCL Pin=R1-1
+Added Pin To Net: NetName=+3,3Â Pin=R1-2
+Added Pin To Net: NetName=SDA Pin=R2-1
+Added Pin To Net: NetName=+3,3Â Pin=R2-2
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component R1 2,4ê
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component R2 2,4ê
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component R5 10ê
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component R7 10ê
+Added Member To Class: ClassName=TSE_sensor_commutation_board Member=Component R9 10ê

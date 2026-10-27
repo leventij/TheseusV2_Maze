@@ -83,8 +83,141 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PDUWDPKW
 
+[Document3]
+DocumentPath=TSE_commutation_board.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for TSE_commutation_board\Design Rule Check - TSE_commutation_board.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Free Documents\NC Drill\TSE_commutation_board.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for TSE_commutation_board\NC Drill\TSE_commutation_board.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for Free Documents\Gerber\TSE_commutation_board.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for TSE_commutation_board\Gerber\TSE_commutation_board.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for Free Documents\Gerber\TSE_commutation_board.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for TSE_commutation_board\Gerber\TSE_commutation_board.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for Free Documents\Gerber\TSE_commutation_board.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for TSE_commutation_board\Gerber\TSE_commutation_board.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for Free Documents\Gerber\TSE_commutation_board.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for TSE_commutation_board\Gerber\TSE_commutation_board.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for Free Documents\Gerber\TSE_commutation_board.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for TSE_commutation_board\Gerber\TSE_commutation_board.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for Free Documents\Gerber\TSE_commutation_board.GM
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for TSE_commutation_board\Gerber\TSE_commutation_board.GM
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for TSE_commutation_board\Gerber\TSE_commutation_board.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for Free Documents\Gerber\TSE_commutation_board.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for TSE_commutation_board\Gerber\TSE_commutation_board.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for Free Documents\Gerber\TSE_commutation_board.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for TSE_commutation_board\Gerber\TSE_commutation_board.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for Free Documents\Gerber\TSE_commutation_board.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for TSE_commutation_board\Gerber\TSE_commutation_board.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for Free Documents\Gerber\TSE_commutation_board.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for TSE_commutation_board\Gerber\TSE_commutation_board.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for Free Documents\NC Drill\TSE_commutation_board.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for TSE_commutation_board\NC Drill\TSE_commutation_board.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for Free Documents\Gerber\TSE_commutation_board.REP
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for TSE_commutation_board\Gerber\TSE_commutation_board.REP
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for Free Documents\NC Drill\TSE_commutation_board.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for TSE_commutation_board\NC Drill\TSE_commutation_board.TXT
 DItemRevisionGUID=
 
 [Configuration1]

@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\garin\Documents\Git\TheseusV2_Maze\Schematic\TSE_power_control_board\TSE_power_control_board.PcbDoc
-Date     : 01.09.2026
-Time     : 20:59:29
+PCB File : C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_power_control_board\TSE_power_control_board.PcbDoc
+Date     : 26.10.2026
+Time     : 15:26:23
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (NOT (OnTopLayer Or OnBottomLayer)),(All)
 Rule Violations :0
@@ -13,19 +13,13 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net NetC11_1 Between Pad DD1-8(25.545mm,70.475mm) on Top Layer And Pad L1-1(28.55mm,68.721mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net NetVD1_2 Between Track (6.1mm,40.85mm)(11.075mm,40.85mm) on Top Layer And Pad VD1-2(11.5mm,40.85mm) on Top Layer [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetVD3_2 Between Track (6.1mm,10.65mm)(11.075mm,10.65mm) on Top Layer And Pad VD3-2(11.5mm,10.65mm) on Top Layer [Unplated] 
-   Violation between Un-Routed Net Constraint: Net +4S Between Pad X4-4(6.1mm,18.15mm) on Multi-Layer And Pad X2-4(6.1mm,48.35mm) on Multi-Layer 
-Rule Violations :4
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=0.2mm) (Max=10mm) (Preferred=0.2mm) (All)
-   Violation between Width Constraint: Between Pad VD1-2(11.5mm,40.85mm) on Top Layer And Track (6.1mm,40.85mm)(11.075mm,40.85mm) on Top Layer 
-   Violation between Width Constraint: Between Pad VD3-2(11.5mm,10.65mm) on Top Layer And Track (6.1mm,10.65mm)(11.075mm,10.65mm) on Top Layer 
-Rule Violations :2
+Rule Violations :0
 
 Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
 Rule Violations :0
@@ -70,6 +64,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 6
+Violations Detected : 0
 Waived Violations : 0
 Time Elapsed        : 00:00:01

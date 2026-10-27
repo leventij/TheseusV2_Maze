@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [TSE_boards_arrayy.PcbDoc]
+   Generated File[TSE_boards_arrayy.TXT]
+   Generated File[TSE_boards_arrayy.LDP]
+   Generated File[TSE_boards_arrayy.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 6:08:08 On 26.10.2026

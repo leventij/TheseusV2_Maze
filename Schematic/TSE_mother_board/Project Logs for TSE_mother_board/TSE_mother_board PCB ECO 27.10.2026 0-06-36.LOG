@@ -1,0 +1,13 @@
+Removed Member From Class: ClassName=TSE_mother_board_MCU Member=R19
+Removed Member From Class: ClassName=TSE_mother_board_MCU Member=R24
+Change Net Name : Old Net Name=CN_BAT_MEASURE New Net Name=NetR7_5
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R11 22
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R12 22
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R15 10ê
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R16 10ê
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R17 2ê
+Added Member To Class: ClassName=TSE_mother_board_MCU Member=Component R18 2ê
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R20 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R22 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R25 100
+Added Member To Class: ClassName=TSE_mother_board_periph_commutation Member=Component R28 100
