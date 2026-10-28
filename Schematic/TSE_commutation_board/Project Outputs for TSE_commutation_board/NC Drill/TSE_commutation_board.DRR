@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: TSE_commutation_board.PcbDoc   27.10.2026  2:49:18
+NCDrill File Report For: TSE_commutation_board.PcbDoc   28.10.2026  0:47:56
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -8,7 +8,7 @@ ASCII RoundHoles File : TSE_commutation_board.TXT
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
 T1      0.3mm (12mil)                                             Round             18        PTH        241.31mm (9.50inch)
-T2      0.65mm (26mil)                                            Round             16        PTH        21.59mm (0.85inch)
+T2      0.65mm (26mil)                                            Round             16        PTH        24.43mm (0.96inch)
 T3      0.9mm (35mil)                                             Round             6         PTH        12.53mm (0.49inch)
 T4      2.2mm (87mil)                                             Round             7         PTH        226.55mm (8.92inch)
 T5      2.7mm (106mil)                                            Round             4         PTH        265.00mm (10.43inch)

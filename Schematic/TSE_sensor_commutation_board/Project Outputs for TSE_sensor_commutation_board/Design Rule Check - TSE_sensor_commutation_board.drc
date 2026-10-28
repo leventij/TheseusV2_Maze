@@ -1,12 +1,15 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_sensor_commutation_board\TSE_sensor_commutation_board.PcbDoc
-Date     : 26.10.2026
-Time     : 15:57:33
+PCB File : C:\Users\garin\Documents\Git\TheseusV2_Maze\Schematic\TSE_sensor_commutation_board\TSE_sensor_commutation_board.PcbDoc
+Date     : 27.10.2026
+Time     : 20:20:51
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (NOT (OnTopLayer Or OnBottomLayer)),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (OnTopLayer OR OnBottomLayer),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.4mm) (InPoly),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -63,7 +66,43 @@ Rule Violations :0
 Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
+Waived Violations Of Rule : Clearance Constraint (Gap=0.2mm) (NOT (OnTopLayer Or OnBottomLayer)),(All)
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-1(21.236mm,25.982mm) on Multi-Layer And Pad X1-2(19.966mm,25.982mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-1(21.236mm,25.982mm) on Multi-Layer And Pad X1-3(21.236mm,27.252mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-10(19.966mm,31.062mm) on Multi-Layer And Pad X1-12(19.966mm,32.332mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-10(19.966mm,31.062mm) on Multi-Layer And Pad X1-8(19.966mm,29.792mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-10(19.966mm,31.062mm) on Multi-Layer And Pad X1-9(21.236mm,31.062mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-11(21.236mm,32.332mm) on Multi-Layer And Pad X1-12(19.966mm,32.332mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-11(21.236mm,32.332mm) on Multi-Layer And Pad X1-13(21.236mm,33.602mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-11(21.236mm,32.332mm) on Multi-Layer And Pad X1-9(21.236mm,31.062mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-12(19.966mm,32.332mm) on Multi-Layer And Pad X1-14(19.966mm,33.602mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-13(21.236mm,33.602mm) on Multi-Layer And Pad X1-14(19.966mm,33.602mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-13(21.236mm,33.602mm) on Multi-Layer And Pad X1-15(21.236mm,34.872mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-15(21.236mm,34.872mm) on Multi-Layer And Pad X1-16(19.966mm,34.872mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-15(21.236mm,34.872mm) on Multi-Layer And Pad X1-17(21.236mm,36.142mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-17(21.236mm,36.142mm) on Multi-Layer And Pad X1-18(19.966mm,36.142mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-17(21.236mm,36.142mm) on Multi-Layer And Pad X1-19(21.236mm,37.412mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-19(21.236mm,37.412mm) on Multi-Layer And Pad X1-20(19.966mm,37.412mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-19(21.236mm,37.412mm) on Multi-Layer And Pad X1-21(21.236mm,38.682mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-2(19.966mm,25.982mm) on Multi-Layer And Pad X1-4(19.966mm,27.252mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-21(21.236mm,38.682mm) on Multi-Layer And Pad X1-22(19.966mm,38.682mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-21(21.236mm,38.682mm) on Multi-Layer And Pad X1-23(21.236mm,39.952mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-22(19.966mm,38.682mm) on Multi-Layer And Pad X1-24(19.966mm,39.952mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-23(21.236mm,39.952mm) on Multi-Layer And Pad X1-24(19.966mm,39.952mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-23(21.236mm,39.952mm) on Multi-Layer And Pad X1-25(21.236mm,41.222mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-24(19.966mm,39.952mm) on Multi-Layer And Pad X1-26(19.966mm,41.222mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-25(21.236mm,41.222mm) on Multi-Layer And Pad X1-26(19.966mm,41.222mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-3(21.236mm,27.252mm) on Multi-Layer And Pad X1-4(19.966mm,27.252mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-3(21.236mm,27.252mm) on Multi-Layer And Pad X1-5(21.236mm,28.522mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-4(19.966mm,27.252mm) on Multi-Layer And Pad X1-6(19.966mm,28.522mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-5(21.236mm,28.522mm) on Multi-Layer And Pad X1-6(19.966mm,28.522mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-5(21.236mm,28.522mm) on Multi-Layer And Pad X1-7(21.236mm,29.792mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-6(19.966mm,28.522mm) on Multi-Layer And Pad X1-8(19.966mm,29.792mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-7(21.236mm,29.792mm) on Multi-Layer And Pad X1-8(19.966mm,29.792mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+   Waived Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-7(21.236mm,29.792mm) on Multi-Layer And Pad X1-9(21.236mm,31.062mm) on Multi-Layer Waived at 27.10.2026 20:00:08С разъемом все хорошо
+Waived Violations :33
+
 
 Violations Detected : 0
-Waived Violations : 0
+Waived Violations : 33
 Time Elapsed        : 00:00:03

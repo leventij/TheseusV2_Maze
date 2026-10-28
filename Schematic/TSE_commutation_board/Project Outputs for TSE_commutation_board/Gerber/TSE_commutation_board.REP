@@ -2,30 +2,10 @@
 FileName = TSE_commutation_board.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top Layer
-      File : TSE_commutation_board.GTL
+Generating : Mechanical 1
+      File : TSE_commutation_board.GM1
 
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D11
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : TSE_commutation_board.GTO
-
-    Adding Layer      : Top Overlay
+    Adding Layer      : Mechanical 1
 
 
 Used DCodes :
@@ -44,10 +24,25 @@ Generating : Bottom Paste
 
 
 Used DCodes :
-    D23
     D24
     D25
     D26
+    D27
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : TSE_commutation_board.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
 *************************************************************
 
 *************************************************************
@@ -62,25 +57,15 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D13
+    D12
     D14
     D15
     D16
-    D27
+    D17
     D28
     D29
     D30
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : TSE_commutation_board.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D10
+    D31
 *************************************************************
 
 *************************************************************
@@ -100,13 +85,14 @@ Used DCodes :
     D14
     D15
     D16
+    D17
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 1
-      File : TSE_commutation_board.GM1
+Generating : Bottom Overlay
+      File : TSE_commutation_board.GBO
 
-    Adding Layer      : Mechanical 1
+    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
@@ -114,18 +100,14 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Paste
-      File : TSE_commutation_board.GTP
+Generating : Top Overlay
+      File : TSE_commutation_board.GTO
 
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Top Overlay
 
 
 Used DCodes :
-    D11
+    D10
 *************************************************************
 
 *************************************************************
@@ -139,7 +121,6 @@ Generating : Bottom Layer
 
 Used DCodes :
     D10
-    D18
     D19
     D20
     D21
@@ -148,5 +129,26 @@ Used DCodes :
     D24
     D25
     D26
+    D27
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : TSE_commutation_board.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
 *************************************************************
 
