@@ -1,0 +1,143 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc
+Date     : 28.10.2026
+Time     : 14:54:40
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (OnTopLayer OR OnBottomLayer),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (NOT (OnTopLayer Or OnBottomLayer)),(All)
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-1(11.025mm,52mm) on Multi-Layer And Pad X1-2(12.295mm,52mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-10(12.295mm,46.92mm) on Multi-Layer And Pad X1-12(12.295mm,45.65mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-10(12.295mm,46.92mm) on Multi-Layer And Pad X1-9(11.025mm,46.92mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-11(11.025mm,45.65mm) on Multi-Layer And Pad X1-12(12.295mm,45.65mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-11(11.025mm,45.65mm) on Multi-Layer And Pad X1-13(11.025mm,44.38mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-11(11.025mm,45.65mm) on Multi-Layer And Pad X1-9(11.025mm,46.92mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-13(11.025mm,44.38mm) on Multi-Layer And Pad X1-14(12.295mm,44.38mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-2(12.295mm,52mm) on Multi-Layer And Pad X1-4(12.295mm,50.73mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-3(11.025mm,50.73mm) on Multi-Layer And Pad X1-4(12.295mm,50.73mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-3(11.025mm,50.73mm) on Multi-Layer And Pad X1-5(11.025mm,49.46mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-4(12.295mm,50.73mm) on Multi-Layer And Pad X1-6(12.295mm,49.46mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-5(11.025mm,49.46mm) on Multi-Layer And Pad X1-6(12.295mm,49.46mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-5(11.025mm,49.46mm) on Multi-Layer And Pad X1-7(11.025mm,48.19mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-7(11.025mm,48.19mm) on Multi-Layer And Pad X1-8(12.295mm,48.19mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X1-7(11.025mm,48.19mm) on Multi-Layer And Pad X1-9(11.025mm,46.92mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X3-1(21.345mm,3.055mm) on Multi-Layer And Pad X3-2(21.345mm,4.325mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X3-1(21.345mm,3.055mm) on Multi-Layer And Pad X3-3(22.615mm,3.055mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X3-10(26.425mm,4.325mm) on Multi-Layer And Pad X3-8(25.155mm,4.325mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X3-10(26.425mm,4.325mm) on Multi-Layer And Pad X3-9(26.425mm,3.055mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X3-11(27.695mm,3.055mm) on Multi-Layer And Pad X3-12(27.695mm,4.325mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X3-11(27.695mm,3.055mm) on Multi-Layer And Pad X3-13(28.965mm,3.055mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X3-11(27.695mm,3.055mm) on Multi-Layer And Pad X3-9(26.425mm,3.055mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X3-13(28.965mm,3.055mm) on Multi-Layer And Pad X3-14(28.965mm,4.325mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X3-13(28.965mm,3.055mm) on Multi-Layer And Pad X3-15(30.235mm,3.055mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X3-14(28.965mm,4.325mm) on Multi-Layer And Pad X3-16(30.235mm,4.325mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X3-15(30.235mm,3.055mm) on Multi-Layer And Pad X3-16(30.235mm,4.325mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X3-2(21.345mm,4.325mm) on Multi-Layer And Pad X3-4(22.615mm,4.325mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X3-3(22.615mm,3.055mm) on Multi-Layer And Pad X3-4(22.615mm,4.325mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X3-3(22.615mm,3.055mm) on Multi-Layer And Pad X3-5(23.885mm,3.055mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X3-4(22.615mm,4.325mm) on Multi-Layer And Pad X3-6(23.885mm,4.325mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X3-5(23.885mm,3.055mm) on Multi-Layer And Pad X3-6(23.885mm,4.325mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X3-5(23.885mm,3.055mm) on Multi-Layer And Pad X3-7(25.155mm,3.055mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X3-6(23.885mm,4.325mm) on Multi-Layer And Pad X3-8(25.155mm,4.325mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X3-7(25.155mm,3.055mm) on Multi-Layer And Pad X3-8(25.155mm,4.325mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X3-7(25.155mm,3.055mm) on Multi-Layer And Pad X3-9(26.425mm,3.055mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-1(11.005mm,34.82mm) on Multi-Layer And Pad X7-2(12.275mm,34.82mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-1(11.005mm,34.82mm) on Multi-Layer And Pad X7-3(11.005mm,33.55mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-10(12.275mm,29.74mm) on Multi-Layer And Pad X7-12(12.275mm,28.47mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-10(12.275mm,29.74mm) on Multi-Layer And Pad X7-8(12.275mm,31.01mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-10(12.275mm,29.74mm) on Multi-Layer And Pad X7-9(11.005mm,29.74mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-11(11.005mm,28.47mm) on Multi-Layer And Pad X7-12(12.275mm,28.47mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-12(12.275mm,28.47mm) on Multi-Layer And Pad X7-14(12.275mm,27.2mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-13(11.005mm,27.2mm) on Multi-Layer And Pad X7-14(12.275mm,27.2mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-13(11.005mm,27.2mm) on Multi-Layer And Pad X7-15(11.005mm,25.93mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-14(12.275mm,27.2mm) on Multi-Layer And Pad X7-16(12.275mm,25.93mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-15(11.005mm,25.93mm) on Multi-Layer And Pad X7-16(12.275mm,25.93mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-15(11.005mm,25.93mm) on Multi-Layer And Pad X7-17(11.005mm,24.66mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-16(12.275mm,25.93mm) on Multi-Layer And Pad X7-18(12.275mm,24.66mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-17(11.005mm,24.66mm) on Multi-Layer And Pad X7-18(12.275mm,24.66mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-17(11.005mm,24.66mm) on Multi-Layer And Pad X7-19(11.005mm,23.39mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-18(12.275mm,24.66mm) on Multi-Layer And Pad X7-20(12.275mm,23.39mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-19(11.005mm,23.39mm) on Multi-Layer And Pad X7-20(12.275mm,23.39mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-19(11.005mm,23.39mm) on Multi-Layer And Pad X7-21(11.005mm,22.12mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-2(12.275mm,34.82mm) on Multi-Layer And Pad X7-4(12.275mm,33.55mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-20(12.275mm,23.39mm) on Multi-Layer And Pad X7-22(12.275mm,22.12mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-21(11.005mm,22.12mm) on Multi-Layer And Pad X7-22(12.275mm,22.12mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-21(11.005mm,22.12mm) on Multi-Layer And Pad X7-23(11.005mm,20.85mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-22(12.275mm,22.12mm) on Multi-Layer And Pad X7-24(12.275mm,20.85mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-23(11.005mm,20.85mm) on Multi-Layer And Pad X7-24(12.275mm,20.85mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-23(11.005mm,20.85mm) on Multi-Layer And Pad X7-25(11.005mm,19.58mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-24(12.275mm,20.85mm) on Multi-Layer And Pad X7-26(12.275mm,19.58mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-25(11.005mm,19.58mm) on Multi-Layer And Pad X7-26(12.275mm,19.58mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-3(11.005mm,33.55mm) on Multi-Layer And Pad X7-4(12.275mm,33.55mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-3(11.005mm,33.55mm) on Multi-Layer And Pad X7-5(11.005mm,32.28mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-4(12.275mm,33.55mm) on Multi-Layer And Pad X7-6(12.275mm,32.28mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-5(11.005mm,32.28mm) on Multi-Layer And Pad X7-6(12.275mm,32.28mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-6(12.275mm,32.28mm) on Multi-Layer And Pad X7-8(12.275mm,31.01mm) on Multi-Layer 
+   Violation between Clearance Constraint: (0.17mm < 0.2mm) Between Pad X7-7(11.005mm,31.01mm) on Multi-Layer And Pad X7-8(12.275mm,31.01mm) on Multi-Layer 
+Rule Violations :68
+
+Processing Rule : Clearance Constraint (Gap=0.3mm) (InPoly),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) (InPolygonClass('OUTER_GND')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.2mm) (Max=10mm) (Preferred=0.2mm) (All)
+Rule Violations :0
+
+Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.5mm) (Conductor Width=0.2mm) (Air Gap=0.2mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.2mm) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.15mm) (All)
+Rule Violations :0
+
+Processing Rule : Acute Angle Constraint (Minimum=35.000) (OnCopper)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.3mm) (Max=5.9mm) (IsVia)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.6mm) (Max=5.9mm) (IsPad)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.15mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.15mm) (Disabled)(IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.15mm) (Disabled)(All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (NOT (OnLayer('Bottom Overlay') OR OnLayer('Top Overlay')))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 68
+Waived Violations : 0
+Time Elapsed        : 00:00:03

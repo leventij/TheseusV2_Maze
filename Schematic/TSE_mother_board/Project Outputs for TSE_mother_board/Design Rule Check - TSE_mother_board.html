@@ -1,0 +1,568 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD26\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">28.10.2026</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">14:54:40</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:03</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc" class="file"><acronym title="C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc">C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">68</td></tr>
+</table>
+</td>
+</table><a name="IDUYVJFTI13PO0L2SKOLN2WW5WPMPSHQYVMTRP3SDHCQYTEIW2BODH"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVQ1EATGZEGP4EWQ02LN3CP2ROIG30IZERE2ZZNFP1FNFBXIRUDNK">Clearance Constraint (Gap=0.2mm) (OnTopLayer OR OnBottomLayer),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID4TABXLZTPPV4L1XCVRNPRANRNEBU1DMYHLRZTJHFVUWPPGCTJNKI">Clearance Constraint (Gap=0.2mm) (NOT (OnTopLayer Or OnBottomLayer)),(All)</a></td>
+<td class="column2">68</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDH5ANOHPHXBR04YUIHKDAULS2K3JJYBVP5OWXQIPBFQ10NSSQHI">Clearance Constraint (Gap=0.3mm) (InPoly),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDFAJC0LU4YQ25JC05J40DDT0WRBQ4UBENCZLEYDL4AGQMN53O4HE">Clearance Constraint (Gap=0.5mm) (InPolygonClass('OUTER_GND')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDJQBC2GLCTKABCKGC3VLKNBLPRFXEJHZZOSCMNUJJMBVISOPAMBP">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDTZPPC4FFHLIUNMEBGNZHALTS3M0BE0505U2P04GI0SNGQQI4IGGN">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDV1QFJJHAPBX5M0SR30N1SV4O2GNFUDQDA3DUZZJ0QYRLWE5JQ2T">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID5EPB5RNW4GIFC0Y0Z53FI4XSMNNMUSGJHL1GBSJZEUFR5B4U4NOI">Width Constraint (Min=0.2mm) (Max=10mm) (Preferred=0.2mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDIKVHBKRFGJ33P0Z5TXFOMJDBZBZVBECNKRBU1WITWAITGE1YN4MH">Routing Topology Rule(Topology=Shortest) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID0Y04USX5Q10WKXWUQT4M3RG2BNMY10KYKZNWBVPEARKV4VKQZGTK">Power Plane Connect Rule(Relief Connect )(Expansion=0.5mm) (Conductor Width=0.2mm) (Air Gap=0.2mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDX2HOFQXGISGNPKN5WSGFJ4FAJEI1L0L2RPQBLSPHJGLS3EWP34FD">Minimum Annular Ring (Minimum=0.2mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2RQQCYXSSO5EIQIIDREX0MD2YK3RDI1QACJNWKLLLXLSDRIQDOXP">Minimum Annular Ring (Minimum=0.15mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDMCFEGOFJLODVMOLUSCXJLKVZKBZOME1WWHMKGXFGOOH5DZ0LWHWE">Acute Angle Constraint (Minimum=35.000) (OnCopper)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDTDEYF41C1JRVJQTEOSOOVNLAPLZKNG2XQLGLKADCQETM5KGUDWDP">Hole Size Constraint (Min=0.3mm) (Max=5.9mm) (IsVia)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTF1S3XRXTWSJBOKCO1FNUBWESF40LYGEJOT1XELIJSFMREDMJ0SH">Hole Size Constraint (Min=0.6mm) (Max=5.9mm) (IsPad)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDKMGTFGNPHFD2NV5JEG1NN12F2BL4RHJVTPCSCTBZJ5UUEC3WH0ZP">Hole To Hole Clearance (Gap=0.2mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDGT1Q0EFJUXY3L0HG3RFJJOVD3D15SQJF0TMVPDPB0VFETSKTJARH">Minimum Solder Mask Sliver (Gap=0.15mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID0T1SYGKGDINZKRQL1JXP0JX2LC3Q1LTOBDGGWSKUVKL5F0LD23MD">Silk To Solder Mask (Clearance=0.15mm) (Disabled)(IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDPB3X3IP3P0H4NDQYMTTI3VRIDH0QU4D2UUSKHKO2XTODY51XC41I">Silk to Silk (Clearance=0.15mm) (Disabled)(All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDM1RIUPF5G0ZGNSREQVF5OUMI2DPKYIA1LASMJUM0GIAW032CS24F">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDNKCR1N3FYMLWMHWZ2H3W0Z0VKNYPEU4KEBA1J0LIOGS00B13UTSE">Board Clearance Constraint (Gap=0mm) (NOT (OnLayer('Bottom Overlay') OR OnLayer('Top Overlay')))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXGZTCLJHJHZOLOUU3OYDY1XURPK1KMGXMJUVLUCBHK5ZYVND0XEG">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">68</td>
+</tr>
+</table><br><a name="ID4TABXLZTPPV4L1XCVRNPRANRNEBU1DMYHLRZTJHFVUWPPGCTJNKI"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=0.2mm) (NOT (OnTopLayer Or OnBottomLayer)),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=454.493mil|Location2.X=463.617mil|Location1.Y=2031.855mil|Location2.Y=2040.979mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=454.493mil|Location2.X=463.617mil|Location1.Y=2031.855mil|Location2.Y=2040.979mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X1-1(11.025mm,52mm) on Multi-Layer And Pad X1-2(12.295mm,52mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=490.32mil|Location2.X=499.444mil|Location1.Y=1817.682mil|Location2.Y=1826.806mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=490.32mil|Location2.X=499.444mil|Location1.Y=1817.682mil|Location2.Y=1826.806mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X1-10(12.295mm,46.92mm) on Multi-Layer And Pad X1-12(12.295mm,45.65mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=454.493mil|Location2.X=463.617mil|Location1.Y=1853.509mil|Location2.Y=1862.633mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=454.493mil|Location2.X=463.617mil|Location1.Y=1853.509mil|Location2.Y=1862.633mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X1-10(12.295mm,46.92mm) on Multi-Layer And Pad X1-9(11.025mm,46.92mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=454.493mil|Location2.X=463.617mil|Location1.Y=1803.509mil|Location2.Y=1812.633mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=454.493mil|Location2.X=463.617mil|Location1.Y=1803.509mil|Location2.Y=1812.633mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X1-11(11.025mm,45.65mm) on Multi-Layer And Pad X1-12(12.295mm,45.65mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=440.32mil|Location2.X=449.444mil|Location1.Y=1767.682mil|Location2.Y=1776.806mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=440.32mil|Location2.X=449.444mil|Location1.Y=1767.682mil|Location2.Y=1776.806mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X1-11(11.025mm,45.65mm) on Multi-Layer And Pad X1-13(11.025mm,44.38mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=440.32mil|Location2.X=449.444mil|Location1.Y=1817.682mil|Location2.Y=1826.806mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=440.32mil|Location2.X=449.444mil|Location1.Y=1817.682mil|Location2.Y=1826.806mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X1-11(11.025mm,45.65mm) on Multi-Layer And Pad X1-9(11.025mm,46.92mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=454.493mil|Location2.X=463.617mil|Location1.Y=1753.509mil|Location2.Y=1762.633mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=454.493mil|Location2.X=463.617mil|Location1.Y=1753.509mil|Location2.Y=1762.633mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X1-13(11.025mm,44.38mm) on Multi-Layer And Pad X1-14(12.295mm,44.38mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=490.32mil|Location2.X=499.444mil|Location1.Y=2017.682mil|Location2.Y=2026.806mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=490.32mil|Location2.X=499.444mil|Location1.Y=2017.682mil|Location2.Y=2026.806mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X1-2(12.295mm,52mm) on Multi-Layer And Pad X1-4(12.295mm,50.73mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=454.493mil|Location2.X=463.617mil|Location1.Y=1981.855mil|Location2.Y=1990.979mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=454.493mil|Location2.X=463.617mil|Location1.Y=1981.855mil|Location2.Y=1990.979mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X1-3(11.025mm,50.73mm) on Multi-Layer And Pad X1-4(12.295mm,50.73mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=440.32mil|Location2.X=449.444mil|Location1.Y=1967.682mil|Location2.Y=1976.806mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=440.32mil|Location2.X=449.444mil|Location1.Y=1967.682mil|Location2.Y=1976.806mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X1-3(11.025mm,50.73mm) on Multi-Layer And Pad X1-5(11.025mm,49.46mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=490.32mil|Location2.X=499.444mil|Location1.Y=1967.682mil|Location2.Y=1976.806mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=490.32mil|Location2.X=499.444mil|Location1.Y=1967.682mil|Location2.Y=1976.806mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X1-4(12.295mm,50.73mm) on Multi-Layer And Pad X1-6(12.295mm,49.46mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=454.493mil|Location2.X=463.617mil|Location1.Y=1953.509mil|Location2.Y=1962.633mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=454.493mil|Location2.X=463.617mil|Location1.Y=1953.509mil|Location2.Y=1962.633mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X1-5(11.025mm,49.46mm) on Multi-Layer And Pad X1-6(12.295mm,49.46mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=440.32mil|Location2.X=449.444mil|Location1.Y=1917.682mil|Location2.Y=1926.806mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=440.32mil|Location2.X=449.444mil|Location1.Y=1917.682mil|Location2.Y=1926.806mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X1-5(11.025mm,49.46mm) on Multi-Layer And Pad X1-7(11.025mm,48.19mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=454.493mil|Location2.X=463.617mil|Location1.Y=1903.509mil|Location2.Y=1912.633mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=454.493mil|Location2.X=463.617mil|Location1.Y=1903.509mil|Location2.Y=1912.633mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X1-7(11.025mm,48.19mm) on Multi-Layer And Pad X1-8(12.295mm,48.19mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=440.32mil|Location2.X=449.444mil|Location1.Y=1867.682mil|Location2.Y=1876.806mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=440.32mil|Location2.X=449.444mil|Location1.Y=1867.682mil|Location2.Y=1876.806mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X1-7(11.025mm,48.19mm) on Multi-Layer And Pad X1-9(11.025mm,46.92mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=824.966mil|Location2.X=834.09mil|Location1.Y=140.714mil|Location2.Y=149.838mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=824.966mil|Location2.X=834.09mil|Location1.Y=140.714mil|Location2.Y=149.838mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X3-1(21.345mm,3.055mm) on Multi-Layer And Pad X3-2(21.345mm,4.325mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=860.792mil|Location2.X=869.916mil|Location1.Y=126.54mil|Location2.Y=135.664mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=860.792mil|Location2.X=869.916mil|Location1.Y=126.54mil|Location2.Y=135.664mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X3-1(21.345mm,3.055mm) on Multi-Layer And Pad X3-3(22.615mm,3.055mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1010.792mil|Location2.X=1019.916mil|Location1.Y=176.54mil|Location2.Y=185.664mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1010.792mil|Location2.X=1019.916mil|Location1.Y=176.54mil|Location2.Y=185.664mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X3-10(26.425mm,4.325mm) on Multi-Layer And Pad X3-8(25.155mm,4.325mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1046.619mil|Location2.X=1055.743mil|Location1.Y=140.714mil|Location2.Y=149.838mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1046.619mil|Location2.X=1055.743mil|Location1.Y=140.714mil|Location2.Y=149.838mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X3-10(26.425mm,4.325mm) on Multi-Layer And Pad X3-9(26.425mm,3.055mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1096.619mil|Location2.X=1105.743mil|Location1.Y=140.714mil|Location2.Y=149.838mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1096.619mil|Location2.X=1105.743mil|Location1.Y=140.714mil|Location2.Y=149.838mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X3-11(27.695mm,3.055mm) on Multi-Layer And Pad X3-12(27.695mm,4.325mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1110.792mil|Location2.X=1119.916mil|Location1.Y=126.54mil|Location2.Y=135.664mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1110.792mil|Location2.X=1119.916mil|Location1.Y=126.54mil|Location2.Y=135.664mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X3-11(27.695mm,3.055mm) on Multi-Layer And Pad X3-13(28.965mm,3.055mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1060.792mil|Location2.X=1069.916mil|Location1.Y=126.54mil|Location2.Y=135.664mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1060.792mil|Location2.X=1069.916mil|Location1.Y=126.54mil|Location2.Y=135.664mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X3-11(27.695mm,3.055mm) on Multi-Layer And Pad X3-9(26.425mm,3.055mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1146.619mil|Location2.X=1155.743mil|Location1.Y=140.714mil|Location2.Y=149.838mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1146.619mil|Location2.X=1155.743mil|Location1.Y=140.714mil|Location2.Y=149.838mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X3-13(28.965mm,3.055mm) on Multi-Layer And Pad X3-14(28.965mm,4.325mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1160.792mil|Location2.X=1169.916mil|Location1.Y=126.54mil|Location2.Y=135.664mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1160.792mil|Location2.X=1169.916mil|Location1.Y=126.54mil|Location2.Y=135.664mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X3-13(28.965mm,3.055mm) on Multi-Layer And Pad X3-15(30.235mm,3.055mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1160.792mil|Location2.X=1169.916mil|Location1.Y=176.54mil|Location2.Y=185.664mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1160.792mil|Location2.X=1169.916mil|Location1.Y=176.54mil|Location2.Y=185.664mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X3-14(28.965mm,4.325mm) on Multi-Layer And Pad X3-16(30.235mm,4.325mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1196.619mil|Location2.X=1205.743mil|Location1.Y=140.714mil|Location2.Y=149.838mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1196.619mil|Location2.X=1205.743mil|Location1.Y=140.714mil|Location2.Y=149.838mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X3-15(30.235mm,3.055mm) on Multi-Layer And Pad X3-16(30.235mm,4.325mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=860.792mil|Location2.X=869.916mil|Location1.Y=176.54mil|Location2.Y=185.664mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=860.792mil|Location2.X=869.916mil|Location1.Y=176.54mil|Location2.Y=185.664mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X3-2(21.345mm,4.325mm) on Multi-Layer And Pad X3-4(22.615mm,4.325mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=874.966mil|Location2.X=884.09mil|Location1.Y=140.714mil|Location2.Y=149.838mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=874.966mil|Location2.X=884.09mil|Location1.Y=140.714mil|Location2.Y=149.838mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X3-3(22.615mm,3.055mm) on Multi-Layer And Pad X3-4(22.615mm,4.325mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=910.792mil|Location2.X=919.916mil|Location1.Y=126.54mil|Location2.Y=135.664mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=910.792mil|Location2.X=919.916mil|Location1.Y=126.54mil|Location2.Y=135.664mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X3-3(22.615mm,3.055mm) on Multi-Layer And Pad X3-5(23.885mm,3.055mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=910.792mil|Location2.X=919.916mil|Location1.Y=176.54mil|Location2.Y=185.664mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=910.792mil|Location2.X=919.916mil|Location1.Y=176.54mil|Location2.Y=185.664mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X3-4(22.615mm,4.325mm) on Multi-Layer And Pad X3-6(23.885mm,4.325mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=946.619mil|Location2.X=955.743mil|Location1.Y=140.714mil|Location2.Y=149.838mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=946.619mil|Location2.X=955.743mil|Location1.Y=140.714mil|Location2.Y=149.838mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X3-5(23.885mm,3.055mm) on Multi-Layer And Pad X3-6(23.885mm,4.325mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=960.792mil|Location2.X=969.916mil|Location1.Y=126.54mil|Location2.Y=135.664mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=960.792mil|Location2.X=969.916mil|Location1.Y=126.54mil|Location2.Y=135.664mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X3-5(23.885mm,3.055mm) on Multi-Layer And Pad X3-7(25.155mm,3.055mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=960.792mil|Location2.X=969.916mil|Location1.Y=176.54mil|Location2.Y=185.664mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=960.792mil|Location2.X=969.916mil|Location1.Y=176.54mil|Location2.Y=185.664mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X3-6(23.885mm,4.325mm) on Multi-Layer And Pad X3-8(25.155mm,4.325mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=996.619mil|Location2.X=1005.743mil|Location1.Y=140.714mil|Location2.Y=149.838mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=996.619mil|Location2.X=1005.743mil|Location1.Y=140.714mil|Location2.Y=149.838mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X3-7(25.155mm,3.055mm) on Multi-Layer And Pad X3-8(25.155mm,4.325mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1010.792mil|Location2.X=1019.916mil|Location1.Y=126.54mil|Location2.Y=135.664mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1010.792mil|Location2.X=1019.916mil|Location1.Y=126.54mil|Location2.Y=135.664mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X3-7(25.155mm,3.055mm) on Multi-Layer And Pad X3-9(26.425mm,3.055mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=1355.477mil|Location2.Y=1364.601mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=1355.477mil|Location2.Y=1364.601mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-1(11.005mm,34.82mm) on Multi-Layer And Pad X7-2(12.275mm,34.82mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=439.532mil|Location2.X=448.656mil|Location1.Y=1341.304mil|Location2.Y=1350.428mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=439.532mil|Location2.X=448.656mil|Location1.Y=1341.304mil|Location2.Y=1350.428mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-1(11.005mm,34.82mm) on Multi-Layer And Pad X7-3(11.005mm,33.55mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=1141.304mil|Location2.Y=1150.428mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=1141.304mil|Location2.Y=1150.428mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-10(12.275mm,29.74mm) on Multi-Layer And Pad X7-12(12.275mm,28.47mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=1191.304mil|Location2.Y=1200.428mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=1191.304mil|Location2.Y=1200.428mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-10(12.275mm,29.74mm) on Multi-Layer And Pad X7-8(12.275mm,31.01mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=1177.131mil|Location2.Y=1186.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=1177.131mil|Location2.Y=1186.255mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-10(12.275mm,29.74mm) on Multi-Layer And Pad X7-9(11.005mm,29.74mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=1127.131mil|Location2.Y=1136.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=1127.131mil|Location2.Y=1136.255mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-11(11.005mm,28.47mm) on Multi-Layer And Pad X7-12(12.275mm,28.47mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=1091.304mil|Location2.Y=1100.428mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=1091.304mil|Location2.Y=1100.428mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-12(12.275mm,28.47mm) on Multi-Layer And Pad X7-14(12.275mm,27.2mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=1077.131mil|Location2.Y=1086.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=1077.131mil|Location2.Y=1086.255mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-13(11.005mm,27.2mm) on Multi-Layer And Pad X7-14(12.275mm,27.2mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=439.532mil|Location2.X=448.656mil|Location1.Y=1041.304mil|Location2.Y=1050.428mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=439.532mil|Location2.X=448.656mil|Location1.Y=1041.304mil|Location2.Y=1050.428mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-13(11.005mm,27.2mm) on Multi-Layer And Pad X7-15(11.005mm,25.93mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=1041.304mil|Location2.Y=1050.428mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=1041.304mil|Location2.Y=1050.428mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-14(12.275mm,27.2mm) on Multi-Layer And Pad X7-16(12.275mm,25.93mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=1027.131mil|Location2.Y=1036.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=1027.131mil|Location2.Y=1036.255mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-15(11.005mm,25.93mm) on Multi-Layer And Pad X7-16(12.275mm,25.93mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=439.532mil|Location2.X=448.656mil|Location1.Y=991.304mil|Location2.Y=1000.428mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=439.532mil|Location2.X=448.656mil|Location1.Y=991.304mil|Location2.Y=1000.428mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-15(11.005mm,25.93mm) on Multi-Layer And Pad X7-17(11.005mm,24.66mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=991.304mil|Location2.Y=1000.428mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=991.304mil|Location2.Y=1000.428mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-16(12.275mm,25.93mm) on Multi-Layer And Pad X7-18(12.275mm,24.66mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=977.131mil|Location2.Y=986.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=977.131mil|Location2.Y=986.255mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-17(11.005mm,24.66mm) on Multi-Layer And Pad X7-18(12.275mm,24.66mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=439.532mil|Location2.X=448.656mil|Location1.Y=941.304mil|Location2.Y=950.428mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=439.532mil|Location2.X=448.656mil|Location1.Y=941.304mil|Location2.Y=950.428mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-17(11.005mm,24.66mm) on Multi-Layer And Pad X7-19(11.005mm,23.39mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=941.304mil|Location2.Y=950.428mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=941.304mil|Location2.Y=950.428mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-18(12.275mm,24.66mm) on Multi-Layer And Pad X7-20(12.275mm,23.39mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=927.131mil|Location2.Y=936.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=927.131mil|Location2.Y=936.255mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-19(11.005mm,23.39mm) on Multi-Layer And Pad X7-20(12.275mm,23.39mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=439.532mil|Location2.X=448.656mil|Location1.Y=891.304mil|Location2.Y=900.428mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=439.532mil|Location2.X=448.656mil|Location1.Y=891.304mil|Location2.Y=900.428mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-19(11.005mm,23.39mm) on Multi-Layer And Pad X7-21(11.005mm,22.12mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=1341.304mil|Location2.Y=1350.428mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=1341.304mil|Location2.Y=1350.428mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-2(12.275mm,34.82mm) on Multi-Layer And Pad X7-4(12.275mm,33.55mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=891.304mil|Location2.Y=900.428mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=891.304mil|Location2.Y=900.428mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-20(12.275mm,23.39mm) on Multi-Layer And Pad X7-22(12.275mm,22.12mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=877.131mil|Location2.Y=886.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=877.131mil|Location2.Y=886.255mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-21(11.005mm,22.12mm) on Multi-Layer And Pad X7-22(12.275mm,22.12mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=439.532mil|Location2.X=448.656mil|Location1.Y=841.304mil|Location2.Y=850.428mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=439.532mil|Location2.X=448.656mil|Location1.Y=841.304mil|Location2.Y=850.428mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-21(11.005mm,22.12mm) on Multi-Layer And Pad X7-23(11.005mm,20.85mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=841.304mil|Location2.Y=850.428mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=841.304mil|Location2.Y=850.428mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-22(12.275mm,22.12mm) on Multi-Layer And Pad X7-24(12.275mm,20.85mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=827.131mil|Location2.Y=836.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=827.131mil|Location2.Y=836.255mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-23(11.005mm,20.85mm) on Multi-Layer And Pad X7-24(12.275mm,20.85mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=439.532mil|Location2.X=448.656mil|Location1.Y=791.304mil|Location2.Y=800.428mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=439.532mil|Location2.X=448.656mil|Location1.Y=791.304mil|Location2.Y=800.428mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-23(11.005mm,20.85mm) on Multi-Layer And Pad X7-25(11.005mm,19.58mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=791.304mil|Location2.Y=800.428mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=791.304mil|Location2.Y=800.428mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-24(12.275mm,20.85mm) on Multi-Layer And Pad X7-26(12.275mm,19.58mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=777.131mil|Location2.Y=786.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=777.131mil|Location2.Y=786.255mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-25(11.005mm,19.58mm) on Multi-Layer And Pad X7-26(12.275mm,19.58mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=1305.477mil|Location2.Y=1314.601mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=1305.477mil|Location2.Y=1314.601mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-3(11.005mm,33.55mm) on Multi-Layer And Pad X7-4(12.275mm,33.55mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=439.532mil|Location2.X=448.656mil|Location1.Y=1291.304mil|Location2.Y=1300.428mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=439.532mil|Location2.X=448.656mil|Location1.Y=1291.304mil|Location2.Y=1300.428mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-3(11.005mm,33.55mm) on Multi-Layer And Pad X7-5(11.005mm,32.28mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=1291.304mil|Location2.Y=1300.428mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=1291.304mil|Location2.Y=1300.428mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-4(12.275mm,33.55mm) on Multi-Layer And Pad X7-6(12.275mm,32.28mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=1277.131mil|Location2.Y=1286.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=1277.131mil|Location2.Y=1286.255mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-5(11.005mm,32.28mm) on Multi-Layer And Pad X7-6(12.275mm,32.28mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=1241.304mil|Location2.Y=1250.428mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=489.532mil|Location2.X=498.656mil|Location1.Y=1241.304mil|Location2.Y=1250.428mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-6(12.275mm,32.28mm) on Multi-Layer And Pad X7-8(12.275mm,31.01mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=1227.131mil|Location2.Y=1236.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Leva\Documents\Git\TheseusV2_Maze\Schematic\TSE_mother_board\TSE_mother_board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=453.705mil|Location2.X=462.829mil|Location1.Y=1227.131mil|Location2.Y=1236.255mil|Absolute=True">Clearance Constraint: (0.17mm &lt; 0.2mm) Between Pad X7-7(11.005mm,31.01mm) on Multi-Layer And Pad X7-8(12.275mm,31.01mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
